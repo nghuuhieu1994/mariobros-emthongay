@@ -15,7 +15,7 @@ namespace Mario_Bros.Object.Miscellaneous
         {
             IDObject = IDObject.MISC_SMALL_GRASS;
             Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.MISC_SMALL_GRASS));
-            Sprite.Depth = GlobalValue.MISC_SPRITE_DEPTH;
+            Sprite.Depth = GlobalValue.GRASS_SPRITE_DEPTH;
         }
     }
 }

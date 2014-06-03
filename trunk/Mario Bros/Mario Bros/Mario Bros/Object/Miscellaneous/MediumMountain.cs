@@ -15,7 +15,7 @@ namespace Mario_Bros.Object.Miscellaneous
         {
             IDObject = IDObject.MISC_MEDIUM_MOUNTAIN;
             Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.MISC_MEDIUM_MOUNTAIN));
-            Sprite.Depth = GlobalValue.MISC_SPRITE_DEPTH;
+            Sprite.Depth = GlobalValue.GRASS_SPRITE_DEPTH;
         }
     }
 }

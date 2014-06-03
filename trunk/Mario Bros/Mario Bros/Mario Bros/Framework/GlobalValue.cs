@@ -9,8 +9,9 @@ namespace Mario_Bros.Framework
     static public class GlobalValue
     {
         public static float MARIO_SPRITE_DEPTH = 1.0F;
-        public static float MISC_SPRITE_DEPTH = 0.2F;
+        public static float MISC_SPRITE_DEPTH = 0.3F;
         public static float ENEMY_SPRITE_DEPTH = 0.5F;
+        public static float GRASS_SPRITE_DEPTH = 0.1F;
         public static int SCREEN_WIDTH = 368;
         public static int SCREEN_HEIGHT = 224;
         public static int MARIO_LIFE = 3;
