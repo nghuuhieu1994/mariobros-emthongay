@@ -1,0 +1,2 @@
+add may cai hinh vao folder Image/Game Image/Miscellaneous/
+nho chep de 2 class Resource voi Object
