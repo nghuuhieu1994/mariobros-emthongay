@@ -1,0 +1,4 @@
+﻿report bug in mariobros
+
+1. Bắn đạn chỉ được 2 lần (cái này mày lấy project mới ghép lại)(fixed)
+2. Bug mushroom với viên gạch to. Mày chơi sẽ thấy(fixed)
