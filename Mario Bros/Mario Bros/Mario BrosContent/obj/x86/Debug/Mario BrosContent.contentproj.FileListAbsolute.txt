@@ -10,3 +10,4 @@ F:\Do An Mario\Mario Bros 4.3.2\Mario Bros\Mario BrosContent\obj\x86\Debug\Mario
 C:\Users\Tran Danh\Desktop\Mario Bros 4.3.3\Mario Bros 4.3.3\Mario Bros\Mario BrosContent\obj\x86\Debug\Mario BrosContent.contentprojResolveAssemblyReference.cache
 F:\Do An Mario\Mario Bros 4.3.5\Mario Bros 4.3.3\Mario Bros 4.3.3\Mario Bros\Mario BrosContent\obj\x86\Debug\Mario BrosContent.contentprojResolveAssemblyReference.cache
 C:\Users\Hieu\Downloads\Compressed\Mario Bros 4.3.5\Mario Bros 4.3.5\Mario Bros 4.3.3\Mario Bros 4.3.3\Mario Bros\Mario BrosContent\obj\x86\Debug\Mario BrosContent.contentprojResolveAssemblyReference.cache
+F:\MarioBros_SVN\Mario Bros\Mario Bros\Mario BrosContent\obj\x86\Debug\Mario BrosContent.contentprojResolveAssemblyReference.cache
