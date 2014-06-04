@@ -73,6 +73,8 @@ namespace Mario_Bros.Object.Miscellaneous
                     {
                         case IDObject.ITEM_COIN_ACTIVATED:
                             SoundManager.PlaySound(ESound.SFX_COIN);
+							GlobalValue.MARIO_SCORE += 100;
+                            GlobalValue.MARIO_COIN += 100;
                             break;
                         case IDObject.ITEM_GROW_UP:
                             SoundManager.PlaySound(ESound.SFX_ITEM_APPEAR);
