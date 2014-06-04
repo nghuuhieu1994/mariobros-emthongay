@@ -1036,6 +1036,7 @@ namespace Mario_Bros.Object
                     //    }
                     //    break; 
                     case IDObject.MISC_STOCK_PIPE:
+                    case IDObject.MISC_GATE_PIPE:
                     //case IDObject.MISC_NORMAL_PIPE:
                     //case IDObject.MISC_OUT_2_PIPE:
                         if (CheckCollision(_Object) == DirectCollision.TOP)
