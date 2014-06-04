@@ -232,19 +232,6 @@ namespace Mario_Bros.Framework
 
         virtual public void UpdateCollision(CAnimationObject _Object)
         {
-            if (this.IDObject != IDObject.SMALL_MARIO && this.IDObject != IDObject.FIRE_MARIO && this.IDObject != IDObject.SUPER_MARIO && this.IDObject != IDObject.BULLET)
-            {
-                //m_rangMovement = new Rectangle((int)m_Position.X - 200, (int)m_Position.Y - 200, 200, 200);
-
-                if (m_Position.X < m_rangMovement.X)
-                {
-                    this.Direction = IDDir.RIGHT;
-                }
-                else if (m_Position.X > m_rangMovement.X + 400)
-                {
-                    this.Direction = IDDir.LEFT;
-                }
-            }
         }
 
         virtual public void Draw(SpriteBatch _SpriteBatch)
