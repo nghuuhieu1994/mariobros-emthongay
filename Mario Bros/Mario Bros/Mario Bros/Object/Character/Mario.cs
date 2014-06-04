@@ -1089,16 +1089,16 @@ namespace Mario_Bros.Object
                     //        m_Position.Y = _Object.Position.Y - Sprite.FrameHeight;
                     //        break;
                     //    }
-                        if (CheckCollision(_Object) == DirectCollision.LEFT && Status != IDStatus.MARIO_AUTO_RUN && Status != IDStatus.TELEPORT && Position.Y >= _Object.Position.Y)
-                        {
-                            Velocity = Vector2.Zero;
-                            Accel = Vector2.Zero;
-                            SoundManager.PlaySound(ESound.SFX_PIPE);
-                            Sprite.Depth = 0.05f;
-                            Status = IDStatus.MARIO_AUTO_RUN;
-                            GlobalValue.IS_LOCK_KEYBOARD = true;
-                        }
-                        break;
+                        //if (CheckCollision(_Object) == DirectCollision.LEFT && Status != IDStatus.MARIO_AUTO_RUN && Status != IDStatus.TELEPORT && Position.Y >= _Object.Position.Y)
+                        //{
+                        //    Velocity = Vector2.Zero;
+                        //    Accel = Vector2.Zero;
+                        //    SoundManager.PlaySound(ESound.SFX_PIPE);
+                        //    Sprite.Depth = 0.05f;
+                        //    Status = IDStatus.MARIO_AUTO_RUN;
+                        //    GlobalValue.IS_LOCK_KEYBOARD = true;
+                        //}
+                        //break;
                     #endregion
                     #region Question Brick
                     case IDObject.MISC_QUESTION_BRICK:
