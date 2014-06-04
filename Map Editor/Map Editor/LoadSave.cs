@@ -68,7 +68,7 @@ namespace Map_Editor
 
             //Vector tmpVector = Management.GetBoundOfMap(cvMap, ref width, ref height);
             //Management.TranslatePosition(cvMap, -(int)tmpVector.X, (int)tmpVector.Y);
-
+            //width = Management.GetHorBoundOfMap(cvMap);
 
             int dimension;
             if (width > height)

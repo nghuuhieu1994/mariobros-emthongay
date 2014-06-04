@@ -110,3 +110,18 @@ F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\Map_Editor.Properties.Resources
 F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\Map Editor.csproj.GenerateResource.Cache
 F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\Map Editor.exe
 F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\Map Editor.pdb
+F:\mariobros-emthongay\Map Editor\Map Editor\bin\Debug\Map Editor.exe.config
+F:\mariobros-emthongay\Map Editor\Map Editor\bin\Debug\Map Editor.exe
+F:\mariobros-emthongay\Map Editor\Map Editor\bin\Debug\Map Editor.pdb
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Debug\Map Editor.csprojResolveAssemblyReference.cache
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Debug\MainWindow.baml
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Debug\NewMap.baml
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Debug\MainWindow.g.cs
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Debug\NewMap.g.cs
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Debug\App.g.cs
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Debug\Map Editor_MarkupCompile.cache
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Debug\Map Editor.g.resources
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Debug\Map_Editor.Properties.Resources.resources
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Debug\Map Editor.csproj.GenerateResource.Cache
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Debug\Map Editor.exe
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Debug\Map Editor.pdb
