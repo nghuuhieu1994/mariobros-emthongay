@@ -304,6 +304,7 @@ namespace Mario_Bros.Object
             DownCast(_GameTime);
             UpCast(_GameTime);
             Invincible(_GameTime);
+
             #region.Xác định hướng di chuyển
             if (Direction == IDDir.RIGHT)
                 m_Sprite.Effect = SpriteEffects.None;

@@ -9,6 +9,7 @@ namespace Mario_Bros.Framework
     {
         public static bool IsExit = false;
         public static bool IsSoundEffect = true;
-        public static bool IsSoundBG = true;        
+        public static bool IsSoundBG = true;
+        public static int m_IDLevel = 1;
     }
 }
