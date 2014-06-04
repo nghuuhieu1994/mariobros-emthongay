@@ -200,7 +200,6 @@ namespace Mario_Bros.State
             StateManager.StringDrawer(((int)(MathHelper.Clamp(GlobalValue.TIME_LEFT, 0, 400))).ToString(), new Vector2(340, 8), SB, Color.White);
             StateManager.StringDrawer(" * ", new Vector2(150, 10), SB, Color.White);
             StateManager.StringDrawer(GlobalValue.MARIO_COIN.ToString().PadLeft(2, '0'), new Vector2(162, 9), SB, Color.White);
-            SB.DrawString(_font, Mario.Position.X.ToString(), new Vector2(100, 100), Color.White);
             SB.End();
             base.Draw(SB);
         }

@@ -435,9 +435,10 @@ namespace Mario_Bros.Object
                 Status = IDStatus.MARIO_RUN;
             }
 
-            if (_Input.KeyPressed(Keys.Up) && Status != IDStatus.MARIO_JUMP && !m_IsDisableUp)
+            if (_Input.KeyPressed(Keys.Up) && m_IsJumping == false && !m_IsDisableUp && Status != IDStatus.MARIO_ATTACK)
             {
                 Status = IDStatus.MARIO_JUMP;
+                m_IsJumping = true;
                 Velocity = new Vector2(Velocity.X, -0.35f);
                 if (IDObject == IDObject.SMALL_MARIO)
                 {
@@ -634,7 +635,7 @@ namespace Mario_Bros.Object
 
         public override void UpdateMovement(GameTime _GameTime, CInput _Input)
         {
-		            GlobalValue.MARIO_POSITION = this.Position;
+		    GlobalValue.MARIO_POSITION = this.Position;
             if (_Input.KeyPressed(Keys.Z) && IDObject == IDObject.FIRE_MARIO)
             {
                 AddBullet();
