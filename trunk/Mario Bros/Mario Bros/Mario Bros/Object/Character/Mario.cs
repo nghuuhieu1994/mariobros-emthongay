@@ -126,11 +126,11 @@ namespace Mario_Bros.Object
             m_Status = IDStatus.MARIO_STAND;
             m_Velocity = Vector2.Zero;
             m_Accel = Vector2.Zero;
-            m_IDObject = IDObject.FIRE_MARIO;
+            m_IDObject = IDObject.SMALL_MARIO;
             m_IsJumping = false;
             m_IsDuck = false;
             m_Random = new Random();
-            m_Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.FIRE_MARIO));
+            m_Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SMALL_MARIO));
             SmallSprite = new List<CSprite>();
             BigSprite = new List<CSprite>();
             SmallSprite.Add(new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SMALL_MARIO_INVICIBILITY)));
