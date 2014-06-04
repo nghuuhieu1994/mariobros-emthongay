@@ -8,6 +8,7 @@ using Mario_Bros.Object;
 using Mario_Bros.Object.Enemy;
 using Mario_Bros.Object.Miscellaneous;
 using Mario_Bros.Object.Item;
+using Mario_Bros.Object.Enemy.Boss;
 
 namespace Mario_Bros.Map
 {
@@ -38,6 +39,9 @@ namespace Mario_Bros.Map
                     break;
                 case IDObject.MISC_CASTLE:
                     _object = new Castle(_pos);
+                    break;
+                case IDObject.ENEMY_BOSS:
+                    _object = new Boss(_pos);
                     break;
                 //case IDObject.MISC_GATE_PIPE:
                     //_object = new GatePipe(_pos, IDStatus.GATE_PIPE_DOWN);
