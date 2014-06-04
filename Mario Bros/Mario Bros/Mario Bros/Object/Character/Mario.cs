@@ -1153,7 +1153,7 @@ namespace Mario_Bros.Object
                         {
                             if (m_IDObject == IDObject.FIRE_MARIO)
                             {
-                                CResourceManager.GetInstance().GetSoundEffect(IDResource.SFX_MARIO_HURT).Play();
+                                SoundManager.PlaySound(ESound.SFX_MARIO_HURT);
                                 Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SUPER_MARIO));
                                 IDObject = IDObject.SUPER_MARIO;
                                 Status = IDStatus.MARIO_DOWNCAST;
@@ -1162,7 +1162,7 @@ namespace Mario_Bros.Object
                             }
                             if (m_IDObject == IDObject.SUPER_MARIO)
                             {
-                                CResourceManager.GetInstance().GetSoundEffect(IDResource.SFX_MARIO_HURT).Play();
+                                SoundManager.PlaySound(ESound.SFX_MARIO_HURT);
                                 Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SMALL_MARIO));
                                 IsWorldFreeze = true;
                                 Status = IDStatus.MARIO_DOWNCAST;
