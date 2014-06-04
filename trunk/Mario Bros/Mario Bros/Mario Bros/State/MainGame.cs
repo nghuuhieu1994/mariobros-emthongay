@@ -137,7 +137,12 @@ namespace Mario_Bros.State
                     }
                 }
             }
-            
+			
+			if (Mario.Position.Y > GlobalValue.SCREEN_HEIGHT)
+            {
+                Mario.Status = IDStatus.DIE;
+            }
+			
             if (Mario.Status == IDStatus.DIE)
             {
                 MediaPlayer.Stop();
