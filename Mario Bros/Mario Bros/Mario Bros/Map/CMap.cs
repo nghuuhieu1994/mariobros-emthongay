@@ -195,8 +195,8 @@ namespace Mario_Bros.Map
             doc.Load(m_Path);
 
             XmlNode root = doc.DocumentElement;
-            m_WidthMap = int.Parse(root.SelectSingleNode("Width").FirstChild.Value) / 2;
-            m_HeightMap = int.Parse(root.SelectSingleNode("Height").FirstChild.Value) / 2;
+            m_WidthMap = int.Parse(root.SelectSingleNode("Width").FirstChild.Value);
+            m_HeightMap = int.Parse(root.SelectSingleNode("Height").FirstChild.Value);
             XmlNodeList nodeList = root.SelectNodes("Nodes");
 
             foreach (XmlNode Item in nodeList)
