@@ -1,1 +1,112 @@
-F:\Project of Team\Map Editor\bin\Debug\Map Editor.exe.config
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\bin\Debug\Map Editor.exe.config
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\bin\Debug\Map Editor.exe
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\bin\Debug\Map Editor.pdb
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\obj\Debug\MainWindow.baml
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\obj\Debug\MainWindow.g.cs
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\obj\Debug\App.g.cs
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\obj\Debug\Map Editor_MarkupCompile.cache
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\obj\Debug\Map Editor.g.resources
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\obj\Debug\Map_Editor.Properties.Resources.resources
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\obj\Debug\Map Editor.csproj.GenerateResource.Cache
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\obj\Debug\Map Editor.exe
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\obj\Debug\Map Editor.pdb
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\obj\Debug\NewMap.baml
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\obj\Debug\NewMap.g.cs
+C:\Users\namquyap\Documents\Visual Studio 2012\Projects\Map Editor\Map Editor\obj\Debug\Map Editor.csprojResolveAssemblyReference.cache
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\bin\Debug\Map Editor.exe.config
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\obj\Debug\Map Editor.exe
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\obj\Debug\Map Editor.pdb
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\bin\Debug\Map Editor.exe
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\bin\Debug\Map Editor.pdb
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\obj\Debug\Map Editor.csprojResolveAssemblyReference.cache
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\obj\Debug\MainWindow.baml
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\obj\Debug\NewMap.baml
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\obj\Debug\MainWindow.g.cs
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\obj\Debug\NewMap.g.cs
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\obj\Debug\App.g.cs
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\obj\Debug\Map Editor_MarkupCompile.cache
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\obj\Debug\Map Editor.g.resources
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\obj\Debug\Map_Editor.Properties.Resources.resources
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\New folder\Map Editor\Map Editor\obj\Debug\Map Editor.csproj.GenerateResource.Cache
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\bin\Debug\Map Editor.exe.config
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\bin\Debug\Map Editor.exe
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\bin\Debug\Map Editor.pdb
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\obj\Debug\MainWindow.baml
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\obj\Debug\NewMap.baml
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\obj\Debug\MainWindow.g.cs
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\obj\Debug\NewMap.g.cs
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\obj\Debug\App.g.cs
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\obj\Debug\Map Editor_MarkupCompile.cache
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\obj\Debug\Map Editor.g.resources
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\obj\Debug\Map_Editor.Properties.Resources.resources
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\obj\Debug\Map Editor.csproj.GenerateResource.Cache
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\obj\Debug\Map Editor.exe
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\obj\Debug\Map Editor.pdb
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\Map Editor\obj\Debug\Map Editor.csprojResolveAssemblyReference.cache
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\bin\Debug\Map Editor.exe.config
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\obj\Debug\Map Editor.exe
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\obj\Debug\Map Editor.pdb
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\bin\Debug\Map Editor.exe
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\bin\Debug\Map Editor.pdb
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\obj\Debug\MainWindow.baml
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\obj\Debug\NewMap.baml
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\obj\Debug\MainWindow.g.cs
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\obj\Debug\NewMap.g.cs
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\obj\Debug\App.g.cs
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\obj\Debug\Map Editor_MarkupCompile.cache
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\obj\Debug\Map Editor.g.resources
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\obj\Debug\Map_Editor.Properties.Resources.resources
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\obj\Debug\Map Editor.csproj.GenerateResource.Cache
+D:\Hoc tap\Hoc ki\Nam 3\Hoc ki 1\Nhap mon Game\Do an\Map Editor\Map Editor\obj\Debug\Map Editor.csprojResolveAssemblyReference.cache
+C:\Users\QuyNguyenNam\Desktop\11520317 -  11520343\Map Editor\Map Editor\bin\Debug\Map Editor.exe.config
+C:\Users\QuyNguyenNam\Desktop\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\Map Editor.exe
+C:\Users\QuyNguyenNam\Desktop\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\Map Editor.pdb
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\bin\Debug\Map Editor.exe.config
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\Map Editor.exe
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\Map Editor.pdb
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\bin\Debug\Map Editor.exe
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\bin\Debug\Map Editor.pdb
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\Map Editor.csprojResolveAssemblyReference.cache
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\MainWindow.baml
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\NewMap.baml
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\MainWindow.g.cs
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\NewMap.g.cs
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\App.g.cs
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\Map Editor_MarkupCompile.cache
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\Map Editor.g.resources
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\Map_Editor.Properties.Resources.resources
+G:\Mario\11520317 -  11520343\11520317 -  11520343\Map Editor\Map Editor\obj\Debug\Map Editor.csproj.GenerateResource.Cache
+F:\Do an Castlevania\Map\Map Editor\Map Editor\Map Editor\bin\Debug\Map Editor.exe.config
+F:\Do an Castlevania\Map\Map Editor\Map Editor\Map Editor\obj\Debug\Map Editor.exe
+F:\Do an Castlevania\Map\Map Editor\Map Editor\Map Editor\obj\Debug\Map Editor.pdb
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\bin\Debug\Map Editor.exe.config
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\obj\Debug\Map Editor.exe
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\obj\Debug\Map Editor.pdb
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\bin\Debug\Map Editor.exe
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\bin\Debug\Map Editor.pdb
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\obj\Debug\Map Editor.csprojResolveAssemblyReference.cache
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\obj\Debug\MainWindow.baml
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\obj\Debug\NewMap.baml
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\obj\Debug\MainWindow.g.cs
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\obj\Debug\NewMap.g.cs
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\obj\Debug\App.g.cs
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\obj\Debug\Map Editor_MarkupCompile.cache
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\obj\Debug\Map Editor.g.resources
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\obj\Debug\Map_Editor.Properties.Resources.resources
+F:\Do an Castlevania\Map\Map Editor ver 1\Map Editor\Map Editor\obj\Debug\Map Editor.csproj.GenerateResource.Cache
+F:\Do an Castlevania\Map\Map Editor Mario\Map Editor\Map Editor\bin\Debug\Map Editor.exe.config
+F:\MarioBros_SVN\Map Editor\Map Editor\bin\Debug\Map Editor.exe.config
+F:\MarioBros_SVN\Map Editor\Map Editor\bin\Debug\Map Editor.exe
+F:\MarioBros_SVN\Map Editor\Map Editor\bin\Debug\Map Editor.pdb
+F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\Map Editor.csprojResolveAssemblyReference.cache
+F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\MainWindow.baml
+F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\NewMap.baml
+F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\MainWindow.g.cs
+F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\NewMap.g.cs
+F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\App.g.cs
+F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\Map Editor_MarkupCompile.cache
+F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\Map Editor.g.resources
+F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\Map_Editor.Properties.Resources.resources
+F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\Map Editor.csproj.GenerateResource.Cache
+F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\Map Editor.exe
+F:\MarioBros_SVN\Map Editor\Map Editor\obj\Debug\Map Editor.pdb
