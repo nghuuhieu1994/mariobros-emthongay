@@ -67,7 +67,7 @@ namespace Mario_Bros.Object.Enemy
                 Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.ENEMY_HIDE_KOOPA_OW));
                 //Console.WriteLine("xoay hinh");
                 Sprite.Effect = SpriteEffects.FlipVertically;
-                Sprite.Depth = GlobalValue.MARIO_SPRITE_DEPTH;
+                Sprite.Depth = GlobalValue.ENEMY_SPRITE_DEPTH;
             //}
             //if (Status == IDStatus.SHOOTED)
             //{

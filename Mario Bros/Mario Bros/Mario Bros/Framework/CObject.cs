@@ -56,6 +56,8 @@ namespace Mario_Bros.Framework
         MISC_SMALL_CLOUND,
         MISC_MEDIUM_CLOUND,
         MISC_BIG_CLOUND,
+        ENEMY_BOSS_BULLET,
+        ENEMY_BOSS,
     }
 
     /// <summary>

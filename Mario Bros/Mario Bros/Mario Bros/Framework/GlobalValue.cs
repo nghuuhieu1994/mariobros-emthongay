@@ -32,5 +32,7 @@ namespace Mario_Bros.Framework
         public static bool IS_GO_UP = false;
         public static int OBJECT_INDEX = 0;
         public static Rectangle CAMERA_RECTANGLE;
+        public static Vector2 MARIO_POSITION;
+        public static List<CAnimationObject> List_Of_Bullet = new List<CAnimationObject>();
     }
 }

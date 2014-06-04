@@ -129,6 +129,8 @@
     <Compile Include="Map\QuadTree.cs" />
     <Compile Include="Object\Character\Bullet.cs" />
     <Compile Include="Object\Character\Mario.cs" />
+    <Compile Include="Object\Enemy\Boss\Boss.cs" />
+    <Compile Include="Object\Enemy\Boss\BossBullet.cs" />
     <Compile Include="Object\Enemy\Goomba.cs" />
     <Compile Include="Object\Enemy\Goomba_old.cs" />
     <Compile Include="Object\Enemy\Koopa.cs" />
