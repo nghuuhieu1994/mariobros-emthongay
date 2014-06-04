@@ -634,6 +634,7 @@ namespace Mario_Bros.Object
 
         public override void UpdateMovement(GameTime _GameTime, CInput _Input)
         {
+		            GlobalValue.MARIO_POSITION = this.Position;
             if (_Input.KeyPressed(Keys.Z) && IDObject == IDObject.FIRE_MARIO)
             {
                 AddBullet();
@@ -647,7 +648,7 @@ namespace Mario_Bros.Object
             // Gia tốc trọng trường
             if (Status != IDStatus.TELEPORT)
             {
-                Accel = new Vector2(m_Accel.X, 0.00098f);  
+                Accel = new Vector2(m_Accel.X, 0.00098f);
             }
 
             if (Status != IDStatus.MARIO_JUMP && Status != IDStatus.DIE && !GlobalValue.IS_LOCK_KEYBOARD)
@@ -1146,6 +1147,44 @@ namespace Mario_Bros.Object
                         }
                         break;  
                     #endregion
+                    case IDObject.ENEMY_BOSS:
+                    case IDObject.ENEMY_BOSS_BULLET:
+                        if ((CheckCollision(_Object) == DirectCollision.RIGHT || CheckCollision(_Object) == DirectCollision.LEFT) && !IsWorldFreeze)
+                        {
+                            if (m_IDObject == IDObject.FIRE_MARIO)
+                            {
+                                CResourceManager.GetInstance().GetSoundEffect(IDResource.SFX_MARIO_HURT).Play();
+                                Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SUPER_MARIO));
+                                IDObject = IDObject.SUPER_MARIO;
+                                Status = IDStatus.MARIO_DOWNCAST;
+                                IsWorldFreeze = true;
+                                break;
+                            }
+                            if (m_IDObject == IDObject.SUPER_MARIO)
+                            {
+                                CResourceManager.GetInstance().GetSoundEffect(IDResource.SFX_MARIO_HURT).Play();
+                                Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SMALL_MARIO));
+                                IsWorldFreeze = true;
+                                Status = IDStatus.MARIO_DOWNCAST;
+                                IDObject = IDObject.SMALL_MARIO;
+                                break;
+                            }
+                            if (m_IDObject == IDObject.SMALL_MARIO)
+                            {
+                                m_Status = IDStatus.DIE;
+                                break;
+                            }
+                            if (Direction == IDDir.RIGHT)
+                            {
+                                Position = new Vector2(Position.X - 5f, Position.Y);
+                            }
+                            if (Direction == IDDir.LEFT)
+                            {
+                                Position = new Vector2(Position.X + 5f, Position.Y);
+                            }
+                            Velocity = Vector2.Zero;
+                        }
+                        break;
                     #region Case Default
                     default:
                         break; 

@@ -98,6 +98,8 @@ namespace Mario_Bros.Framework
         MISC_SMALL_CLOUND,
         MISC_MEDIUM_CLOUND,
         MISC_BIG_CLOUND,
+        ENEMY_BOSS_BULLET,
+        ENEMY_BOSS,
         #endregion
 
 
@@ -222,6 +224,8 @@ namespace Mario_Bros.Framework
         private CSprite Sprite_Small_Clound;
         private CSprite Sprite_Medium_Clound;
         private CSprite Sprite_Big_Clound;
+        private CSprite Sprite_Boss;
+        private CSprite Sprite_Boss_Bullet;
         #endregion
 
 
@@ -314,6 +318,8 @@ namespace Mario_Bros.Framework
             Sprite_Small_Clound = new CSprite(IDResource.MISC_SMALL_CLOUND, 1, 32, 24, 1);
             Sprite_Medium_Clound = new CSprite(IDResource.MISC_MEDIUM_CLOUND, 1, 48, 24, 1);
             Sprite_Big_Clound = new CSprite(IDResource.MISC_BIG_CLOUND, 1, 64, 24, 1);
+            Sprite_Boss = new CSprite(IDResource.ENEMY_BOSS, 4, 32, 32, 4);
+            Sprite_Boss_Bullet = new CSprite(IDResource.ENEMY_BOSS_BULLET, 2, 24, 8, 1);
             #endregion
 
             #region Letter
@@ -486,6 +492,8 @@ namespace Mario_Bros.Framework
             Sprite_Goal_Pole.Init(_ContentManager, "Image/Game Image/Miscellaneous/GoalPole-16-136", 0, 0, 0.0f);
             Sprite_Star_Flag_Castle.Init(_ContentManager, "Image/Game Image/Miscellaneous/CastleStarFlag-16-16", 0, 0, 0.0f);
             Sprite_Firework.Init(_ContentManager, "Image/Game Image/Miscellaneous/Firework-16-48", 0, 2, 100.0f);
+            Sprite_Boss.Init(_ContentManager, "Image/Game Image/Enemy/BossGreen-128-32", 0, 3, 100.0f);
+            Sprite_Boss_Bullet.Init(_ContentManager, "Image/Game Image/Enemy/BossBullet-24-16", 0, 1, 20.0f);
             BG_GameOver.Init(_ContentManager, "Image/Game State Image/GameOver/GameOver", 0, 0, 0.0f);
             BG_LoadGame.Init(_ContentManager, "Image/Game State Image/Load/LoadGame", 0, 0, 0.0f); 
             #endregion
@@ -649,6 +657,10 @@ namespace Mario_Bros.Framework
             switch(_ID)
             {
                 #region Sprite
+                case IDResource.ENEMY_BOSS:
+                    return Sprite_Boss;
+                case IDResource.ENEMY_BOSS_BULLET:
+                    return Sprite_Boss_Bullet;
                 case IDResource.MISC_BIG_CLOUND:
                     return Sprite_Big_Clound;
                 case IDResource.MISC_MEDIUM_CLOUND:
