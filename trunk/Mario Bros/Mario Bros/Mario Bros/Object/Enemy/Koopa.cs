@@ -146,6 +146,7 @@ namespace Mario_Bros.Object.Enemy
                     case IDObject.MISC_IRON_BRICK:
                     case IDObject.MISC_QUESTION_BRICK:
                     case IDObject.MISC_STOCK_PIPE:
+                    case IDObject.MISC_HARD_BRICK:
                         if (CheckCollision(_Object) == DirectCollision.TOP)
                         {
                             m_Velocity.Y = 0.0f;

@@ -595,10 +595,18 @@ namespace Mario_Bros.Object
             if (m_Bullet1 != null)
             {
                 m_Bullet1.UpdateCollision(_Object);
+                if (m_Bullet1.Status == IDStatus.DIE)
+                {
+                    m_Bullet1 = null;
+                }
             }
             if (m_Bullet2 != null)
             {
                 m_Bullet2.UpdateCollision(_Object);
+                if (m_Bullet2.Status == IDStatus.DIE)
+                {
+                    m_Bullet2 = null;
+                }
             }
         }
 
