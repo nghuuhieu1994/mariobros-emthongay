@@ -118,6 +118,7 @@ namespace Map_Editor
                         if ((EObjectName)i.Tag == EObjectName.BRICK_COIN || (EObjectName)i.Tag == EObjectName.BRICK_FLOWER || (EObjectName)i.Tag == EObjectName.BRICK_SUPPERMUSHROOM
                                 || (EObjectName)i.Tag == EObjectName.BRICK_1UPMUSHROOM || (EObjectName)i.Tag == EObjectName.BRICK_STAR || (EObjectName)i.Tag == EObjectName.BRICK_QUESTION_ITEM)
                         {
+                            
                             QGameObject o1 = new QGameObject(
                                                       idCount++,
                                                       (int)EObjectName.MISC_QUESTION_BRICK,
@@ -132,7 +133,7 @@ namespace Map_Editor
                                                   idCount++,
                                                   (int)EObjectName.ITEM_COIN_ACTIVATED,
                                                   new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
-                                                  false);
+                                                  true);
                                     qGameObjects.Add(o2);
                                  break;
                                 case EObjectName.BRICK_FLOWER:
@@ -140,7 +141,7 @@ namespace Map_Editor
                                               idCount++,
                                               (int)EObjectName.ITEM_FIRE_FLOWER,
                                               new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
-                                              false);
+                                              true);
                                  qGameObjects.Add(o2);
                                  break;
                                 case EObjectName.BRICK_SUPPERMUSHROOM:
@@ -148,7 +149,7 @@ namespace Map_Editor
                                            idCount++,
                                            (int)EObjectName.ITEM_SUPER_MUSHROOM,
                                            new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
-                                           false);
+                                           true);
                                  qGameObjects.Add(o2);
                                  break;
                                 case EObjectName.BRICK_1UPMUSHROOM:
@@ -156,7 +157,7 @@ namespace Map_Editor
                                            idCount++,
                                            (int)EObjectName.ITEM_1UP_MUSHROOM,
                                            new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
-                                           false);
+                                           true);
                                  qGameObjects.Add(o2);
                                  break;
                                 case EObjectName.BRICK_STAR:
@@ -164,7 +165,7 @@ namespace Map_Editor
                                            idCount++,
                                            (int)EObjectName.ITEM_STARMAN,
                                            new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
-                                           false);
+                                           true);
                                  qGameObjects.Add(o2);
                                  break; 
                                 case EObjectName.BRICK_QUESTION_ITEM:
@@ -172,12 +173,21 @@ namespace Map_Editor
                                            idCount++,
                                            (int)EObjectName.ITEM_GROW_UP,
                                            new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
-                                           false);
+                                           true);
                                  qGameObjects.Add(o2);
                                  break; 
                                 default:
                                  break;
                             }
+                        }
+                        else if((EObjectName)i.Tag == EObjectName.ENEMY_GOOMBA_OW || (EObjectName)i.Tag == EObjectName.ENEMY_KOOPA_OW)
+                        {
+                            QGameObject o1 = new QGameObject(
+                                                     idCount++,
+                                                     (int)i.Tag,
+                                                     new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
+                                                     true);
+                            qGameObjects.Add(o1);
                         }
                         else
                         {
