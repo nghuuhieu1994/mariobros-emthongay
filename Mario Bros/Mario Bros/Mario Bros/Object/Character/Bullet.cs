@@ -66,6 +66,7 @@ namespace Mario_Bros.Object
                                 isContact = true;
                             }
                             _Object.Velocity = new Vector2(0, -0.2f);
+                            this.Status = IDStatus.DIE;
                             break;
                         }
                         break;
