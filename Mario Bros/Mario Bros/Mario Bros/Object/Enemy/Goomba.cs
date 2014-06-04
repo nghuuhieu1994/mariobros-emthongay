@@ -151,6 +151,7 @@ namespace Mario_Bros.Object.Enemy
                     //    if(CheckCollision(_Object) == DirectCollision.BOTTOM)
                     //         m_Status = IDStatus.BEFORE_DIE;
                     //    break;
+                    case IDObject.ENEMY_GOOMBA_OW:
                     case IDObject.ENEMY_KOOPA_OW:
                         //if ((CheckCollision(_Object) == DirectCollision.LEFT || CheckCollision(_Object) == DirectCollision.RIGHT) && _Object.Status == IDStatus.SPIN && Status != IDStatus.SHOOTED)
                         //{
