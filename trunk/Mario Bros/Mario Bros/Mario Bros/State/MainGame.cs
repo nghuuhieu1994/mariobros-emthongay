@@ -101,6 +101,17 @@ namespace Mario_Bros.State
             cam.Update(Mario, map.m_WidthMap, map.m_HeightMap);
             quadTree.InsertListObjectView(cam.Rectangle, quadTree.RootNode);
 
+            for (int i = 0; i < GlobalValue.List_Of_Bullet.Count; i++)
+            {
+                GlobalValue.List_Of_Bullet[i].UpdateAnimation(gameTime, _Input);
+                GlobalValue.List_Of_Bullet[i].UpdateMovement(gameTime, _Input);
+                Mario.UpdateCollision(GlobalValue.List_Of_Bullet[i]);
+                GlobalValue.List_Of_Bullet[i].UpdateCollision(Mario);
+                if (GlobalValue.List_Of_Bullet[i].Status == IDStatus.DIE)
+                {
+                    GlobalValue.List_Of_Bullet.Remove(GlobalValue.List_Of_Bullet[i]);
+                }
+            }
             list = quadTree.ListObjectsInView;
             for (int i = 0; i < list.Count; ++i)
             {
@@ -131,6 +142,12 @@ namespace Mario_Bros.State
             {
                 MediaPlayer.Stop();
                 m_StopTime1 += (float)gameTime.ElapsedGameTime.Milliseconds;
+
+                for (int i = 0; i < GlobalValue.List_Of_Bullet.Count; i++)
+                {
+                    GlobalValue.List_Of_Bullet.Remove(GlobalValue.List_Of_Bullet[i]);
+                }
+
                 if (m_StopTime1 >= 2000.0f)
                 {
                     --GlobalValue.MARIO_LIFE;
@@ -193,6 +210,10 @@ namespace Mario_Bros.State
             SB.End();
             SB.Begin();
             Icon.Draw(SB);
+            for (int i = 0; i < GlobalValue.List_Of_Bullet.Count; i++)
+            {
+                GlobalValue.List_Of_Bullet[i].Draw(SB);
+            }
             StateManager.StringDrawer("MARIO", new Vector2(0, 0), SB, Color.White);
             StateManager.StringDrawer(GlobalValue.MARIO_SCORE.ToString().PadLeft(6, '0'), new Vector2(0, 8), SB, Color.White);
             StateManager.StringDrawer("WORLD", new Vector2(200, 0), SB, Color.White);

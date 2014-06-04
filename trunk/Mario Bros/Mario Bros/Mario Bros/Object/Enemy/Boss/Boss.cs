@@ -10,7 +10,7 @@ namespace Mario_Bros.Object.Enemy.Boss
 {
     public class Boss : CAnimationObject
     {
-        List<BossBullet> List_Of_Bullet;
+        //List<BossBullet> List_Of_Bullet;
         float CoolDownFire = 0;
         float CoolDownMove = 0;
         float CoolDownBullet = 0;
@@ -23,7 +23,8 @@ namespace Mario_Bros.Object.Enemy.Boss
             IDObject = IDObject.ENEMY_BOSS;
             Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.ENEMY_BOSS));
             Sprite.Depth = GlobalValue.ENEMY_SPRITE_DEPTH;
-            List_Of_Bullet = new List<BossBullet>();
+            //List_Of_Bullet = new List<BossBullet>();
+            
             Direction = IDDir.LEFT;
             Status = IDStatus.MOVE;
         }
@@ -52,10 +53,10 @@ namespace Mario_Bros.Object.Enemy.Boss
                 Sprite.Effect = SpriteEffects.FlipHorizontally;
             }
 
-            for (int i = 0; i < List_Of_Bullet.Count; i++)
-            {
-                List_Of_Bullet[i].UpdateAnimation(_GameTime, _Input);
-            }
+            //for (int i = 0; i < List_Of_Bullet.Count; i++)
+            //{
+            //    List_Of_Bullet[i].UpdateAnimation(_GameTime, _Input);
+            //}
 
             base.UpdateAnimation(_GameTime, _Input);
         }
@@ -97,7 +98,7 @@ namespace Mario_Bros.Object.Enemy.Boss
                 //Direction = tempDirection;
                 if (CoolDown(ref CoolDownBullet, 800, _GameTime))
                 {
-                    List_Of_Bullet.Add(b);
+                    //List_Of_Bullet.Add(b);
                     GlobalValue.List_Of_Bullet.Add(b);
                 }
                 if (CoolDown(ref CoolDownFire, 1000, _GameTime))
@@ -116,10 +117,10 @@ namespace Mario_Bros.Object.Enemy.Boss
                 Status = IDStatus.FIRE;
             }
 
-            for (int i = 0; i < List_Of_Bullet.Count; i++)
-            {
-                List_Of_Bullet[i].UpdateMovement(_GameTime, _Input);
-            }
+            //for (int i = 0; i < List_Of_Bullet.Count; i++)
+            //{
+            //    List_Of_Bullet[i].UpdateMovement(_GameTime, _Input);
+            //}
 
             base.UpdateMovement(_GameTime, _Input);
             base.Update(_GameTime, _Input); 
@@ -143,10 +144,10 @@ namespace Mario_Bros.Object.Enemy.Boss
                 }
             }
 
-            for (int i = 0; i < List_Of_Bullet.Count; i++)
-            {
-                List_Of_Bullet[i].UpdateCollision(_Object);
-            }
+            //for (int i = 0; i < List_Of_Bullet.Count; i++)
+            //{
+            //    List_Of_Bullet[i].UpdateCollision(_Object);
+            //}
 
             if (CheckCollision(_Object) != DirectCollision.NONE)
             {
@@ -196,10 +197,10 @@ namespace Mario_Bros.Object.Enemy.Boss
 
         public override void Draw(SpriteBatch _SpriteBatch)
         {
-            for (int i = 0; i < List_Of_Bullet.Count; i++)
-            {
-                List_Of_Bullet[i].Draw(_SpriteBatch);
-            }
+            //for (int i = 0; i < List_Of_Bullet.Count; i++)
+            //{
+            //    List_Of_Bullet[i].Draw(_SpriteBatch);
+            //}
             base.Draw(_SpriteBatch);
         }
     }
