@@ -25,15 +25,15 @@ namespace Map_Editor
             // enemy objects
             lbEnemyObjects.Items.Add((new OImage(EObjectName.ENEMY_GOOMBA_OW, @"\Images\Enemy\MushroomBrown-16-16.png")).Bitmap);
             lbEnemyObjects.Items.Add((new OImage(EObjectName.ENEMY_KOOPA_OW, @"\Images\Enemy\TurtleGreen-16-24.png")).Bitmap);
-
+            lbEnemyObjects.Items.Add((new OImage(EObjectName.ENEMY_BOSS, @"\Images\Enemy\BossGreen-32-32.png")).Bitmap);
             // bonus objects
             lbBonusObjects.Items.Add((new OImage(EObjectName.MISC_BASE_BRICK, @"\Images\Misc\BrickHard-16-16.png")).Bitmap);
             //lbBonusObjects.Items.Add((new OImage(EObjectName.MISC_QUESTION_BRICK, @"\Images\Misc\BrickSoft-16-16.png")).Bitmap);
             lbBonusObjects.Items.Add((new OImage(EObjectName.MISC_IRON_BRICK, @"\Images\Misc\HardBrick-16-16.png")).Bitmap);
             lbBonusObjects.Items.Add((new OImage(EObjectName.MISC_SOFT_BRICK, @"\Images\Misc\BrickSoft-16-16.png")).Bitmap);
             //lbBonusObjects.Items.Add((new OImage(EObjectName.MISC_PIECE, @"\Images\Misc\PipeUp-62-32.png")).Bitmap);
-            lbBonusObjects.Items.Add((new OImage(EObjectName.MISC_STOCK_PIPE, @"\Images\Misc\PipeGate-32-16.png")).Bitmap);
-            lbBonusObjects.Items.Add((new OImage(EObjectName.MISC_GATE_PIPE, @"\Images\Misc\PipeStock-32-16.png")).Bitmap);
+            lbBonusObjects.Items.Add((new OImage(EObjectName.MISC_GATE_PIPE, @"\Images\Misc\PipeGate-32-16.png")).Bitmap);
+            lbBonusObjects.Items.Add((new OImage(EObjectName.MISC_STOCK_PIPE, @"\Images\Misc\PipeStock-32-16.png")).Bitmap);
             lbBonusObjects.Items.Add((new OImage(EObjectName.MISC_SMALL_GRASS, @"\Images\Misc\SmallGrass-48-16.png")).Bitmap);
             lbBonusObjects.Items.Add((new OImage(EObjectName.MISC_MEDIUM_GRASS, @"\Images\Misc\MediumGrass-48-16.png")).Bitmap);
             lbBonusObjects.Items.Add((new OImage(EObjectName.MISC_BIG_GRASS, @"\Images\Misc\BigGrass-64-16.png")).Bitmap);

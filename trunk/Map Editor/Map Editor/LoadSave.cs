@@ -118,7 +118,6 @@ namespace Map_Editor
                         if ((EObjectName)i.Tag == EObjectName.BRICK_COIN || (EObjectName)i.Tag == EObjectName.BRICK_FLOWER || (EObjectName)i.Tag == EObjectName.BRICK_SUPPERMUSHROOM
                                 || (EObjectName)i.Tag == EObjectName.BRICK_1UPMUSHROOM || (EObjectName)i.Tag == EObjectName.BRICK_STAR || (EObjectName)i.Tag == EObjectName.BRICK_QUESTION_ITEM)
                         {
-                            
                             QGameObject o1 = new QGameObject(
                                                       idCount++,
                                                       (int)EObjectName.MISC_QUESTION_BRICK,
@@ -180,7 +179,7 @@ namespace Map_Editor
                                  break;
                             }
                         }
-                        else if((EObjectName)i.Tag == EObjectName.ENEMY_GOOMBA_OW || (EObjectName)i.Tag == EObjectName.ENEMY_KOOPA_OW)
+                        else if((EObjectName)i.Tag == EObjectName.ENEMY_GOOMBA_OW || (EObjectName)i.Tag == EObjectName.ENEMY_KOOPA_OW || (EObjectName)i.Tag == EObjectName.ENEMY_BOSS)
                         {
                             QGameObject o1 = new QGameObject(
                                                      idCount++,
