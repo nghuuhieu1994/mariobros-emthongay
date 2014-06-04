@@ -50,6 +50,19 @@ namespace Mario_Bros.Object.Enemy.Boss
 
         public override void UpdateCollision(CAnimationObject _Object)
         {
+            if (CheckCollision(_Object) != DirectCollision.NONE)
+            {
+                switch (_Object.IDObject)
+                {
+                    case IDObject.FIRE_MARIO:
+                    case IDObject.SMALL_MARIO:
+                    case IDObject.SUPER_MARIO:
+                        Status = IDStatus.DIE;
+                        break;
+                    default:
+                        break;
+                }
+            }
             base.UpdateCollision(_Object);
         }
     }
