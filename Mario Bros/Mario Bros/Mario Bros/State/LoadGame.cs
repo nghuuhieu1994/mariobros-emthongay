@@ -34,6 +34,7 @@ namespace Mario_Bros.State
                 StateManager.getInst().ExitScreen();
                 StateManager.getInst().AddScreen(new MainGame(IDGameState.MAINGAME));
             }
+            GlobalValue.IS_LOCK_KEYBOARD = false;
             base.HandleInput(gameTime, _Input);
         }
         public override void Update(GameTime gameTime)
