@@ -15,7 +15,7 @@ namespace Mario_Bros.Object.Miscellaneous
         public GatePipe(Vector2 _Position, IDStatus _Status, Vector2 _Destination)
             : base(_Position)
         {
-            //IDObject = IDObject.MISC_GATE_PIPE;
+            IDObject = IDObject.MISC_GATE_PIPE;
             
             Status = IDStatus.GATE_PIPE_DOWN;
             Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.MISC_GATE_PIPE));
@@ -25,6 +25,7 @@ namespace Mario_Bros.Object.Miscellaneous
 
         public GatePipe(Vector2 _Position) : base(_Position)
         {
+            IDObject = IDObject.MISC_GATE_PIPE;
             Status = IDStatus.GATE_PIPE_DOWN;
             Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.MISC_GATE_PIPE));
             Sprite.Depth = GlobalValue.MISC_SPRITE_DEPTH;
