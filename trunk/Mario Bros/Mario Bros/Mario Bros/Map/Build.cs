@@ -77,7 +77,7 @@ namespace Mario_Bros.Map
                     _object = new GoalPole(_pos);
                     break;
                 case IDObject.MISC_GATE_PIPE:
-                    //_object = new GatePipe(_pos);
+                    _object = new GatePipe(_pos);
                     break;
                 case IDObject.MISC_FLAG:
                     _object = new Flag(_pos);

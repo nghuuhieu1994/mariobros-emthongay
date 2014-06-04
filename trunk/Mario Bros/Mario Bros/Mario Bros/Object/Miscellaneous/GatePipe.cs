@@ -16,10 +16,19 @@ namespace Mario_Bros.Object.Miscellaneous
             : base(_Position)
         {
             //IDObject = IDObject.MISC_GATE_PIPE;
+            
             Status = IDStatus.GATE_PIPE_DOWN;
             Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.MISC_GATE_PIPE));
             Sprite.Depth = GlobalValue.MISC_SPRITE_DEPTH;
             Portal = _Destination;
+        }
+
+        public GatePipe(Vector2 _Position) : base(_Position)
+        {
+            Status = IDStatus.GATE_PIPE_DOWN;
+            Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.MISC_GATE_PIPE));
+            Sprite.Depth = GlobalValue.MISC_SPRITE_DEPTH;
+            Portal = _Position;
         }
 
         public override void UpdateCollision(CAnimationObject _Object)

@@ -103,7 +103,7 @@ namespace Mario_Bros.Framework
     {
         protected IDObject m_IDObject;
         protected CSprite m_Sprite;
-        protected Vector2 m_Position; 
+        protected Vector2 m_Position;
         protected Vector2 m_StartPosition; 
         protected IDStatus m_Status;
         private int m_Index;
