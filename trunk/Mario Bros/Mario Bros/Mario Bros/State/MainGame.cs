@@ -192,6 +192,7 @@ namespace Mario_Bros.State
             Mario.Draw(SB);
             SB.End();
             SB.Begin();
+            Icon.Draw(SB);
             StateManager.StringDrawer("MARIO", new Vector2(0, 0), SB, Color.White);
             StateManager.StringDrawer(GlobalValue.MARIO_SCORE.ToString().PadLeft(6, '0'), new Vector2(0, 8), SB, Color.White);
             StateManager.StringDrawer("WORLD", new Vector2(200, 0), SB, Color.White);
