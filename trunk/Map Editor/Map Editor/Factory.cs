@@ -56,7 +56,8 @@ namespace Map_Editor
         MISC_SMALL_CLOUND,
         MISC_MEDIUM_CLOUND,
         MISC_BIG_CLOUND,
-
+        ENEMY_BOSS_BULLET,
+        ENEMY_BOSS,
     }
 
     public enum ObjectType
@@ -105,6 +106,10 @@ namespace Map_Editor
                 case EObjectName.ENEMY_GOOMBA_OW:
                     width = MainWindow.OBJECT_WIDTH;
                     height = MainWindow.OBJECT_HEIGHT;
+                    break;
+                case EObjectName.ENEMY_BOSS:
+                    width = MainWindow.OBJECT_WIDTH * 2;
+                    height = MainWindow.OBJECT_HEIGHT * 2;
                     break;
                 case EObjectName.ENEMY_KOOPA_OW:
                     width = MainWindow.OBJECT_WIDTH;
@@ -217,6 +222,9 @@ namespace Map_Editor
                     break;
                 case EObjectName.ENEMY_KOOPA_OW:
                     bitmap = new BitmapImage(new Uri(@"\Images\Enemy\TurtleGreen-16-24.png", UriKind.Relative));
+                    break;
+                case EObjectName.ENEMY_BOSS:
+                    bitmap = new BitmapImage(new Uri(@"\Images\Enemy\BossGreen-32-32.png", UriKind.Relative));
                     break;
                 case EObjectName.MISC_BASE_BRICK:
                     bitmap = new BitmapImage(new Uri(@"\Images\Misc\BrickHard-16-16.png", UriKind.Relative));
