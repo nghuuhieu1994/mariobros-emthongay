@@ -1163,8 +1163,44 @@ namespace Mario_Bros.Object
                         break;  
                     #endregion
                     case IDObject.ENEMY_BOSS:
-                    case IDObject.ENEMY_BOSS_BULLET:
                         if ((CheckCollision(_Object) == DirectCollision.RIGHT || CheckCollision(_Object) == DirectCollision.LEFT) && !IsWorldFreeze)
+                        {
+                            if (m_IDObject == IDObject.FIRE_MARIO)
+                            {
+                                SoundManager.PlaySound(ESound.SFX_MARIO_HURT);
+                                Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SUPER_MARIO));
+                                IDObject = IDObject.SUPER_MARIO;
+                                Status = IDStatus.MARIO_DOWNCAST;
+                                IsWorldFreeze = true;
+                                break;
+                            }
+                            if (m_IDObject == IDObject.SUPER_MARIO)
+                            {
+                                SoundManager.PlaySound(ESound.SFX_MARIO_HURT);
+                                Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SMALL_MARIO));
+                                IsWorldFreeze = true;
+                                Status = IDStatus.MARIO_DOWNCAST;
+                                IDObject = IDObject.SMALL_MARIO;
+                                break;
+                            }
+                            if (m_IDObject == IDObject.SMALL_MARIO)
+                            {
+                                m_Status = IDStatus.DIE;
+                                break;
+                            }
+                            if (Direction == IDDir.RIGHT)
+                            {
+                                Position = new Vector2(Position.X - 5f, Position.Y);
+                            }
+                            if (Direction == IDDir.LEFT)
+                            {
+                                Position = new Vector2(Position.X + 5f, Position.Y);
+                            }
+                            Velocity = Vector2.Zero;
+                        }
+                        break;
+                    case IDObject.ENEMY_BOSS_BULLET:
+                        if (CheckCollision(_Object) != DirectCollision.NONE && !IsWorldFreeze)
                         {
                             if (m_IDObject == IDObject.FIRE_MARIO)
                             {
