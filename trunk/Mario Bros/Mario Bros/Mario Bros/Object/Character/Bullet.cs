@@ -57,7 +57,7 @@ namespace Mario_Bros.Object
                         break;
                     case IDObject.ENEMY_KOOPA_OW:
                     case IDObject.ENEMY_GOOMBA_OW:
-                        if (CheckCollision(_Object) == DirectCollision.TOP || CheckCollision(_Object) == DirectCollision.BOTTOM || CheckCollision(_Object) == DirectCollision.RIGHT || CheckCollision(_Object) == DirectCollision.LEFT && _Object.Status != IDStatus.SHOOTED)
+                        if (CheckCollision(_Object) != DirectCollision.NONE && _Object.Status != IDStatus.SHOOTED)
                         {
                             _Object.Status = IDStatus.SHOOTED;
                             if (!isContact)
@@ -66,18 +66,10 @@ namespace Mario_Bros.Object
                                 isContact = true;
                             }
                             _Object.Velocity = new Vector2(0, -0.2f);
-                            this.Status = IDStatus.DIE;
+                            Status = IDStatus.DIE;
                             break;
                         }
                         break;
-                    //case IDObject.ENEMY_GOOMBA_OW:
-                    //    if (CheckCollision(_Object) == DirectCollision.TOP || CheckCollision(_Object) == DirectCollision.BOTTOM || CheckCollision(_Object) == DirectCollision.RIGHT || CheckCollision(_Object) == DirectCollision.LEFT)
-                    //    {
-                    //        _Object.Status = IDStatus.DIE;
-                    //        break;
-                    //    }
-                    //    break;
-                    //case IDObject.MISC_GATE_PIPE:
                     case IDObject.MISC_HARD_BRICK:
                         if (CheckCollision(_Object) == DirectCollision.RIGHT || CheckCollision(_Object) == DirectCollision.LEFT)
                         {
