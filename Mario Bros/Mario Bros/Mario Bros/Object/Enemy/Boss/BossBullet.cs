@@ -14,7 +14,7 @@ namespace Mario_Bros.Object.Enemy.Boss
             : base(_Position)
         {
             Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.ENEMY_BOSS_BULLET));
-            Sprite.Depth = GlobalValue.MISC_SPRITE_DEPTH;
+            Sprite.Depth = GlobalValue.ENEMY_SPRITE_DEPTH;
             Direction = _Direction;
             IDObject = IDObject.ENEMY_BOSS_BULLET;
         }
@@ -37,12 +37,12 @@ namespace Mario_Bros.Object.Enemy.Boss
         {
             if (Direction == IDDir.LEFT)
             {
-                m_Velocity = new Vector2(-0.15f, m_Velocity.Y);
+                m_Velocity = new Vector2(-0.3f, m_Velocity.Y);
             }
 
             if (Direction == IDDir.RIGHT)
             {
-                m_Velocity = new Vector2(0.15f, m_Velocity.Y);
+                m_Velocity = new Vector2(0.3f, m_Velocity.Y);
             }
             base.UpdateMovement(_GameTime, _Input);
             base.Update(_GameTime, _Input);
@@ -64,6 +64,10 @@ namespace Mario_Bros.Object.Enemy.Boss
                 }
             }
             base.UpdateCollision(_Object);
+        }
+        public override void Draw(SpriteBatch _SpriteBatch)
+        {
+            base.Draw(_SpriteBatch);
         }
     }
 }
