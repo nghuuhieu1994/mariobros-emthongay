@@ -44,8 +44,8 @@ namespace Mario_Bros.State
             GlobalValue.OBJECT_INDEX = 0;
             list = new List<CAnimationObject>();
 
-             m_Map = "map" + GlobalSetting.m_IDLevel.ToString() + ".xml";
-             World_Name = GlobalSetting.m_IDLevel.ToString() + "-1";
+            m_Map = "map" + GlobalSetting.m_IDLevel.ToString() + ".xml";
+            World_Name = GlobalSetting.m_IDLevel.ToString() + "-1";
             map = new CMap(m_Map);
             Build.BuildQNodeMap(map, Build.BuildObjectInMap(map));
             Mario = new Mario(GetPosMario._GetPosMario());
