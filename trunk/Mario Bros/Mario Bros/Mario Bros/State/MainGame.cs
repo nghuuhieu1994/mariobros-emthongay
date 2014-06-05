@@ -31,7 +31,8 @@ namespace Mario_Bros.State
         CSprite Icon;
         float PlayedTime = 0;
         bool IsWarning = false;
-        string World_Name = "1-1";
+        string World_Name;
+        string m_Map;
         CMap map;
         // test choi
         SpriteFont _font;
@@ -42,8 +43,10 @@ namespace Mario_Bros.State
         {
             GlobalValue.OBJECT_INDEX = 0;
             list = new List<CAnimationObject>();
-            
-            map = new CMap("map.xml");
+
+             m_Map = "map" + GlobalSetting.m_IDLevel.ToString() + ".xml";
+             World_Name = GlobalSetting.m_IDLevel.ToString() + "-1";
+            map = new CMap(m_Map);
             Build.BuildQNodeMap(map, Build.BuildObjectInMap(map));
             Mario = new Mario(GetPosMario._GetPosMario());
             MediaPlayer.IsRepeating = true;
@@ -194,6 +197,7 @@ namespace Mario_Bros.State
                 {
                     delayStage = 0;
                     GlobalValue.GET_FLAG = false;
+                    GlobalSetting.m_IDLevel++;
                     StateManager.getInst().ExitScreen();
                     StateManager.getInst().AddScreen(new LoadGame(IDGameState.LOAD));
                 }
