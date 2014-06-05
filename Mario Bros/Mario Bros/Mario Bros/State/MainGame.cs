@@ -208,8 +208,16 @@ namespace Mario_Bros.State
                     GlobalValue.GET_FLAG = false;
                     GlobalSetting.m_IDLevel++;
                     GlobalValue.MARIO_IDOBJECT = Mario.IDObject;
-                    StateManager.getInst().ExitScreen();
-                    StateManager.getInst().AddScreen(new LoadGame(IDGameState.LOAD));
+                    if (GlobalSetting.m_IDLevel < 3)
+                    {
+                        StateManager.getInst().ExitScreen();
+                        StateManager.getInst().AddScreen(new LoadGame(IDGameState.LOAD));
+                    }
+                    else
+                    {
+                        StateManager.getInst().ExitScreen();
+                        StateManager.getInst().AddScreen(new WinState(IDGameState.WIN));
+                    }
                 }
             }
 

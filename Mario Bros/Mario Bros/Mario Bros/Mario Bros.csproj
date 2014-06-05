@@ -178,6 +178,7 @@
     <Compile Include="State\MenuState.cs" />
     <Compile Include="State\OptionState.cs" />
     <Compile Include="State\TimeUpState.cs" />
+    <Compile Include="State\WinState.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />
