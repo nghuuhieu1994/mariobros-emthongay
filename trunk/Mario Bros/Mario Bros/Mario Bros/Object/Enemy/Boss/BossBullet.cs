@@ -37,12 +37,12 @@ namespace Mario_Bros.Object.Enemy.Boss
         {
             if (Direction == IDDir.LEFT)
             {
-                m_Velocity = new Vector2(-0.3f, m_Velocity.Y);
+                m_Velocity = new Vector2(-0.15f, m_Velocity.Y);
             }
 
             if (Direction == IDDir.RIGHT)
             {
-                m_Velocity = new Vector2(0.3f, m_Velocity.Y);
+                m_Velocity = new Vector2(0.15f, m_Velocity.Y);
             }
             base.UpdateMovement(_GameTime, _Input);
             base.Update(_GameTime, _Input);
