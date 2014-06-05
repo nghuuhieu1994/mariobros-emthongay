@@ -18,7 +18,7 @@ namespace Mario_Bros.Object.Item
             m_IDObject = IDObject.ITEM_FIRE_FLOWER;
             m_Sprite = CResourceManager.GetInstance().GetResource(IDResource.ITEM_FIRE_FLOWER);
             m_Status = IDStatus.UNACTIVATE;
-            m_Sprite.Depth = 0.1f;
+            m_Sprite.Depth = GlobalValue.ITEM_SPRITE_DEPTH;
             oldPosition = _Position;
         }
 
