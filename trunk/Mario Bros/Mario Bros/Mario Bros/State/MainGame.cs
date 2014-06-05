@@ -48,7 +48,8 @@ namespace Mario_Bros.State
             World_Name = GlobalSetting.m_IDLevel.ToString() + "-1";
             map = new CMap(m_Map);
             Build.BuildQNodeMap(map, Build.BuildObjectInMap(map));
-            Mario = new Mario(GetPosMario._GetPosMario());
+            //Mario = new Mario(GetPosMario._GetPosMario());
+            Mario = new Mario(new Vector2(2000, 0));
             MediaPlayer.IsRepeating = true;
             MediaPlayer.Stop();
             SoundManager.PlaySong(ESong.SONG_THEMSONG_OW);
@@ -245,7 +246,5 @@ namespace Mario_Bros.State
             SB.End();
             base.Draw(SB);
         }
-
-        
     }
 }

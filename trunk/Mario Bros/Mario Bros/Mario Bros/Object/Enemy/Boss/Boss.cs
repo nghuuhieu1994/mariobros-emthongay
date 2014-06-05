@@ -93,13 +93,15 @@ namespace Mario_Bros.Object.Enemy.Boss
 
             if (Status == IDStatus.FIRE)
             {
-                //BossBullet b = new BossBullet(new Vector2(this.Position.X, GlobalValue.MARIO_POSITION.Y), this.Direction);
-                BossBullet b = new BossBullet(new Vector2(this.Position.X, this.Position.Y), this.Direction);
+                
+                
                 Velocity = Vector2.Zero;
                 //Direction = tempDirection;
                 if (CoolDown(ref CoolDownBullet, 800, _GameTime))
                 {
+                    //BossBullet b = new BossBullet(new Vector2(this.Position.X, GlobalValue.MARIO_POSITION.Y), this.Direction);
                     //List_Of_Bullet.Add(b);
+                    BossBullet b = new BossBullet(new Vector2(this.Position.X, this.Position.Y), this.Direction);
                     GlobalValue.List_Of_Bullet.Add(b);
                 }
                 if (CoolDown(ref CoolDownFire, 1000, _GameTime))
