@@ -48,8 +48,7 @@ namespace Mario_Bros.State
             World_Name = GlobalSetting.m_IDLevel.ToString() + "-1";
             map = new CMap(m_Map);
             Build.BuildQNodeMap(map, Build.BuildObjectInMap(map));
-            //Mario = new Mario(GetPosMario._GetPosMario());
-            Mario = new Mario(new Vector2(2000, 0));
+            Mario = new Mario(GetPosMario._GetPosMario());
             MediaPlayer.IsRepeating = true;
             MediaPlayer.Stop();
             SoundManager.PlaySong(ESong.SONG_THEMSONG_OW);
@@ -231,10 +230,10 @@ namespace Mario_Bros.State
             SB.End();
             SB.Begin();
             Icon.Draw(SB);
-            for (int i = 0; i < GlobalValue.List_Of_Bullet.Count; i++)
-            {
-                GlobalValue.List_Of_Bullet[i].Draw(SB);
-            }
+            //for (int i = 0; i < GlobalValue.List_Of_Bullet.Count; i++)
+            //{
+            //    GlobalValue.List_Of_Bullet[i].Draw(SB);
+            //}
             StateManager.StringDrawer("MARIO", new Vector2(0, 0), SB, Color.White);
             StateManager.StringDrawer(GlobalValue.MARIO_SCORE.ToString().PadLeft(6, '0'), new Vector2(0, 8), SB, Color.White);
             StateManager.StringDrawer("WORLD", new Vector2(200, 0), SB, Color.White);
