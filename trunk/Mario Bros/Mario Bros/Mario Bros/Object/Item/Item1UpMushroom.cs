@@ -19,7 +19,7 @@ namespace Mario_Bros.Object.Item
             m_IDObject = IDObject.ITEM_SUPER_MUSHROOM;
             m_Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.ITEM_1UP_MUSHROOM));
             m_Status = IDStatus.UNACTIVATE;
-            m_Sprite.Depth = 0.1f;
+            m_Sprite.Depth = GlobalValue.ITEM_SPRITE_DEPTH;
             oldPosition = _Position;
         }
 

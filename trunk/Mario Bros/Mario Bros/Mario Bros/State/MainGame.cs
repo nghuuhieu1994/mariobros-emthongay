@@ -43,7 +43,7 @@ namespace Mario_Bros.State
         {
             GlobalValue.OBJECT_INDEX = 0;
             list = new List<CAnimationObject>();
-
+            GlobalValue.KillBoss = false;
             m_Map = "map" + GlobalSetting.m_IDLevel.ToString() + ".xml";
             World_Name = GlobalSetting.m_IDLevel.ToString() + "-1";
             map = new CMap(m_Map);
@@ -104,7 +104,16 @@ namespace Mario_Bros.State
             }
             cam.Update(Mario, map.m_WidthMap, map.m_HeightMap);
             quadTree.InsertListObjectView(cam.Rectangle, quadTree.RootNode);
-
+            if (GlobalValue.KillBoss)
+            {
+                for (int i = 0; i < list.Count; ++i)
+                {
+                    if (list[i].IDObject == IDObject.ENEMY_BOSS)
+                    {
+                        list[i].Status = IDStatus.DIE;
+                    }
+                }
+            }
             for (int i = 0; i < GlobalValue.List_Of_Bullet.Count; i++)
             {
                 GlobalValue.List_Of_Bullet[i].UpdateAnimation(gameTime, _Input);
@@ -198,6 +207,7 @@ namespace Mario_Bros.State
                     delayStage = 0;
                     GlobalValue.GET_FLAG = false;
                     GlobalSetting.m_IDLevel++;
+                    GlobalValue.MARIO_IDOBJECT = Mario.IDObject;
                     StateManager.getInst().ExitScreen();
                     StateManager.getInst().AddScreen(new LoadGame(IDGameState.LOAD));
                 }

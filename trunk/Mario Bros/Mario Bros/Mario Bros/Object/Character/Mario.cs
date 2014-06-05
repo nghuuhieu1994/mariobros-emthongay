@@ -126,11 +126,22 @@ namespace Mario_Bros.Object
             m_Status = IDStatus.MARIO_STAND;
             m_Velocity = Vector2.Zero;
             m_Accel = Vector2.Zero;
-            m_IDObject = IDObject.SMALL_MARIO;
+            m_IDObject = GlobalValue.MARIO_IDOBJECT;
             m_IsJumping = false;
             m_IsDuck = false;
             m_Random = new Random();
-            m_Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SMALL_MARIO));
+            if (IDObject == IDObject.SMALL_MARIO)
+            {
+                m_Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SMALL_MARIO)); 
+            }
+            if (IDObject == IDObject.SUPER_MARIO)
+            {
+                m_Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SUPER_MARIO));
+            }
+            if (IDObject == IDObject.FIRE_MARIO)
+            {
+                m_Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.FIRE_MARIO));
+            }
             SmallSprite = new List<CSprite>();
             BigSprite = new List<CSprite>();
             SmallSprite.Add(new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SMALL_MARIO_INVICIBILITY)));
@@ -999,6 +1010,7 @@ namespace Mario_Bros.Object
                                 SoundManager.PlaySound(ESound.SFX_FLAGPOLE);
                                 MediaPlayer.Stop();
                             }
+                            GlobalValue.KillBoss = true;
                             Status = IDStatus.MARIO_STRIPPED;
                             GlobalValue.IS_LOCK_KEYBOARD = true;
                             Accel = Vector2.Zero;
@@ -1211,6 +1223,10 @@ namespace Mario_Bros.Object
 
         public override void Draw(SpriteBatch _SpriteBatch)
         {
+            if (!GlobalValue.KillBoss)
+            {
+                Sprite.Depth = GlobalValue.MARIO_SPRITE_DEPTH; 
+            }
             DrawBullet(_SpriteBatch);
             base.Draw(_SpriteBatch);
         }
