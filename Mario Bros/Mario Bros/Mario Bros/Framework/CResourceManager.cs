@@ -752,7 +752,7 @@ namespace Mario_Bros.Framework
                 case IDResource.FIRE_MARIO:
                     return Sprite_Fire_Mario;
                 #endregion
-                #region Code Danh
+                #region State
                 case IDResource.INTRO_1:
                     return m_Intro1;
                 case IDResource.INTRO_2:
@@ -796,7 +796,7 @@ namespace Mario_Bros.Framework
                 case IDResource.ABOUTBG:
                     return m_BGAbout;
                 default:
-                    return null; 
+                    return null;
                 #endregion
             }
         }
