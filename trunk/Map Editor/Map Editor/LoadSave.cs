@@ -131,7 +131,7 @@ namespace Map_Editor
                                                   idCount++,
                                                   (int)EObjectName.ITEM_COIN_ACTIVATED,
                                                   new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
-                                                  true);
+                                                  false);
                                     qGameObjects.Add(o2);
                                  break;
                                 case EObjectName.BRICK_FLOWER:
@@ -139,7 +139,7 @@ namespace Map_Editor
                                               idCount++,
                                               (int)EObjectName.ITEM_FIRE_FLOWER,
                                               new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
-                                              true);
+                                              false);
                                  qGameObjects.Add(o2);
                                  break;
                                 case EObjectName.BRICK_SUPPERMUSHROOM:
@@ -147,7 +147,7 @@ namespace Map_Editor
                                            idCount++,
                                            (int)EObjectName.ITEM_SUPER_MUSHROOM,
                                            new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
-                                           true);
+                                           false);
                                  qGameObjects.Add(o2);
                                  break;
                                 case EObjectName.BRICK_1UPMUSHROOM:
@@ -155,7 +155,7 @@ namespace Map_Editor
                                            idCount++,
                                            (int)EObjectName.ITEM_1UP_MUSHROOM,
                                            new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
-                                           true);
+                                           false);
                                  qGameObjects.Add(o2);
                                  break;
                                 case EObjectName.BRICK_STAR:
@@ -163,7 +163,7 @@ namespace Map_Editor
                                            idCount++,
                                            (int)EObjectName.ITEM_STARMAN,
                                            new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
-                                           true);
+                                           false);
                                  qGameObjects.Add(o2);
                                  break; 
                                 case EObjectName.BRICK_QUESTION_ITEM:
@@ -171,7 +171,7 @@ namespace Map_Editor
                                            idCount++,
                                            (int)EObjectName.ITEM_GROW_UP,
                                            new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
-                                           true);
+                                           false);
                                  qGameObjects.Add(o2);
                                  break; 
                                 default:
@@ -184,7 +184,7 @@ namespace Map_Editor
                                                      idCount++,
                                                      (int)i.Tag,
                                                      new Rectangle((int)Canvas.GetLeft(i), (int)Canvas.GetTop(i), (int)i.Width, (int)i.Height),
-                                                     true);
+                                                     false);
                             qGameObjects.Add(o1);
                         }
                         else

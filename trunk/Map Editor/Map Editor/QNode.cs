@@ -24,7 +24,7 @@ namespace Map_Editor
     {
         public static QMode Mode = QMode.DRAW;
 
-        private const int MEDIUM_NODE_SIZE = 500;
+        private const int MEDIUM_NODE_SIZE = 400;
 
         private const int MIN_NODE_SIZE = MEDIUM_NODE_SIZE / 4;
         private const int MIN_SIZE_IN_INTERSECT = 3; // 3 pixels
@@ -148,7 +148,7 @@ namespace Map_Editor
 
     public class QGameObject
     {
-        private const int MAX_RANGE_OF_MOVEMENT = 2000;
+        private const int MAX_RANGE_OF_MOVEMENT = 1000;
 
         private int Id;
         private int type;
