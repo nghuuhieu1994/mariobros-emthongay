@@ -57,7 +57,7 @@ namespace Mario_Bros.State
             //StateManager.StringDrawer(World_Name, new Vector2(205, 8), SB, Color.White);
             StateManager.StringDrawer("TIME", new Vector2(336, 0), SB, Color.White);
             //StateManager.StringDrawer(((int)(MathHelper.Clamp(GlobalValue.TIME_LEFT, 0, 400))).ToString(), new Vector2(340, 8), SB, Color.White);
-            StateManager.StringDrawer("YOU WIN!", new Vector2(150, 10), SB, Color.White);
+            StateManager.StringDrawer("YOU WIN!", new Vector2(150, 50), SB, Color.White);
             StateManager.StringDrawer(GlobalValue.MARIO_COIN.ToString().PadLeft(2, '0'), new Vector2(162, 9), SB, Color.White);
             Icon.Draw(SB);
             SB.End();
