@@ -27,8 +27,31 @@ namespace Mario_Bros.State
             MediaPlayer.IsRepeating = true;
         }
 
+        void Reset()
+        {
+          GlobalValue.MARIO_LIFE = 3;
+          GlobalValue.MARIO_COIN = 0;
+          GlobalValue.MARIO_PLAYED_TIME = 400;
+          GlobalValue.MARIO_SCORE = 100;
+          GlobalValue.GET_FLAG = false;
+          GlobalValue.WORLD_FREEZE_TIME = 1500;
+          GlobalValue.IS_WORLD_FREEZE = false;
+          GlobalValue.IS_LOCK_KEYBOARD = false;
+          GlobalValue.TRANSFORM_TIME = 1500;
+          GlobalValue.INVINCIBLE_TIME = 8000;
+          GlobalValue.TELEPORT_TIME = 1000;
+          GlobalValue.IS_GO_DOWN = false;
+          GlobalValue.IS_GO_UP = false;
+          GlobalValue.OBJECT_INDEX = 0;
+          GlobalValue.List_Of_Bullet = new List<CAnimationObject>();
+          GlobalValue.KillBoss = false;
+          GlobalValue.MARIO_IDOBJECT = IDObject.SMALL_MARIO;
+          GlobalSetting.m_IDLevel = 0;
+        }
+
         public override void InitState(Microsoft.Xna.Framework.Content.ContentManager CM)
         {
+            Reset();
             m_ListButtons.Add(new BtnNewGame(IDResource.NEWGAME_Btn, new Vector2(95, 125)));
             m_ListButtons.Add(new BtnOption(IDResource.OPTION_Btn, new Vector2(95, 150)));
             m_ListButtons.Add(new BtnAbout(IDResource.ABOUT_Btn, new Vector2(205, 125)));
