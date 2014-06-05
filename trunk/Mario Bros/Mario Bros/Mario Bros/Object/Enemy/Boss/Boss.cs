@@ -200,10 +200,10 @@ namespace Mario_Bros.Object.Enemy.Boss
 
         public override void Draw(SpriteBatch _SpriteBatch)
         {
-            //for (int i = 0; i < List_Of_Bullet.Count; i++)
-            //{
-            //    List_Of_Bullet[i].Draw(_SpriteBatch);
-            //}
+            for (int i = 0; i < GlobalValue.List_Of_Bullet.Count; i++)
+            {
+                GlobalValue.List_Of_Bullet[i].Draw(_SpriteBatch);
+            }
             base.Draw(_SpriteBatch);
         }
     }
