@@ -97,6 +97,18 @@ namespace Mario_Bros.Object
                             break;
                         }
                         break;
+                    case IDObject.ENEMY_BOSS:
+                        if (CheckCollision(_Object) == DirectCollision.TOP || CheckCollision(_Object) == DirectCollision.BOTTOM || CheckCollision(_Object) == DirectCollision.RIGHT || CheckCollision(_Object) == DirectCollision.LEFT && _Object.Status != IDStatus.SHOOTED)
+                        {
+                            if (!isContact)
+                            {
+	                            SoundManager.PlaySound(ESound.SFX_KICK);
+                                isContact = true;
+                            }
+                            Status = IDStatus.DIE;
+                            break;
+                        }
+                        break;
                     default:
                         break;
                 }
