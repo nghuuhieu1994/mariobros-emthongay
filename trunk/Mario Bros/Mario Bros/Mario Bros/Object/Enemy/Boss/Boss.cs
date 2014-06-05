@@ -185,6 +185,7 @@ namespace Mario_Bros.Object.Enemy.Boss
                     case IDObject.FIRE_MARIO:
                     case IDObject.SMALL_MARIO:
                     case IDObject.SUPER_MARIO:
+                    case IDObject.BULLET:
                         if (CheckCollision(_Object) == DirectCollision.BOTTOM && _Object.Status != IDStatus.DIE)
                         {
                             Boss_Heath_Point -= 200;
