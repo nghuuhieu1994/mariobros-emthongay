@@ -78,6 +78,7 @@ namespace Mario_Bros.Object.Enemy
 
         public override void UpdateMovement(GameTime _GameTime, CInput _Input)
         {
+			Sprite.Depth = GlobalValue.ENEMY_SPRITE_DEPTH;
             // Gia tốc trọng trường
             if (m_Status == IDStatus.ALIVE)
             {
