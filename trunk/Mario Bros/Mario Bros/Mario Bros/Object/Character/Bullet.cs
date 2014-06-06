@@ -50,9 +50,20 @@ namespace Mario_Bros.Object
                 switch (_Object.IDObject)
                 {
                     case IDObject.MISC_BASE_BRICK:
+                    case IDObject.MISC_GATE_PIPE:
+                    case IDObject.MISC_STOCK_PIPE:
+                    case IDObject.MISC_UP_PIPE:
+                    case IDObject.MISC_SOFT_BRICK:
+                    case IDObject.MISC_HARD_BRICK:
                         if (CheckCollision(_Object) == DirectCollision.TOP)
                         {
                             m_Velocity.Y = -0.1f;
+                            break;
+                        }
+                        if (CheckCollision(_Object) == DirectCollision.RIGHT || CheckCollision(_Object) == DirectCollision.LEFT)
+                        {
+                            Status = IDStatus.DIE;
+                            break;
                         }
                         break;
                     case IDObject.ENEMY_KOOPA_OW:
@@ -70,25 +81,25 @@ namespace Mario_Bros.Object
                             break;
                         }
                         break;
-                    case IDObject.MISC_HARD_BRICK:
-                        if (CheckCollision(_Object) == DirectCollision.RIGHT || CheckCollision(_Object) == DirectCollision.LEFT)
-                        {
-                            Status = IDStatus.DIE;
-                            break;
-                        }
-                        if (CheckCollision(_Object) == DirectCollision.TOP)
-                        {
-                            m_Velocity.Y = -0.1f;
-                            break;
-                        }
-                        break;
-                    case IDObject.MISC_STOCK_PIPE:
-                        if (CheckCollision(_Object) == DirectCollision.RIGHT || CheckCollision(_Object) == DirectCollision.LEFT || CheckCollision(_Object) == DirectCollision.TOP)
-                        {
-                            Status = IDStatus.DIE;
-                            break;
-                        }
-                        break;
+                    //case IDObject.MISC_HARD_BRICK:
+                    //    if (CheckCollision(_Object) == DirectCollision.RIGHT || CheckCollision(_Object) == DirectCollision.LEFT)
+                    //    {
+                    //        Status = IDStatus.DIE;
+                    //        break;
+                    //    }
+                    //    if (CheckCollision(_Object) == DirectCollision.TOP)
+                    //    {
+                    //        m_Velocity.Y = -0.1f;
+                    //        break;
+                    //    }
+                    //    break;
+                    //case IDObject.MISC_STOCK_PIPE:
+                    //    if (CheckCollision(_Object) == DirectCollision.RIGHT || CheckCollision(_Object) == DirectCollision.LEFT || CheckCollision(_Object) == DirectCollision.TOP)
+                    //    {
+                    //        Status = IDStatus.DIE;
+                    //        break;
+                    //    }
+                    //    break;
                     case IDObject.ENEMY_BOSS:
                         if (CheckCollision(_Object) == DirectCollision.TOP || CheckCollision(_Object) == DirectCollision.BOTTOM || CheckCollision(_Object) == DirectCollision.RIGHT || CheckCollision(_Object) == DirectCollision.LEFT && _Object.Status != IDStatus.SHOOTED)
                         {
