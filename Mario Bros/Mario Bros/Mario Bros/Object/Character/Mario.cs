@@ -132,7 +132,7 @@ namespace Mario_Bros.Object
             m_Random = new Random();
             if (IDObject == IDObject.SMALL_MARIO)
             {
-                m_Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SMALL_MARIO)); 
+                m_Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SMALL_MARIO));
             }
             if (IDObject == IDObject.SUPER_MARIO)
             {
@@ -207,6 +207,7 @@ namespace Mario_Bros.Object
             //Mario lên bàn thờ
             if (m_Status == IDStatus.DIE)
             {
+                Sprite = new CSprite(CResourceManager.GetInstance().GetResource(IDResource.SMALL_MARIO));
                 Sprite.Animation.CurFrame = 6;
             }
 

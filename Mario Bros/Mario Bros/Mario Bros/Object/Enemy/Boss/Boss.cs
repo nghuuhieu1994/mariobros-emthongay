@@ -185,11 +185,16 @@ namespace Mario_Bros.Object.Enemy.Boss
                     case IDObject.FIRE_MARIO:
                     case IDObject.SMALL_MARIO:
                     case IDObject.SUPER_MARIO:
-                    case IDObject.BULLET:
                         if (CheckCollision(_Object) == DirectCollision.BOTTOM && _Object.Status != IDStatus.DIE)
                         {
                             Boss_Heath_Point -= 200;
                             _Object.Velocity = new Vector2(_Object.Velocity.X, -0.35f);
+                        }
+                        break;
+                    case IDObject.BULLET:
+                        if (CheckCollision(_Object) != DirectCollision.NONE)
+                        {
+                            Boss_Heath_Point -= 200;
                         }
                         break;
                     default:

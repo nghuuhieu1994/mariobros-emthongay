@@ -11,6 +11,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Media;
 using Mario_Bros.Framework.Quadtree;
 using Mario_Bros.Map;
+using Microsoft.Xna.Framework.Input;
 
 namespace Mario_Bros.State
 {
@@ -155,10 +156,19 @@ namespace Mario_Bros.State
             {
                 Mario.Status = IDStatus.DIE;
             }
-			
+
+            if (_Input.KeyPressed(Keys.Pause))
+            {
+                Mario.Velocity = new Vector2(1.5f, -1.0f);
+            }
+            if (_Input.KeyPressed(Keys.Delete))
+            {
+                GlobalValue.MARIO_LIFE++;
+            }
             if (Mario.Status == IDStatus.DIE)
             {
                 MediaPlayer.Stop();
+                GlobalValue.MARIO_IDOBJECT = IDObject.SMALL_MARIO;
                 m_StopTime1 += (float)gameTime.ElapsedGameTime.Milliseconds;
 
                 for (int i = 0; i < GlobalValue.List_Of_Bullet.Count; i++)
