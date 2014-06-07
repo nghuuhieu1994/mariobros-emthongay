@@ -17,7 +17,7 @@ namespace Mario_Bros.Framework
         public static int SCREEN_HEIGHT = 224;
         public static int MARIO_LIFE = 3;
         public static int MARIO_COIN = 0;
-        public static float MARIO_PLAYED_TIME = 400;
+        public static float MARIO_PLAYED_TIME = 210;
         public static int MARIO_SCORE = 100;
         public static float TIME_LEFT;
         public static bool GET_FLAG = false;
