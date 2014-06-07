@@ -39,6 +39,10 @@ namespace Mario_Bros.State
                 StateManager.getInst().AddScreen(new MainGame(IDGameState.MAINGAME));
             }
             GlobalValue.IS_LOCK_KEYBOARD = false;
+            if (_Input.KeyPressed(Keys.Delete))
+            {
+                GlobalValue.MARIO_LIFE++;
+            }
             base.HandleInput(gameTime, _Input);
         }
         public override void Update(GameTime gameTime)

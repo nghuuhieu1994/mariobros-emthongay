@@ -67,16 +67,16 @@ namespace Mario_Bros.State
             if (Mario.Status != IDStatus.MARIO_STOP)
             {
                 PlayedTime += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
-                GlobalValue.TIME_LEFT = (int)(400 - PlayedTime / 1000);
+                GlobalValue.TIME_LEFT = (int)(210 - PlayedTime / 1000);
             }
 
-            if (PlayedTime > 340000 && !IsWarning)
+            if (PlayedTime > 180000 && !IsWarning)
             {
                 SoundManager.PlaySound(ESound.SFX_WARNING);
                 IsWarning = true;
             }
 
-            if (PlayedTime > 400000)
+            if (PlayedTime > 210000)
             {
                 --GlobalValue.MARIO_LIFE;
                 StateManager.getInst().ExitScreen();
@@ -98,11 +98,6 @@ namespace Mario_Bros.State
                 }
             }
 
-            if (Mario.Position.X > 558)
-            {
-                int x;
-                x = 10;
-            }
             cam.Update(Mario, map.m_WidthMap, map.m_HeightMap);
             quadTree.InsertListObjectView(cam.Rectangle, quadTree.RootNode);
             if (GlobalValue.KillBoss)
@@ -160,10 +155,6 @@ namespace Mario_Bros.State
             if (_Input.KeyPressed(Keys.Pause))
             {
                 Mario.Velocity = new Vector2(1.5f, -1.0f);
-            }
-            if (_Input.KeyPressed(Keys.Delete))
-            {
-                GlobalValue.MARIO_LIFE++;
             }
             if (Mario.Status == IDStatus.DIE)
             {

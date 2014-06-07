@@ -31,7 +31,7 @@ namespace Mario_Bros.State
         {
           GlobalValue.MARIO_LIFE = 3;
           GlobalValue.MARIO_COIN = 0;
-          GlobalValue.MARIO_PLAYED_TIME = 400;
+          GlobalValue.MARIO_PLAYED_TIME = 210;
           GlobalValue.MARIO_SCORE = 100;
           GlobalValue.GET_FLAG = false;
           GlobalValue.WORLD_FREEZE_TIME = 1500;
