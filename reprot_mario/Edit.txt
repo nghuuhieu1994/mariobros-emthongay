@@ -1,0 +1,4 @@
+- Thêm flow Game: so do cua cac stategame
+- Thêm hình screen shoot: Maingame, loseGame.. trong phan giao dien.
+- Het roi.
+- yeu Left & Right nhiu :3
