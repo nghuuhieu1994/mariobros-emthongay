@@ -1,0 +1,1273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Font\font.spritefont</Source>
+      <Name>Font\font</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Font\font.xnb</Output>
+      <Time>2014-06-15T10:39:22.2897095+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Intro\Intro_Gameuit.png</Source>
+      <Name>Image\Game State Image\Intro\Intro_Gameuit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Intro\Intro_Gameuit.xnb</Output>
+      <Time>2014-06-15T10:39:22.2247019+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Intro\BG.png</Source>
+      <Name>Image\Game State Image\Intro\BG</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Intro\BG.xnb</Output>
+      <Time>2014-06-15T10:39:22.225702+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Menu\BGMenu.png</Source>
+      <Name>Image\Game State Image\Menu\BGMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Menu\BGMenu.xnb</Output>
+      <Time>2014-06-15T10:39:19.6193686+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Menu\btn_About.png</Source>
+      <Name>Image\Game State Image\Menu\btn_About</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Menu\btn_About.xnb</Output>
+      <Time>2014-06-15T10:39:19.6213683+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Menu\btn_About_Act.png</Source>
+      <Name>Image\Game State Image\Menu\btn_About_Act</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Menu\btn_About_Act.xnb</Output>
+      <Time>2014-06-15T10:39:19.6263681+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Menu\btn_Exit.png</Source>
+      <Name>Image\Game State Image\Menu\btn_Exit</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Menu\btn_Exit.xnb</Output>
+      <Time>2014-06-15T10:39:19.6183685+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Menu\btn_Exit_Act.png</Source>
+      <Name>Image\Game State Image\Menu\btn_Exit_Act</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Menu\btn_Exit_Act.xnb</Output>
+      <Time>2014-06-15T10:39:19.6233688+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Menu\btn_newGame.png</Source>
+      <Name>Image\Game State Image\Menu\btn_newGame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Menu\btn_newGame.xnb</Output>
+      <Time>2014-06-15T10:39:19.6273694+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Menu\btn_newGame_Act.png</Source>
+      <Name>Image\Game State Image\Menu\btn_newGame_Act</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Menu\btn_newGame_Act.xnb</Output>
+      <Time>2014-06-15T10:39:19.6203686+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Menu\btn_Option.png</Source>
+      <Name>Image\Game State Image\Menu\btn_Option</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Menu\btn_Option.xnb</Output>
+      <Time>2014-06-15T10:39:19.6303708+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Menu\btn_Option_Act.png</Source>
+      <Name>Image\Game State Image\Menu\btn_Option_Act</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Menu\btn_Option_Act.xnb</Output>
+      <Time>2014-06-15T10:39:19.62237+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Menu\Icon.png</Source>
+      <Name>Image\Game State Image\Menu\Icon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Menu\Icon.xnb</Output>
+      <Time>2014-06-15T10:39:19.6283699+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Intro\Intro_SV.png</Source>
+      <Name>Image\Game State Image\Intro\Intro_SV</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Intro\Intro_SV.xnb</Output>
+      <Time>2014-06-15T10:39:22.2237019+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\About\BGAbout.png</Source>
+      <Name>Image\Game State Image\About\BGAbout</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\About\BGAbout.xnb</Output>
+      <Time>2014-06-15T10:39:21.0325489+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Option\BG_Option.png</Source>
+      <Name>Image\Game State Image\Option\BG_Option</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Option\BG_Option.xnb</Output>
+      <Time>2014-06-15T10:39:20.88453+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Option\BG_Sounds_Act.png</Source>
+      <Name>Image\Game State Image\Option\BG_Sounds_Act</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Option\BG_Sounds_Act.xnb</Output>
+      <Time>2014-06-15T10:39:20.8905311+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Option\Eff_Sounds_Act.png</Source>
+      <Name>Image\Game State Image\Option\Eff_Sounds_Act</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Option\Eff_Sounds_Act.xnb</Output>
+      <Time>2014-06-15T10:39:20.88553+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Option\ReturnMenu.png</Source>
+      <Name>Image\Game State Image\Option\ReturnMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Option\ReturnMenu.xnb</Output>
+      <Time>2014-06-15T10:39:20.8895303+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Option\BG_Sounds.png</Source>
+      <Name>Image\Game State Image\Option\BG_Sounds</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Option\BG_Sounds.xnb</Output>
+      <Time>2014-06-15T10:39:20.8865305+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Option\Eff_Sounds.png</Source>
+      <Name>Image\Game State Image\Option\Eff_Sounds</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Option\Eff_Sounds.xnb</Output>
+      <Time>2014-06-15T10:39:20.8915312+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Option\ReturnMenu_Act.png</Source>
+      <Name>Image\Game State Image\Option\ReturnMenu_Act</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Option\ReturnMenu_Act.xnb</Output>
+      <Time>2014-06-15T10:39:20.8925316+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\BaseBrick-16-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\BaseBrick-16-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\BaseBrick-16-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.2171892+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Mario\MarioFire-144-32.png</Source>
+      <Name>Image\Game Image\Mario\MarioFire-144-32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Mario\MarioFire-144-32.xnb</Output>
+      <Time>2014-06-15T10:39:18.6742471+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Mario\MarioSmall-144-16.png</Source>
+      <Name>Image\Game Image\Mario\MarioSmall-144-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Mario\MarioSmall-144-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.6892495+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Mario\MarioSuper-144-32.png</Source>
+      <Name>Image\Game Image\Mario\MarioSuper-144-32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Mario\MarioSuper-144-32.xnb</Output>
+      <Time>2014-06-15T10:39:18.669246+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Load\SpriteFont-208-8.png</Source>
+      <Name>Image\Game State Image\Load\SpriteFont-208-8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Load\SpriteFont-208-8.xnb</Output>
+      <Time>2014-06-15T10:39:19.0782989+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\BrickIron-16-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\BrickIron-16-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\BrickIron-16-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.2421934+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\BrickQuestion-64-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\BrickQuestion-64-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\BrickQuestion-64-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.2181889+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Item\ItemActivatedCoin-64-16.png</Source>
+      <Name>Image\Game Image\Item\ItemActivatedCoin-64-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Item\ItemActivatedCoin-64-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.9942895+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Item\ItemNormalCoin-64-16.png</Source>
+      <Name>Image\Game Image\Item\ItemNormalCoin-64-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Item\ItemNormalCoin-64-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.9952895+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Item\Item1UpMushroom-16-16.png</Source>
+      <Name>Image\Game Image\Item\Item1UpMushroom-16-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Item\Item1UpMushroom-16-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.993289+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Item\ItemFireFlower-64-16.png</Source>
+      <Name>Image\Game Image\Item\ItemFireFlower-64-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Item\ItemFireFlower-64-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.9872875+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Item\ItemSuperMushroom-16-16.png</Source>
+      <Name>Image\Game Image\Item\ItemSuperMushroom-16-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Item\ItemSuperMushroom-16-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.9882879+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Item\ItemStarman-64-16.png</Source>
+      <Name>Image\Game Image\Item\ItemStarman-64-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Item\ItemStarman-64-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.989288+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Enemy\Koopa-96-24-OW.png</Source>
+      <Name>Image\Game Image\Enemy\Koopa-96-24-OW</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Enemy\Koopa-96-24-OW.xnb</Output>
+      <Time>2014-06-15T10:39:18.839269+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Enemy\GoomBa-48-16-OW.png</Source>
+      <Name>Image\Game Image\Enemy\GoomBa-48-16-OW</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Enemy\GoomBa-48-16-OW.xnb</Output>
+      <Time>2014-06-15T10:39:18.8372685+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\GameOver\GameOver.png</Source>
+      <Name>Image\Game State Image\GameOver\GameOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\GameOver\GameOver.xnb</Output>
+      <Time>2014-06-15T10:39:19.7013795+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\BrickSoft-16-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\BrickSoft-16-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\BrickSoft-16-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.2191889+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\MiscPiece-1-16-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\MiscPiece-1-16-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\MiscPiece-1-16-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.2261901+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\MiscPiece-2-16-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\MiscPiece-2-16-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\MiscPiece-2-16-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.2301907+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\PipeGate-32-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\PipeGate-32-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\PipeGate-32-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.22419+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\PipeStock-32-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\PipeStock-32-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\PipeStock-32-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.2291907+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\PipeUp-62-32.png</Source>
+      <Name>Image\Game Image\Miscellaneous\PipeUp-62-32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\PipeUp-62-32.xnb</Output>
+      <Time>2014-06-15T10:39:18.2311912+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\BigGrass-64-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\BigGrass-64-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\BigGrass-64-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.2321921+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\BigMountain-80-35.png</Source>
+      <Name>Image\Game Image\Miscellaneous\BigMountain-80-35</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\BigMountain-80-35.xnb</Output>
+      <Time>2014-06-15T10:39:18.2401925+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\MediumGrass-48-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\MediumGrass-48-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\MediumGrass-48-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.2161892+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\MediumMountain-48-24.png</Source>
+      <Name>Image\Game Image\Miscellaneous\MediumMountain-48-24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\MediumMountain-48-24.xnb</Output>
+      <Time>2014-06-15T10:39:18.2281902+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\SmallGrass-32-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\SmallGrass-32-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\SmallGrass-32-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.2341922+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\HardBrick-16-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\HardBrick-16-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\HardBrick-16-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.2201898+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Enemy\HideKoopa-32-16-OW.png</Source>
+      <Name>Image\Game Image\Enemy\HideKoopa-32-16-OW</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Enemy\HideKoopa-32-16-OW.xnb</Output>
+      <Time>2014-06-15T10:39:18.8332678+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Mario\BulletMario-16-16.png</Source>
+      <Name>Image\Game Image\Mario\BulletMario-16-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Mario\BulletMario-16-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.6752471+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Load\LoadGame.png</Source>
+      <Name>Image\Game State Image\Load\LoadGame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Load\LoadGame.xnb</Output>
+      <Time>2014-06-15T10:39:19.0812998+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Load\SpriteNumber-80-8.png</Source>
+      <Name>Image\Game State Image\Load\SpriteNumber-80-8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Load\SpriteNumber-80-8.xnb</Output>
+      <Time>2014-06-15T10:39:19.0822995+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\A.png</Source>
+      <Name>Image\Game State Image\Font\Letter\A</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\A.xnb</Output>
+      <Time>2014-06-15T10:39:20.8115208+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\B.png</Source>
+      <Name>Image\Game State Image\Font\Letter\B</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\B.xnb</Output>
+      <Time>2014-06-15T10:39:20.8125208+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\C.png</Source>
+      <Name>Image\Game State Image\Font\Letter\C</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\C.xnb</Output>
+      <Time>2014-06-15T10:39:20.8145214+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\D.png</Source>
+      <Name>Image\Game State Image\Font\Letter\D</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\D.xnb</Output>
+      <Time>2014-06-15T10:39:20.8155214+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\E.png</Source>
+      <Name>Image\Game State Image\Font\Letter\E</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\E.xnb</Output>
+      <Time>2014-06-15T10:39:20.816521+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\F.png</Source>
+      <Name>Image\Game State Image\Font\Letter\F</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\F.xnb</Output>
+      <Time>2014-06-15T10:39:20.8175207+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\G.png</Source>
+      <Name>Image\Game State Image\Font\Letter\G</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\G.xnb</Output>
+      <Time>2014-06-15T10:39:20.8185212+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\H.png</Source>
+      <Name>Image\Game State Image\Font\Letter\H</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\H.xnb</Output>
+      <Time>2014-06-15T10:39:20.8195212+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\I.png</Source>
+      <Name>Image\Game State Image\Font\Letter\I</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\I.xnb</Output>
+      <Time>2014-06-15T10:39:20.8205217+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\J.png</Source>
+      <Name>Image\Game State Image\Font\Letter\J</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\J.xnb</Output>
+      <Time>2014-06-15T10:39:20.8215213+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\K.png</Source>
+      <Name>Image\Game State Image\Font\Letter\K</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\K.xnb</Output>
+      <Time>2014-06-15T10:39:20.8225218+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\L.png</Source>
+      <Name>Image\Game State Image\Font\Letter\L</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\L.xnb</Output>
+      <Time>2014-06-15T10:39:20.8235218+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\M.png</Source>
+      <Name>Image\Game State Image\Font\Letter\M</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\M.xnb</Output>
+      <Time>2014-06-15T10:39:20.4844792+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\N.png</Source>
+      <Name>Image\Game State Image\Font\Letter\N</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\N.xnb</Output>
+      <Time>2014-06-15T10:39:20.4854793+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\O.png</Source>
+      <Name>Image\Game State Image\Font\Letter\O</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\O.xnb</Output>
+      <Time>2014-06-15T10:39:20.4864794+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\P.png</Source>
+      <Name>Image\Game State Image\Font\Letter\P</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\P.xnb</Output>
+      <Time>2014-06-15T10:39:20.7665151+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\Q.png</Source>
+      <Name>Image\Game State Image\Font\Letter\Q</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\Q.xnb</Output>
+      <Time>2014-06-15T10:39:20.7675148+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\R.png</Source>
+      <Name>Image\Game State Image\Font\Letter\R</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\R.xnb</Output>
+      <Time>2014-06-15T10:39:20.7685148+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\S.png</Source>
+      <Name>Image\Game State Image\Font\Letter\S</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\S.xnb</Output>
+      <Time>2014-06-15T10:39:20.7695145+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\T.png</Source>
+      <Name>Image\Game State Image\Font\Letter\T</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\T.xnb</Output>
+      <Time>2014-06-15T10:39:20.7705149+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\U.png</Source>
+      <Name>Image\Game State Image\Font\Letter\U</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\U.xnb</Output>
+      <Time>2014-06-15T10:39:20.7725158+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\V.png</Source>
+      <Name>Image\Game State Image\Font\Letter\V</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\V.xnb</Output>
+      <Time>2014-06-15T10:39:20.7735167+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\W.png</Source>
+      <Name>Image\Game State Image\Font\Letter\W</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\W.xnb</Output>
+      <Time>2014-06-15T10:39:20.7745155+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\X.png</Source>
+      <Name>Image\Game State Image\Font\Letter\X</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\X.xnb</Output>
+      <Time>2014-06-15T10:39:20.7765152+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\Y.png</Source>
+      <Name>Image\Game State Image\Font\Letter\Y</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\Y.xnb</Output>
+      <Time>2014-06-15T10:39:20.7775165+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\Z.png</Source>
+      <Name>Image\Game State Image\Font\Letter\Z</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\Z.xnb</Output>
+      <Time>2014-06-15T10:39:20.7785174+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Load\IconCoin-24-8.png</Source>
+      <Name>Image\Game State Image\Load\IconCoin-24-8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Load\IconCoin-24-8.xnb</Output>
+      <Time>2014-06-15T10:39:19.0803006+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\0.png</Source>
+      <Name>Image\Game State Image\Font\Letter\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\0.xnb</Output>
+      <Time>2014-06-15T10:39:20.779517+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\1.png</Source>
+      <Name>Image\Game State Image\Font\Letter\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\1.xnb</Output>
+      <Time>2014-06-15T10:39:20.7805167+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\2.png</Source>
+      <Name>Image\Game State Image\Font\Letter\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\2.xnb</Output>
+      <Time>2014-06-15T10:39:20.7815171+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\3.png</Source>
+      <Name>Image\Game State Image\Font\Letter\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\3.xnb</Output>
+      <Time>2014-06-15T10:39:20.7865178+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\4.png</Source>
+      <Name>Image\Game State Image\Font\Letter\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\4.xnb</Output>
+      <Time>2014-06-15T10:39:20.7875183+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\5.png</Source>
+      <Name>Image\Game State Image\Font\Letter\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\5.xnb</Output>
+      <Time>2014-06-15T10:39:20.7895184+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\6.png</Source>
+      <Name>Image\Game State Image\Font\Letter\6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\6.xnb</Output>
+      <Time>2014-06-15T10:39:20.7905176+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\7.png</Source>
+      <Name>Image\Game State Image\Font\Letter\7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\7.xnb</Output>
+      <Time>2014-06-15T10:39:20.7915173+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\8.png</Source>
+      <Name>Image\Game State Image\Font\Letter\8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\8.xnb</Output>
+      <Time>2014-06-15T10:39:20.8095199+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Letter\9.png</Source>
+      <Name>Image\Game State Image\Font\Letter\9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Letter\9.xnb</Output>
+      <Time>2014-06-15T10:39:20.8105207+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\Flag-16-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\Flag-16-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\Flag-16-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.2361919+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\GoalPole-16-136.png</Source>
+      <Name>Image\Game Image\Miscellaneous\GoalPole-16-136</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\GoalPole-16-136.xnb</Output>
+      <Time>2014-06-15T10:39:18.2151891+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\Castle-80-80.png</Source>
+      <Name>Image\Game Image\Miscellaneous\Castle-80-80</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\Castle-80-80.xnb</Output>
+      <Time>2014-06-15T10:39:18.239192+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Mario\BigMarioInvincibility-144-32.png</Source>
+      <Name>Image\Game Image\Mario\BigMarioInvincibility-144-32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Mario\BigMarioInvincibility-144-32.xnb</Output>
+      <Time>2014-06-15T10:39:18.6672459+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Mario\BigMarioInvincibility2-144-32.png</Source>
+      <Name>Image\Game Image\Mario\BigMarioInvincibility2-144-32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Mario\BigMarioInvincibility2-144-32.xnb</Output>
+      <Time>2014-06-15T10:39:18.6702477+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Mario\BigMarioInvincibility3-144-32.png</Source>
+      <Name>Image\Game Image\Mario\BigMarioInvincibility3-144-32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Mario\BigMarioInvincibility3-144-32.xnb</Output>
+      <Time>2014-06-15T10:39:18.6722466+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Mario\SmallMarioInvincibility-144-16.png</Source>
+      <Name>Image\Game Image\Mario\SmallMarioInvincibility-144-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Mario\SmallMarioInvincibility-144-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.6762476+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Mario\SmallMarioInvincibility2-144-16.png</Source>
+      <Name>Image\Game Image\Mario\SmallMarioInvincibility2-144-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Mario\SmallMarioInvincibility2-144-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.6772481+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Mario\SmallMarioInvincibility3-144-16.png</Source>
+      <Name>Image\Game Image\Mario\SmallMarioInvincibility3-144-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Mario\SmallMarioInvincibility3-144-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.6882495+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\CastleStarFlag-16-16.png</Source>
+      <Name>Image\Game Image\Miscellaneous\CastleStarFlag-16-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\CastleStarFlag-16-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.2271902+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Punctuation\CopyRight.png</Source>
+      <Name>Image\Game State Image\Font\Punctuation\CopyRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Punctuation\CopyRight.xnb</Output>
+      <Time>2014-06-15T10:39:20.8505261+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Punctuation\Dash.png</Source>
+      <Name>Image\Game State Image\Font\Punctuation\Dash</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Punctuation\Dash.xnb</Output>
+      <Time>2014-06-15T10:39:20.8465243+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Punctuation\Exclamation.png</Source>
+      <Name>Image\Game State Image\Font\Punctuation\Exclamation</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Punctuation\Exclamation.xnb</Output>
+      <Time>2014-06-15T10:39:20.8495257+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game State Image\Font\Punctuation\Multi.png</Source>
+      <Name>Image\Game State Image\Font\Punctuation\Multi</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game State Image\Font\Punctuation\Multi.xnb</Output>
+      <Time>2014-06-15T10:39:20.8515262+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\Firework-16-48.png</Source>
+      <Name>Image\Game Image\Miscellaneous\Firework-16-48</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\Firework-16-48.xnb</Output>
+      <Time>2014-06-15T10:39:18.2251905+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\BigClound-64-24.png</Source>
+      <Name>Image\Game Image\Miscellaneous\BigClound-64-24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\BigClound-64-24.xnb</Output>
+      <Time>2014-06-15T10:39:18.2351922+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\MediumClound-48-24.png</Source>
+      <Name>Image\Game Image\Miscellaneous\MediumClound-48-24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\MediumClound-48-24.xnb</Output>
+      <Time>2014-06-15T10:39:18.2211907+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Miscellaneous\SmallClound-32-24.png</Source>
+      <Name>Image\Game Image\Miscellaneous\SmallClound-32-24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Miscellaneous\SmallClound-32-24.xnb</Output>
+      <Time>2014-06-15T10:39:18.237194+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Enemy\BossBullet-24-16.png</Source>
+      <Name>Image\Game Image\Enemy\BossBullet-24-16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Enemy\BossBullet-24-16.xnb</Output>
+      <Time>2014-06-15T10:39:18.8382685+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Image\Game Image\Enemy\BossGreen-128-32.png</Source>
+      <Name>Image\Game Image\Enemy\BossGreen-128-32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Image\Game Image\Enemy\BossGreen-128-32.xnb</Output>
+      <Time>2014-06-15T10:39:18.8342675+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game State Audio\Intro.wav</Source>
+      <Name>Audio\Game State Audio\Intro</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game State Audio\Intro.xnb</Output>
+      <Time>2014-06-15T10:39:13.9346414+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_1-up.wav</Source>
+      <Name>Audio\Game Audio\smb_1-up</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_1-up.xnb</Output>
+      <Time>2014-06-15T10:39:12.6184744+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_breakblock.wav</Source>
+      <Name>Audio\Game Audio\smb_breakblock</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_breakblock.xnb</Output>
+      <Time>2014-06-15T10:39:12.6304751+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_bump.wav</Source>
+      <Name>Audio\Game Audio\smb_bump</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_bump.xnb</Output>
+      <Time>2014-06-15T10:39:12.6374754+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_coin.wav</Source>
+      <Name>Audio\Game Audio\smb_coin</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_coin.xnb</Output>
+      <Time>2014-06-15T10:39:12.619477+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_fireball.wav</Source>
+      <Name>Audio\Game Audio\smb_fireball</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_fireball.xnb</Output>
+      <Time>2014-06-15T10:39:12.6524766+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_fireworks.wav</Source>
+      <Name>Audio\Game Audio\smb_fireworks</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_fireworks.xnb</Output>
+      <Time>2014-06-15T10:39:12.6494769+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_flagpole.wav</Source>
+      <Name>Audio\Game Audio\smb_flagpole</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_flagpole.xnb</Output>
+      <Time>2014-06-15T10:39:12.6244739+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_gameover.wav</Source>
+      <Name>Audio\Game Audio\smb_gameover</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_gameover.xnb</Output>
+      <Time>2014-06-15T10:39:12.6394751+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_jump-small.wav</Source>
+      <Name>Audio\Game Audio\smb_jump-small</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_jump-small.xnb</Output>
+      <Time>2014-06-15T10:39:12.6544776+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_jump-super.wav</Source>
+      <Name>Audio\Game Audio\smb_jump-super</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_jump-super.xnb</Output>
+      <Time>2014-06-15T10:39:12.6444762+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_kick.wav</Source>
+      <Name>Audio\Game Audio\smb_kick</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_kick.xnb</Output>
+      <Time>2014-06-15T10:39:12.6534775+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_mariodie.wav</Source>
+      <Name>Audio\Game Audio\smb_mariodie</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_mariodie.xnb</Output>
+      <Time>2014-06-15T10:39:12.6214746+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_pause.wav</Source>
+      <Name>Audio\Game Audio\smb_pause</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_pause.xnb</Output>
+      <Time>2014-06-15T10:39:12.6514766+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_pipe.wav</Source>
+      <Name>Audio\Game Audio\smb_pipe</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_pipe.xnb</Output>
+      <Time>2014-06-15T10:39:12.6274749+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_powerup.wav</Source>
+      <Name>Audio\Game Audio\smb_powerup</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_powerup.xnb</Output>
+      <Time>2014-06-15T10:39:12.6314747+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_powerup_appears.wav</Source>
+      <Name>Audio\Game Audio\smb_powerup_appears</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_powerup_appears.xnb</Output>
+      <Time>2014-06-15T10:39:12.650477+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_stage_clear.wav</Source>
+      <Name>Audio\Game Audio\smb_stage_clear</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_stage_clear.xnb</Output>
+      <Time>2014-06-15T10:39:12.6464767+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_stomp.wav</Source>
+      <Name>Audio\Game Audio\smb_stomp</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_stomp.xnb</Output>
+      <Time>2014-06-15T10:39:12.6364758+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_vine.wav</Source>
+      <Name>Audio\Game Audio\smb_vine</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_vine.xnb</Output>
+      <Time>2014-06-15T10:39:12.6354749+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_warning.wav</Source>
+      <Name>Audio\Game Audio\smb_warning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_warning.xnb</Output>
+      <Time>2014-06-15T10:39:12.6434758+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_world_clear.wav</Source>
+      <Name>Audio\Game Audio\smb_world_clear</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_world_clear.xnb</Output>
+      <Time>2014-06-15T10:39:12.626474+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Game Audio\smb_mariohurt.wav</Source>
+      <Name>Audio\Game Audio\smb_mariohurt</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Game Audio\smb_mariohurt.xnb</Output>
+      <Time>2014-06-15T10:39:12.6484773+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Song\Intro.mp3</Source>
+      <Name>Audio\Song\Intro</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Song\Intro.xnb</Output>
+      <Extra>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Song\Intro.wma</Extra>
+      <Time>2014-06-15T10:39:03.5453129+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Audio\Song\ThemeSong.mp3</Source>
+      <Name>Audio\Song\ThemeSong</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Song\ThemeSong.xnb</Output>
+      <Extra>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\Audio\Song\ThemeSong.wma</Extra>
+      <Time>2014-06-15T10:39:03.535312+07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{746DF336-0259-4BCF-91D4-1992114EEA28}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario BrosContent\</RootDirectory>
+      <LoggerRootDirectory>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\</LoggerRootDirectory>
+      <IntermediateDirectory>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2012-09-06T14:52:54+07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2012-09-06T14:52:54+07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2012-09-06T14:52:54+07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2012-09-06T14:52:54+07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2012-09-06T14:52:54+07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2012-09-06T14:52:54+07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-07-07T23:30:44.5628974+07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

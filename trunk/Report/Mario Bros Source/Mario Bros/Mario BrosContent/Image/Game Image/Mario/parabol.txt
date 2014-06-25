@@ -1,0 +1,8 @@
+public float CubicBezier(float a, float b, float c, float d, float t) { float t1 = 1f - t; return ((t1 * t1 * t1) * a + 3f * t * (t1 * t1) * b + 3f * (t * t) * (t1) * c + (t * t * t) * d); }
+
+CCPoint currentPos = m_pTarget.Position;
+CCPoint diff = currentPos - m_previousPosition;
+m_startPosition = m_startPosition + diff; 
+CCPoint newPos = m_startPosition + new CCPoint(x, y);
+m_pTarget.Position = newPos;
+m_previousPosition = newPos;
