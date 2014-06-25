@@ -1,0 +1,138 @@
+Content\Font\font.xnb
+Content\Image\Game State Image\Intro\Intro_Gameuit.xnb
+Content\Image\Game State Image\Intro\BG.xnb
+Content\Image\Game State Image\Menu\BGMenu.xnb
+Content\Image\Game State Image\Menu\btn_About.xnb
+Content\Image\Game State Image\Menu\btn_About_Act.xnb
+Content\Image\Game State Image\Menu\btn_Exit.xnb
+Content\Image\Game State Image\Menu\btn_Exit_Act.xnb
+Content\Image\Game State Image\Menu\btn_newGame.xnb
+Content\Image\Game State Image\Menu\btn_newGame_Act.xnb
+Content\Image\Game State Image\Menu\btn_Option.xnb
+Content\Image\Game State Image\Menu\btn_Option_Act.xnb
+Content\Image\Game State Image\Menu\Icon.xnb
+Content\Image\Game State Image\Intro\Intro_SV.xnb
+Content\Image\Game State Image\About\BGAbout.xnb
+Content\Image\Game State Image\Option\BG_Option.xnb
+Content\Image\Game State Image\Option\BG_Sounds_Act.xnb
+Content\Image\Game State Image\Option\Eff_Sounds_Act.xnb
+Content\Image\Game State Image\Option\ReturnMenu.xnb
+Content\Image\Game State Image\Option\BG_Sounds.xnb
+Content\Image\Game State Image\Option\Eff_Sounds.xnb
+Content\Image\Game State Image\Option\ReturnMenu_Act.xnb
+Content\Image\Game Image\Miscellaneous\BaseBrick-16-16.xnb
+Content\Image\Game Image\Mario\MarioFire-144-32.xnb
+Content\Image\Game Image\Mario\MarioSmall-144-16.xnb
+Content\Image\Game Image\Mario\MarioSuper-144-32.xnb
+Content\Image\Game State Image\Load\SpriteFont-208-8.xnb
+Content\Image\Game Image\Miscellaneous\BrickIron-16-16.xnb
+Content\Image\Game Image\Miscellaneous\BrickQuestion-64-16.xnb
+Content\Image\Game Image\Item\ItemActivatedCoin-64-16.xnb
+Content\Image\Game Image\Item\ItemNormalCoin-64-16.xnb
+Content\Image\Game Image\Item\Item1UpMushroom-16-16.xnb
+Content\Image\Game Image\Item\ItemFireFlower-64-16.xnb
+Content\Image\Game Image\Item\ItemSuperMushroom-16-16.xnb
+Content\Image\Game Image\Item\ItemStarman-64-16.xnb
+Content\Image\Game Image\Enemy\Koopa-96-24-OW.xnb
+Content\Image\Game Image\Enemy\GoomBa-48-16-OW.xnb
+Content\Image\Game State Image\GameOver\GameOver.xnb
+Content\Image\Game Image\Miscellaneous\BrickSoft-16-16.xnb
+Content\Image\Game Image\Miscellaneous\MiscPiece-1-16-16.xnb
+Content\Image\Game Image\Miscellaneous\MiscPiece-2-16-16.xnb
+Content\Image\Game Image\Miscellaneous\PipeGate-32-16.xnb
+Content\Image\Game Image\Miscellaneous\PipeStock-32-16.xnb
+Content\Image\Game Image\Miscellaneous\PipeUp-62-32.xnb
+Content\Image\Game Image\Miscellaneous\BigGrass-64-16.xnb
+Content\Image\Game Image\Miscellaneous\BigMountain-80-35.xnb
+Content\Image\Game Image\Miscellaneous\MediumGrass-48-16.xnb
+Content\Image\Game Image\Miscellaneous\MediumMountain-48-24.xnb
+Content\Image\Game Image\Miscellaneous\SmallGrass-32-16.xnb
+Content\Image\Game Image\Miscellaneous\HardBrick-16-16.xnb
+Content\Image\Game Image\Enemy\HideKoopa-32-16-OW.xnb
+Content\Image\Game Image\Mario\BulletMario-16-16.xnb
+Content\Image\Game State Image\Load\LoadGame.xnb
+Content\Image\Game State Image\Load\SpriteNumber-80-8.xnb
+Content\Image\Game State Image\Font\Letter\A.xnb
+Content\Image\Game State Image\Font\Letter\B.xnb
+Content\Image\Game State Image\Font\Letter\C.xnb
+Content\Image\Game State Image\Font\Letter\D.xnb
+Content\Image\Game State Image\Font\Letter\E.xnb
+Content\Image\Game State Image\Font\Letter\F.xnb
+Content\Image\Game State Image\Font\Letter\G.xnb
+Content\Image\Game State Image\Font\Letter\H.xnb
+Content\Image\Game State Image\Font\Letter\I.xnb
+Content\Image\Game State Image\Font\Letter\J.xnb
+Content\Image\Game State Image\Font\Letter\K.xnb
+Content\Image\Game State Image\Font\Letter\L.xnb
+Content\Image\Game State Image\Font\Letter\M.xnb
+Content\Image\Game State Image\Font\Letter\N.xnb
+Content\Image\Game State Image\Font\Letter\O.xnb
+Content\Image\Game State Image\Font\Letter\P.xnb
+Content\Image\Game State Image\Font\Letter\Q.xnb
+Content\Image\Game State Image\Font\Letter\R.xnb
+Content\Image\Game State Image\Font\Letter\S.xnb
+Content\Image\Game State Image\Font\Letter\T.xnb
+Content\Image\Game State Image\Font\Letter\U.xnb
+Content\Image\Game State Image\Font\Letter\V.xnb
+Content\Image\Game State Image\Font\Letter\W.xnb
+Content\Image\Game State Image\Font\Letter\X.xnb
+Content\Image\Game State Image\Font\Letter\Y.xnb
+Content\Image\Game State Image\Font\Letter\Z.xnb
+Content\Image\Game State Image\Load\IconCoin-24-8.xnb
+Content\Image\Game State Image\Font\Letter\0.xnb
+Content\Image\Game State Image\Font\Letter\1.xnb
+Content\Image\Game State Image\Font\Letter\2.xnb
+Content\Image\Game State Image\Font\Letter\3.xnb
+Content\Image\Game State Image\Font\Letter\4.xnb
+Content\Image\Game State Image\Font\Letter\5.xnb
+Content\Image\Game State Image\Font\Letter\6.xnb
+Content\Image\Game State Image\Font\Letter\7.xnb
+Content\Image\Game State Image\Font\Letter\8.xnb
+Content\Image\Game State Image\Font\Letter\9.xnb
+Content\Image\Game Image\Miscellaneous\Flag-16-16.xnb
+Content\Image\Game Image\Miscellaneous\GoalPole-16-136.xnb
+Content\Image\Game Image\Miscellaneous\Castle-80-80.xnb
+Content\Image\Game Image\Mario\BigMarioInvincibility-144-32.xnb
+Content\Image\Game Image\Mario\BigMarioInvincibility2-144-32.xnb
+Content\Image\Game Image\Mario\BigMarioInvincibility3-144-32.xnb
+Content\Image\Game Image\Mario\SmallMarioInvincibility-144-16.xnb
+Content\Image\Game Image\Mario\SmallMarioInvincibility2-144-16.xnb
+Content\Image\Game Image\Mario\SmallMarioInvincibility3-144-16.xnb
+Content\Image\Game Image\Miscellaneous\CastleStarFlag-16-16.xnb
+Content\Image\Game State Image\Font\Punctuation\CopyRight.xnb
+Content\Image\Game State Image\Font\Punctuation\Dash.xnb
+Content\Image\Game State Image\Font\Punctuation\Exclamation.xnb
+Content\Image\Game State Image\Font\Punctuation\Multi.xnb
+Content\Image\Game Image\Miscellaneous\Firework-16-48.xnb
+Content\Image\Game Image\Miscellaneous\BigClound-64-24.xnb
+Content\Image\Game Image\Miscellaneous\MediumClound-48-24.xnb
+Content\Image\Game Image\Miscellaneous\SmallClound-32-24.xnb
+Content\Image\Game Image\Enemy\BossBullet-24-16.xnb
+Content\Image\Game Image\Enemy\BossGreen-128-32.xnb
+Content\Audio\Game State Audio\Intro.xnb
+Content\Audio\Game Audio\smb_1-up.xnb
+Content\Audio\Game Audio\smb_breakblock.xnb
+Content\Audio\Game Audio\smb_bump.xnb
+Content\Audio\Game Audio\smb_coin.xnb
+Content\Audio\Game Audio\smb_fireball.xnb
+Content\Audio\Game Audio\smb_fireworks.xnb
+Content\Audio\Game Audio\smb_flagpole.xnb
+Content\Audio\Game Audio\smb_gameover.xnb
+Content\Audio\Game Audio\smb_jump-small.xnb
+Content\Audio\Game Audio\smb_jump-super.xnb
+Content\Audio\Game Audio\smb_kick.xnb
+Content\Audio\Game Audio\smb_mariodie.xnb
+Content\Audio\Game Audio\smb_pause.xnb
+Content\Audio\Game Audio\smb_pipe.xnb
+Content\Audio\Game Audio\smb_powerup.xnb
+Content\Audio\Game Audio\smb_powerup_appears.xnb
+Content\Audio\Game Audio\smb_stage_clear.xnb
+Content\Audio\Game Audio\smb_stomp.xnb
+Content\Audio\Game Audio\smb_vine.xnb
+Content\Audio\Game Audio\smb_warning.xnb
+Content\Audio\Game Audio\smb_world_clear.xnb
+Content\Audio\Game Audio\smb_mariohurt.xnb
+Content\Audio\Song\Intro.xnb
+Content\Audio\Song\Intro.wma
+Content\Audio\Song\ThemeSong.xnb
+Content\Audio\Song\ThemeSong.wma

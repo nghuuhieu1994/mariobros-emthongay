@@ -1,0 +1,14 @@
+F:\mariobros-emthongay\Map Editor\Map Editor\bin\Release\Map Editor.exe.config
+F:\mariobros-emthongay\Map Editor\Map Editor\bin\Release\Map Editor.exe
+F:\mariobros-emthongay\Map Editor\Map Editor\bin\Release\Map Editor.pdb
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Release\MainWindow.baml
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Release\NewMap.baml
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Release\MainWindow.g.cs
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Release\NewMap.g.cs
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Release\App.g.cs
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Release\Map Editor_MarkupCompile.cache
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Release\Map Editor.g.resources
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Release\Map_Editor.Properties.Resources.resources
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Release\Map Editor.csproj.GenerateResource.Cache
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Release\Map Editor.exe
+F:\mariobros-emthongay\Map Editor\Map Editor\obj\Release\Map Editor.pdb

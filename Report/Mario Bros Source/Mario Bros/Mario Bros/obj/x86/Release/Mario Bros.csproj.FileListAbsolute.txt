@@ -1,0 +1,148 @@
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Font\font.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Intro\Intro_Gameuit.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Intro\BG.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Menu\BGMenu.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Menu\btn_About.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Menu\btn_About_Act.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Menu\btn_Exit.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Menu\btn_Exit_Act.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Menu\btn_newGame.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Menu\btn_newGame_Act.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Menu\btn_Option.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Menu\btn_Option_Act.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Menu\Icon.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Intro\Intro_SV.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\About\BGAbout.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Option\BG_Option.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Option\BG_Sounds_Act.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Option\Eff_Sounds_Act.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Option\ReturnMenu.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Option\BG_Sounds.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Option\Eff_Sounds.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Option\ReturnMenu_Act.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\BaseBrick-16-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Mario\MarioFire-144-32.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Mario\MarioSmall-144-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Mario\MarioSuper-144-32.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Load\SpriteFont-208-8.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\BrickIron-16-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\BrickQuestion-64-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Item\ItemActivatedCoin-64-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Item\ItemNormalCoin-64-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Item\Item1UpMushroom-16-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Item\ItemFireFlower-64-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Item\ItemSuperMushroom-16-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Item\ItemStarman-64-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Enemy\Koopa-96-24-OW.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Enemy\GoomBa-48-16-OW.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\GameOver\GameOver.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\BrickSoft-16-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\MiscPiece-1-16-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\MiscPiece-2-16-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\PipeGate-32-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\PipeStock-32-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\PipeUp-62-32.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\BigGrass-64-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\BigMountain-80-35.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\MediumGrass-48-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\MediumMountain-48-24.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\SmallGrass-32-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\HardBrick-16-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Enemy\HideKoopa-32-16-OW.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Mario\BulletMario-16-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Load\LoadGame.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Load\SpriteNumber-80-8.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\A.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\B.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\C.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\D.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\E.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\F.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\G.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\H.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\I.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\J.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\K.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\L.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\M.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\N.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\O.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\P.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\Q.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\R.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\S.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\T.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\U.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\V.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\W.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\X.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\Y.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\Z.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Load\IconCoin-24-8.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\0.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\1.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\2.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\3.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\4.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\5.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\6.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\7.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\8.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Letter\9.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\Flag-16-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\GoalPole-16-136.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\Castle-80-80.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Mario\BigMarioInvincibility-144-32.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Mario\BigMarioInvincibility2-144-32.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Mario\BigMarioInvincibility3-144-32.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Mario\SmallMarioInvincibility-144-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Mario\SmallMarioInvincibility2-144-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Mario\SmallMarioInvincibility3-144-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\CastleStarFlag-16-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Punctuation\CopyRight.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Punctuation\Dash.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Punctuation\Exclamation.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game State Image\Font\Punctuation\Multi.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\Firework-16-48.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\BigClound-64-24.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\MediumClound-48-24.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Miscellaneous\SmallClound-32-24.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Enemy\BossBullet-24-16.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Image\Game Image\Enemy\BossGreen-128-32.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game State Audio\Intro.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_1-up.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_breakblock.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_bump.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_coin.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_fireball.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_fireworks.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_flagpole.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_gameover.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_jump-small.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_jump-super.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_kick.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_mariodie.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_pause.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_pipe.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_powerup.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_powerup_appears.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_stage_clear.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_stomp.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_vine.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_warning.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_world_clear.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Game Audio\smb_mariohurt.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Song\Intro.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Song\ThemeSong.xnb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Song\Intro.wma
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Content\Audio\Song\ThemeSong.wma
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Mario Bros.exe.manifest
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Mario Bros.application
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Mario Bros.exe
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\bin\x86\Release\Mario Bros.pdb
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\obj\x86\Release\Mario Bros.csprojResolveAssemblyReference.cache
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\obj\x86\Release\Mario Bros.exe.manifest
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\obj\x86\Release\Mario Bros.application
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\obj\x86\Release\Mario Bros.exe
+F:\mariobros-emthongay\Mario Bros\Mario Bros\Mario Bros\obj\x86\Release\Mario Bros.pdb
