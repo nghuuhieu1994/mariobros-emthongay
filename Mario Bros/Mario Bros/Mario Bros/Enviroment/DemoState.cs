@@ -24,7 +24,7 @@ namespace Mario_Bros.Enviroment
         // CInput
         CInput m_Input;
 
-        
+        bool m_IsPause = false;
 
         float _fps, _eLapsedTime;
 
@@ -69,8 +69,15 @@ namespace Mario_Bros.Enviroment
             if (GlobalSetting.IsExit)
                 this.Exit();
             m_Input.Update();
-            StateManager.getInst().HandleInput(gameTime, m_Input);
-            StateManager.getInst().Update(gameTime);
+            if (m_Input.KeyDown(Keys.Pause))
+            {
+                m_IsPause = !m_IsPause;
+            }
+            if (!m_IsPause)
+            {
+                StateManager.getInst().HandleInput(gameTime, m_Input);
+                StateManager.getInst().Update(gameTime); 
+            }
             base.Update(gameTime);
         }
 
