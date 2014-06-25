@@ -27,20 +27,20 @@ namespace Mario_Bros.State
 
         public override void HandleInput(GameTime gameTime, CInput _Input)
         {
-            //CoolDown += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
-            //if (CoolDown > 5000)
-            //{
-            //    if (GlobalValue.MARIO_LIFE > 0)
-            //    {
-            //        StateManager.getInst().ExitScreen();
-            //        StateManager.getInst().AddScreen(new LoadGame(IDGameState.LOAD));
-            //    }
-            //    else
-            //    {
-            //        StateManager.getInst().ExitScreen();
-            //        StateManager.getInst().AddScreen(new MainGame(IDGameState.MAINGAME));
-            //    }
-            //}
+            CoolDown += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
+            if (CoolDown > 5000)
+            {
+                if (GlobalValue.MARIO_LIFE > 0)
+                {
+                    StateManager.getInst().ExitScreen();
+                    StateManager.getInst().AddScreen(new LoadGame(IDGameState.LOAD));
+                }
+                else
+                {
+                    StateManager.getInst().ExitScreen();
+                    StateManager.getInst().AddScreen(new MainGame(IDGameState.MAINGAME));
+                }
+            }
             base.HandleInput(gameTime, _Input);
         }
         public override void Update(GameTime gameTime)
