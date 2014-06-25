@@ -97,7 +97,11 @@ namespace Mario_Bros.State
                     Mario.Position = new Vector2(map.m_WidthMap - Mario.GetBound().Width, Mario.Position.Y);
                 }
             }
-
+            if(_Input.KeyDown(Keys.Back))
+            {
+                StateManager.getInst().ExitScreen();
+                StateManager.getInst().AddScreen(new MenuState(IDGameState.MENU)); 
+            }
             cam.Update(Mario, map.m_WidthMap, map.m_HeightMap);
             quadTree.InsertListObjectView(cam.Rectangle, quadTree.RootNode);
             if (GlobalValue.KillBoss)
