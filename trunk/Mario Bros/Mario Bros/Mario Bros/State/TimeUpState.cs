@@ -38,7 +38,7 @@ namespace Mario_Bros.State
                 else
                 {
                     StateManager.getInst().ExitScreen();
-                    StateManager.getInst().AddScreen(new MainGame(IDGameState.MAINGAME));
+                    StateManager.getInst().AddScreen(new MainGame(IDGameState.MENU));
                 }
             }
             base.HandleInput(gameTime, _Input);
