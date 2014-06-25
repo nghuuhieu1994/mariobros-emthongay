@@ -75,7 +75,7 @@ namespace Mario_Bros.State
                 SoundManager.PlaySound(ESound.SFX_WARNING);
                 IsWarning = true;
             }
-
+            
             if (PlayedTime > 210000)
             {
                 --GlobalValue.MARIO_LIFE;
@@ -152,10 +152,6 @@ namespace Mario_Bros.State
                 Mario.Status = IDStatus.DIE;
             }
 
-            if (_Input.KeyPressed(Keys.Pause))
-            {
-                Mario.Velocity = new Vector2(1.5f, -1.0f);
-            }
             if (Mario.Status == IDStatus.DIE)
             {
                 MediaPlayer.Stop();
