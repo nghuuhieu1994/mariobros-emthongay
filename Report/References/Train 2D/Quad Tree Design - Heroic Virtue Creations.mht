@@ -1,0 +1,2758 @@
+Content-Type: multipart/related; start=<op.mhtml.1285948520132.05230b2959248e80@192.168.0.101>; boundary=----------igcVgez7hzJ65IwbJJX9bB
+Content-Location: http://www.heroicvirtuecreations.com/QuadTree.html
+Subject: =?utf-8?Q?Quad=20Tree=20Design=20-=20Heroic=20Virtue=20Creations?=
+MIME-Version: 1.0
+
+------------igcVgez7hzJ65IwbJJX9bB
+Content-Disposition: inline; filename=QuadTree.html
+Content-Type: text/html; charset=iso-8859-1; name=QuadTree.html
+Content-ID: <op.mhtml.1285948520132.05230b2959248e80@192.168.0.101>
+Content-Location: http://www.heroicvirtuecreations.com/QuadTree.html
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>Quad Tree Design - Heroic Virtue Creations</title>
+  <style type="text/css">
+a:link { color: blue; text-decoration: none }
+a:active { color: red; text-decoration: none }
+a:visited { color: blue; text-decoration: none }
+a:hover { color: rgb(51, 0, 153); text-decoration: underline }
+  </style>
+</head>
+<body>
+<center>
+<table
+ style="background-color: rgb(255, 255, 255); width: 50%; text-align: left; margin-left: auto; margin-right: auto;"
+ border="0" cellpadding="2" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><a href="./index.html"><img
+ alt="Logo" title="Heroic Virtue Creations" src="./images/LogoSmall.PNG"
+ style="border: 0px solid ; width: 103px; height: 121px;" align="left"></a>
+      <div style="text-align: left;">
+      <div style="text-align: center;">&nbsp;&nbsp; <span
+ style="color: rgb(51, 0, 153); font-family: century gothic;"><span
+ style="font-weight: bold;"><img alt="Abound logo" title="Abound logo"
+ src="./images/AboundLogo.PNG" style="width: 313px; height: 104px;"></span></span><span
+ style="color: rgb(51, 0, 153);"><span style="font-weight: bold;"></span></span></div>
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</center>
+<div style="text-align: center;">
+<div style="text-align: left;"></div>
+<table
+ style="margin-left: auto; margin-right: auto; text-align: left; width: 750px; height: 617px;"
+ border="4" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td
+ style="background-color: rgb(204, 204, 255); width: 20%; vertical-align: top; text-align: center;">
+      <div style="text-align: left;"><small
+ style="font-family: arial narrow; font-weight: bold;"><big><br>
+      </big></small><small
+ style="font-family: arial narrow; font-weight: bold;"><a
+ href="./TechnicalArticles.html"><big>Technical Articles</big></a><br>
+      <br>
+      </small><small
+ style="font-family: arial narrow; font-weight: bold;"><a
+ href="MakingAbound.html"><big>Making Abound</big></a></small><br>
+      <br>
+      <small style="font-family: arial narrow; font-weight: bold;"><a
+ href="ScrSaveTutorial.html"><big>Make your own Screensaver</big></a><br>
+      <br>
+      </small><small
+ style="font-family: arial narrow; font-weight: bold;"><a
+ href="./zipfiles/QuadTreeClass.zip"><big>Download Quad Tree code</big></a></small><br>
+      </div>
+      </td>
+      <td
+ style="background-color: rgb(255, 255, 204); vertical-align: top; text-align: center;"><a
+ href="index.html"><span
+ style="font-weight: bold; font-family: arial narrow;"></span></a><span
+ style="font-weight: bold; font-family: arial narrow;"><a
+ href="index.html">Home</a></span>&nbsp;&nbsp; <a
+ style="font-family: arial narrow; font-weight: bold;"
+ href="Products.html">Products</a><span
+ style="font-family: arial narrow;"></span><span
+ style="font-weight: bold; font-family: arial narrow;">&nbsp;&nbsp; </span><a
+ style="font-weight: bold; font-family: arial narrow;"
+ href="Screenshots.html">Screenshots</a><span
+ style="font-weight: bold; font-family: arial narrow;">&nbsp;&nbsp; <a
+ href="AboutUs.html">Company</a></span>
+      <hr style="width: 100%; height: 2px; font-family: arial narrow;">
+      <div
+ style="text-align: left; background-color: rgb(255, 255, 204);">
+      <div style="text-align: center;"><span
+ style="font-weight: bold; font-family: arial narrow;"></span><a
+ href="file:///C:/Abound/HeroicVirtueCreations/Website/pages/Abound/AboundSetup.exe"><span
+ style="font-family: arial narrow;"></span></a></div>
+      <br>
+      <span style="font-family: arial narrow;"></span><span
+ style="font-weight: bold; font-family: arial narrow;"><big
+ style="color: rgb(51, 0, 153);">Quad Tree Design<br>
+      <br>
+      <small><span style="font-weight: bold;">Part I: Quad Tree
+Introduction</span></small><br>
+      <br>
+      </big></span><span style="font-family: arial narrow;"><span
+ style="font-family: arial narrow;">A quad tree is a data structure
+used often in programs that must draw graphics on the screen.&nbsp; The
+one we use here is designed to optimize graphics and computation in a
+two-dimensional (2D) space.</span><br style="font-family: arial narrow;">
+      <br style="font-family: arial narrow;">
+      <span style="font-family: arial narrow;">The quad tree, when
+subdivided one time, divides the screen into 4 rectangles (quadrants)
+of equal size:</span><br>
+      <br>
+      </span>
+      <div style="text-align: center;"><span
+ style="font-family: arial narrow;"><img
+ alt="Quad Tree subdivided just 1 time"
+ title="Quad Tree subdivided just 1 time"
+ src="./images/quadtree1level.PNG" style="width: 313px; height: 236px;"><br>
+      <span style="font-family: arial narrow;">Quad Tree subdivided once</span><br
+ style="font-family: arial narrow;">
+      </span>
+      <div style="text-align: left;"><span
+ style="font-family: arial narrow;"><br>
+You can probably already imagine the benefit ot using such a
+structure:&nbsp; We now can do a simple bounding box test and determine
+in which quadrant(s) one of our objects exists.&nbsp; In Abound, we
+have balls moving around the screen.&nbsp; Using this quad tree, we can
+reduce by 75% the number of objects to check for collisions against by
+determining two things:<br>
+      </span>
+      <ol style="font-family: arial narrow;">
+        <li>What quadrant is our moving ball in?</li>
+        <li>What other objects are in this quadrant?</li>
+      </ol>
+      <span style="font-family: arial narrow;">Examine the figure below
+to get an idea of what we are talking about:</span><br>
+      <br>
+      <div style="text-align: center;"><img
+ alt="Moving object doesn't need to check for collisions at all"
+ title="Moving object doesn't need to check for collisions at all"
+ src="./images/quadtree1levelreduce.PNG"
+ style="width: 313px; height: 236px;"><br>
+      <span style="font-family: arial narrow;">Moving object (blue
+ball) doesn't have to check for collisions</span><br
+ style="font-family: arial narrow;">
+      <br style="font-family: arial narrow;">
+      <div style="text-align: left; font-family: arial narrow;">Since
+the other objects (depicted as green balls) are in other quadrants than
+the moving ball, we do a simple check of our quad tree and discover
+there are no objects in the moving ball's quadrant!&nbsp; This reduces
+our collision detection computation time greatly because we don't have
+to do any collision detection at all.&nbsp; Without using the quad
+tree, we would have had 21 circle-to-circle or ball-to-ball collisions
+to test for, since there are 21 other objects.<br>
+      <br>
+We have simplified some issues so far in order to give you an idea of
+what this is all about, but don't worry, we will visit each one of the
+nitty gritty details later.&nbsp; For example, since the blue ball is
+moving around, don't we need to check both the quadrant its currently
+in AND the quadrant it will be moving to, if it is crossing quadrant
+boundaries?&nbsp; The answer is yes, and we will explore this topic a
+bit later in our article.<br>
+      </div>
+      </div>
+      <br style="font-family: arial narrow;">
+      <span style="font-family: arial narrow;">But first, let's explore
+the power of the quad tree more.&nbsp; This question may have arisen in
+your mind:&nbsp; Why stop at just one subdivision (which resulted in 4
+quadrants)?&nbsp; Why not subdivide these 4 quadrants again?!&nbsp;
+This is exactly what we can do to increase the speed of our program
+even more by decreasing the computation time.&nbsp; The figure below
+demonstrates that the 2nd division of the quad tree looks like:</span><br>
+      <br>
+      <div style="text-align: center;"><img
+ alt="Quad tree with 2 subdivisions, creating 16 quadrantsw"
+ title="Quad tree with 2 subdivisions, creating 16 quadrantsw"
+ src="./images/quadtree2level.PNG" style="width: 313px; height: 236px;"><br>
+      </div>
+      <div style="text-align: center;"><span
+ style="font-family: arial narrow;">2 subdivisions results in 16
+quadrants</span><br style="font-family: arial narrow;">
+      <br style="font-family: arial narrow;">
+      <div style="text-align: left;"><span
+ style="font-family: arial narrow;">What did we just do?&nbsp; We took
+each one of the 4 quadrants we already had and subdivided </span><span
+ style="font-style: italic; font-family: arial narrow;">each one of
+them into 4 more quadrants, </span><span
+ style="font-family: arial narrow;">which results in a total of 16
+quadrants!&nbsp; You can see how this helps us even more, because now
+the moving ball has to be very near the stationary balls before we need
+to check for any collisions, and even once it gets near them it only
+has to check for collisions against the subset of balls in the
+particular quadrant it is in.</span><br
+ style="font-family: arial narrow;">
+      <br style="font-family: arial narrow;">
+      <span style="font-family: arial narrow;">You can also see from
+the above figure that some of the green balls are on quadrant
+boundaries and are partially in two quadrants.&nbsp; What do we do with
+these?&nbsp; Well, we have to include them in both quadrants they
+overlap with, otherwise we will have errors if the moving ball should
+hit one of them but we don't think it needs to check against them, so
+it would pass through them.</span><br style="font-family: arial narrow;">
+      <br style="font-family: arial narrow;">
+      <span style="font-family: arial narrow;">This is all great and
+dandy, you are probably saying to yourself, and it looks nice to draw
+little lines everywhere, but what about the code to do this?&nbsp;
+Great question!&nbsp; Let's get after it.&nbsp; We are going to create
+a class that will represent the quad tree.&nbsp; Two things will help
+us in the initial design of this class:</span><br
+ style="font-family: arial narrow;">
+      <ol style="font-family: arial narrow;">
+        <li>The quad tree we have described above would seem to lend
+itself well to the concept of <span style="font-weight: bold;">recursion.</span>&nbsp;
+(If you are unfamiliar with this or rusty on it, don't worry, we will
+explain it).</li>
+        <li>A quad tree is a tree that consists of <span
+ style="font-weight: bold;">branches and leaf nodes, but these can both
+be abstracted by the concept of a node</span>.&nbsp; (If you just said:
+"Huh?&nbsp; What the heck is he talking about?"&nbsp; This too will be
+explained).<br>
+        </li>
+      </ol>
+      <span style="font-family: arial narrow;">Let's create the class
+and then see how this works out.</span><br
+ style="font-family: arial narrow;">
+      <br>
+      <small><span style="font-family: courier new,courier,monospace;">class
+CQuadTreeNode</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">{</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">public:</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;
+CQuadTreeNode(long lowerLeftX, long lowerLeftY, long width, long
+height);</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;
+virtual ~CQuadTreeNode();</span><br
+ style="font-family: courier new,courier,monospace;">
+      <br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+HRESULT SubDivide();</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">private:</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+long m_LowerLeftX;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+long m_LowerLeftY;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+long m_Width;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+long m_Height;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+CQuadTreeNode** m_SubNodes;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">};</span><br
+ style="font-family: courier new,courier,monospace;">
+      </small><br>
+      <span style="font-family: arial narrow;">Alright, let's examine
+what we have created here in depth.&nbsp; First off, we have the
+constructor, which takes the values for the lower left corner of the
+quadrant this node describes.&nbsp; We also create four member
+variables to store these values.&nbsp; Then we have our destructor, and
+our first and only function, </span><small><span
+ style="font-weight: bold; font-family: courier new,courier,monospace;">SubDivide()</span></small><span
+ style="font-family: arial narrow;">.&nbsp; Don't worry about the
+HRESULT return value if you don't know what it is.&nbsp; On Windows
+systems an HRESULT is just a typedef for a long, which is just an
+integer.&nbsp; Finally, we have the strange looking line</span> <small><span
+ style="font-family: courier new,courier,monospace; font-weight: bold;">CQuadTreeNode**
+m_SubNodes;</span> <span
+ style="font-family: courier new,courier,monospace;">. <big><span
+ style="font-family: arial narrow;">What can this mean?&nbsp; It is a
+pointer to a pointer to a CQuadTreeNode, which is what our class is, so
+it will be used to store the children nodes, if any exist, of this
+node.&nbsp; We will explain this more in a bit.<br>
+      <br style="font-family: arial narrow;">
+      </span></big></span></small><span
+ style="font-family: arial narrow;">Here is the body of our
+constructor, in case you are wondering how to write it:</span><br
+ style="font-family: arial narrow;">
+      <br>
+      <small><span style="font-family: courier new,courier,monospace;">CQuadTreeNode::CQuadTreeNode(long
+lowerLeftX, long lowerLeftY, </span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+long width, long height) : m_LowerLeftX(lowerLeftX), </span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+m_LowerLeftY(lowerLeftY), m_Width(width), m_Height(height),</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+m_SubNodes(NULL)</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">{</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;">}</span><br
+ style="font-family: courier new,courier,monospace;">
+      </small><br>
+      <span style="font-family: arial narrow;">All we do is initialize
+our member variables to what they pass us in
+for the quadrant coordinates, and then the m_SubNodes to NULL, since we
+don't know what those are yet, or even if we will have any.&nbsp; You
+can
+download the code for the entire class at the end of this article.</span><br
+ style="font-family: arial narrow;">
+      <br style="font-family: arial narrow;">
+      <small><span style="font-family: courier new,courier,monospace;"><big><span
+ style="font-family: arial narrow;">Let's use this new class
+immediately in our program.&nbsp; When we start out, we have the entire
+screen to draw to.&nbsp; Using whatever means are available for your
+platform, get the size of the screen.&nbsp; On Windows, this is often
+done with the GetClientRect function.&nbsp; For an example, you can
+download our <a href="./zipfiles/ScrSaveTutorialVCProject.zip">screensaver
+example project</a>.&nbsp; Think of the screen as one big quadrant,
+since that is all it is, which means we can represent it with one
+CQuadTreeNode object!<br>
+      <br>
+      <small><span style="font-family: courier new,courier,monospace;">//
+get width and height of screen somehow</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">CQuadTreeNode*
+entireScreen = new CQuadTreeNode(0, 0, screenWidth, screenHeight);</span><br
+ style="font-family: courier new,courier,monospace;">
+      </small></span></big></span></small><br
+ style="font-family: arial narrow;">
+      <span style="font-family: arial narrow;">Alright!&nbsp; We have
+created one quad tree node object that has its lower left corner at the
+origin and stretches the entire screen width and height.&nbsp;&nbsp; <br>
+      <br>
+      </span>
+      <div style="text-align: center;"><span
+ style="font-family: arial narrow;"><img
+ alt="One Quad tree node representing entire screen"
+ title="One Quad tree node representing entire screen"
+ src="./images/quadtreewholescreen.PNG"
+ style="width: 313px; height: 236px;"><br>
+One Quad tree node represents the whole screen<br>
+      </span><span style="font-family: arial narrow;"></span></div>
+      <span style="font-family: arial narrow;"><br>
+      <span style="font-weight: bold;">Windows users caveat: </span>Beware
+that Windows thinks of the origin as the <span
+ style="font-weight: bold;">upper left </span>corner of the screen,
+and positive y values indicate movement downwards from the top of the
+screen.&nbsp; In my programs, I reverse this logic in my graphics class
+by making the origin the lower left of the screen and the graphics
+class hides from the rest of the program the detail of converting the
+more logical Cartesian coordinates into Windows drawing coordinates.</span><br
+ style="font-family: arial narrow;">
+      <br style="font-family: arial narrow;">
+      <span style="font-family: arial narrow;">This quad tree node
+doesn't do us much good as it is because it represents the entire
+screen.&nbsp; We need to subdivide it into 4 quadrants to start taking
+advantage of the quad tree's power.&nbsp; Before we do that, let's
+understand what type of node this first quad tree node we created
+is.&nbsp; Is it a leaf node or a branch node?</span><br
+ style="font-family: arial narrow;">
+      <br style="font-family: arial narrow;">
+      <span style="font-family: arial narrow;">Well, since a leaf node
+has no children, and a branch node has children, this one is a leaf
+node.&nbsp; When we call subdivide on it, since it is a leaf node
+without children, it will create four CQuadTreeNode's which will be its
+children, and it will automatically become a branch node.&nbsp; Let's
+look at the first pass at the subdivide function:</span><br
+ style="font-family: arial narrow;">
+      <br>
+      <small><span style="font-family: courier new,courier,monospace;">HRESULT
+CQuadTreeNode::SubDivide()</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">{</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+HRESULT result = S_OK;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+if (!m_SubNodes) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // We have no subnodes, so this must be<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // a leaf node.&nbsp; Create 4 children
+nodes<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // which will be its children.<br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// w is new width for subnodes <br>
+&nbsp;&nbsp;&nbsp; &nbsp; // (half of current width), h similarly</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long w = m_Width / 2;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long h = m_Height / 2;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// shorter variable names for current lower x,y position</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long llx = m_LowerLeftX;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long lly = m_LowerLeftY;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// node 0: upper left quadrant</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// node 1: upper right quadrant</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// node 2: lower right quadrant</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// node 3: lower left quadrant<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Since we have a pointer to a pointer
+for<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // our member variable, we need to allocate<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // memory for the 4 pointers that we are<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // creating.&nbsp; Note CoTaskMemAlloc
+is a Windows <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // </span></small><small><span
+ style="font-family: courier new,courier,monospace;">function, you can
+just use malloc in other<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // platforms.<br
+ style="font-family: courier new,courier,monospace;">
+      </span></small><small><span
+ style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+m_SubNodes = (CQuadTreeNode**)<br>
+&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; ::CoTaskMemAlloc(4 *
+sizeof(CQuadTreeNode*));<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Now that we have room for the four
+pointers,<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // actually create the 4 CQuadTreeNode
+objects and<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // store them in our array.&nbsp; We
+pass in the correct<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // values for the lower left points of each
+one,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // and the width and height of them are
+all the<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // same (1/2 the width and height of
+this parent node).<br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+m_SubNodes[0] = new CQuadTreeNode(llx, lly + h, w, h);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+m_SubNodes[1] = new CQuadTreeNode(llx + w, lly + h, w, h);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+m_SubNodes[2] = new CQuadTreeNode(llx + w, lly, w, h);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+m_SubNodes[3] = new CQuadTreeNode(llx, lly, w, h);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+else {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // This node already has children, so it
+is a branch<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // node.&nbsp; All we have to do is forward
+this call to<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // our sub nodes and tell them to
+subdivide.&nbsp; If they<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // are leaf nodes, they will subdivide
+and create 4<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // children of their own, otherwise they will
+just do<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // what we do and tell their existing
+children to<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // subdivide.<br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+for (int i = 0; i &lt; 4 &amp;&amp; SUCCEEDED(result); i++) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+result = m_SubNodes[i]-&gt;SubDivide();</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+return result;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">}</span><br
+ style="font-family: courier new,courier,monospace;">
+      </small><br>
+      <span style="font-family: arial narrow;">This function is at the
+heart of the quad tree class.&nbsp; Let's call it in our code:<br>
+      </span><small><span
+ style="font-family: courier new,courier,monospace;"><big><span
+ style="font-family: arial narrow;"><small><span
+ style="font-family: courier new,courier,monospace;">// get width and
+height of screen somehow</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">CQuadTreeNode*
+entireScreen = new CQuadTreeNode(0, 0, screenWidth, screenHeight);<br>
+// tell the quad tree node to subdivide itself.<br>
+      </span></small></span></big></span></small><small
+ style="font-weight: bold;"><span
+ style="font-family: courier new,courier,monospace;"><big><span
+ style="font-family: arial narrow;"><small><span
+ style="font-family: courier new,courier,monospace;">entireScreen-&gt;SubDivide();</span></small></span></big></span></small><br
+ style="font-family: courier new,courier,monospace;">
+      <br>
+      <span style="font-family: arial narrow;">What we have after
+subdividing our only quad tree node (the "root" node, since it is at
+the root of the tree), is the root node plus 4 more quad tree nodes,
+which are the root node's children:<br>
+      <br>
+      </span>
+      <div style="text-align: center;"><span
+ style="font-family: arial narrow;"><img
+ alt="The 4 children nodes we just created under the root"
+ title="The 4 children nodes we just created under the root"
+ src="./images/quadtree1levelsubdivide.PNG"
+ style="width: 313px; height: 236px;"><br>
+The four children of the root node over the quadrants they represent<br>
+      <br>
+      </span>
+      <div style="text-align: left;"><span
+ style="font-family: arial narrow;">Now we're getting somewhere!&nbsp;
+Note that the parent node, the root, still exists and represents the
+entire screen area, however, it is a branch node and will farm out
+almost all the "real" work that we desire of the quad tree to its
+children.&nbsp; Notice also that from the program's perspective that is
+using the quad tree, <span style="font-style: italic;">we only have to
+deal with the one quad tree root node.</span>&nbsp; We don't have to
+manage its children as it does that for us.&nbsp; All we have is a
+pointer to the root node, and we told it to subdivide.&nbsp; We do not
+get nor do we want pointers to its children.&nbsp; Let the quad tree
+manage itself!&nbsp; The way we do this is already apparent to some
+degree in the latter part of the SubDivide function, but it will become
+even more obvious as we implement more functions.<br>
+      <br>
+Here is another way of seeing the tree structure:<br>
+      <br>
+      </span>
+      <div style="text-align: center;"><span
+ style="font-family: arial narrow;"><img
+ alt="Tree structure of Quad tree nodes"
+ title="Tree structure of Quad tree nodes"
+ src="./images/quadtreediagram.PNG" style="width: 313px; height: 236px;"><br>
+Tree structure of quad tree nodes we have created so far<br>
+      <br>
+      </span>
+      <div style="text-align: left;"><span
+ style="font-family: arial narrow;">Okay, so hopefully you understand
+what we have done with the first subdivide call.&nbsp; What if we now
+do this:</span><span style="font-family: arial narrow;"></span></div>
+      <span style="font-family: arial narrow;"></span><span
+ style="font-family: arial narrow;"></span></div>
+      <span style="font-family: arial narrow;"><br>
+      </span><small><span
+ style="font-family: courier new,courier,monospace;"><big><span
+ style="font-family: arial narrow;"><small><span
+ style="font-family: courier new,courier,monospace;">// get width and
+height of screen somehow</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">CQuadTreeNode*
+entireScreen = new CQuadTreeNode(0, 0, screenWidth, screenHeight);<br>
+// tell the quad tree node to subdivide itself.<br>
+      </span></small></span></big></span></small><small><span
+ style="font-family: courier new,courier,monospace;"><big><span
+ style="font-family: arial narrow;"><small><span
+ style="font-family: courier new,courier,monospace;">entireScreen-&gt;SubDivide();<br>
+// tell it to divide itself again!<br>
+      </span></small></span></big></span></small><small
+ style="font-weight: bold;"><span
+ style="font-family: courier new,courier,monospace;"><big><span
+ style="font-family: arial narrow;"><small><span
+ style="font-family: courier new,courier,monospace;">entireScreen-&gt;SubDivide();</span></small></span></big></span></small><br>
+      <span style="font-family: arial narrow;"><br>
+      <span style="font-family: arial narrow;">We have told it to
+subdivide itself twice!&nbsp; The second time we
+call SubDivide, we will enter into the else clause of the conditional
+for the root node, since it now has valid m_SubNodes.&nbsp; This means
+we will then call into the 4 children quad tree nodes of the root node
+and tell them to subdivide.&nbsp; They will then do what our root node
+did in the first call we made to it, since they have no children, they
+will each create 4 children of their own to make a total of 16
+nodes.&nbsp; Also, the four children nodes of the root node become
+branch nodes instead of leaf nodes.&nbsp; We can go back to an earlier
+diagram to see the situation we have now:</span><br
+ style="font-family: arial narrow;">
+      <br>
+      </span>
+      <div style="text-align: center;"><span
+ style="font-family: arial narrow;"><img
+ alt="2 Subdivisions result in leaf nodes"
+ title="2 Subdivisions result in leaf nodes"
+ src="./images/quadtree2levelsubdivide.PNG"
+ style="width: 313px; height: 236px;"><br>
+16 leaf nodes, 4 branch nodes, 1 root node<br>
+      </span>
+      <div style="text-align: left;"><span
+ style="font-family: arial narrow;"><br>
+      <span style="font-family: arial narrow;">We have labeled each
+quadrant with its array pseudo-index from the root
+node.&nbsp; For example, since the upper left 1st level quadrant has an
+index of [0] in the m_SubNodes array member of the root node, the upper
+left 2nd level quadrant has an index of [0, 0].&nbsp; These are just
+logical indices; in the code you never have to actually index into the
+nodes like this because </span><span
+ style="font-style: italic; font-family: arial narrow;">each quad
+tree node manages its own children.</span><span
+ style="font-family: arial narrow;">&nbsp; </span><br
+ style="font-family: arial narrow;">
+      <br style="font-family: arial narrow;">
+      <span style="font-family: arial narrow;">We can subdivide like
+this as many times as we want.&nbsp; Each time we
+divide, we exponentially increase the number of leaf nodes.&nbsp; The
+formula for the number of leaf nodes is </span><br
+ style="font-family: arial narrow;">
+      <span style="font-family: arial narrow;">4 ^ numSubdivisions.</span><br
+ style="font-family: arial narrow;">
+      <span style="font-family: arial narrow;">For example, if we
+subdivide 3 times, we have 4 ^ 3 = 4*4*4 = 64 leaf
+nodes.&nbsp; If we subdivide 4 times we get 256 leaf nodes.</span><br
+ style="font-family: arial narrow;">
+      <br style="font-family: arial narrow;">
+      <span style="font-family: arial narrow;">You must experiment with
+your own program to find the optimal number of
+subdivisions.&nbsp; For Abound, we use 256 leaf nodes since that works
+out well for the size of objects we usually have.</span><br
+ style="font-family: arial narrow;">
+      <br style="font-family: arial narrow;">
+      </span><span style="font-weight: bold; font-family: arial narrow;"><big
+ style="color: rgb(51, 0, 153);"><small><span style="font-weight: bold;">Part
+II: Quad Tree Usage<br>
+      <br>
+      </span></small></big></span><span
+ style="font-family: arial narrow;"><span
+ style="font-family: arial narrow;">Okay, so now we have this quad tree
+with all these nodes.&nbsp; Great, what good is it?&nbsp; Well, we need
+to create a function to add objects to the quad tree, and also one that
+will give us all the objects in the same quadrant or quadrants as a
+specific object (like the moving one).&nbsp; These functions will allow
+us to make use of the quad tree by getting the small subset of objects
+that are around an object, and only doing collision detection with
+those objects.</span><br style="font-family: arial narrow;">
+      <br style="font-family: arial narrow;">
+      <span style="font-family: arial narrow;">Let's add some functions
+and members to our class:</span><br style="font-family: arial narrow;">
+      <br>
+      </span><small><span
+ style="font-family: courier new,courier,monospace;">class CQuadTreeNode</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">{</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">public:</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;
+CQuadTreeNode(long lowerLeftX, long lowerLeftY, long width, long
+height);</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;
+virtual ~CQuadTreeNode();</span><br
+ style="font-family: courier new,courier,monospace;">
+      <br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+HRESULT SubDivide();<br>
+      <span style="font-weight: bold;">&nbsp;&nbsp; HRESULT
+AddObject(ICollidableObject* object);</span><br
+ style="font-weight: bold;">
+      <span style="font-weight: bold;">&nbsp;&nbsp; HRESULT
+GetSize(long* llx, long* lly, long* width, long* height);</span><br
+ style="font-family: courier new,courier,monospace; font-weight: bold;">
+      </span><span
+ style="font-family: courier new,courier,monospace; font-weight: bold;"></span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">private:</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+long m_LowerLeftX;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+long m_LowerLeftY;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+long m_Width;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+long m_Height;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+CQuadTreeNode** m_SubNodes;<br>
+      <span style="font-weight: bold;">&nbsp;&nbsp; // This stl set
+will store the objects added to our node</span><br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;"><span
+ style="font-weight: bold;">&nbsp;&nbsp; typedef
+std::set&lt;ICollidableObject*&gt; CollidablesSet;</span><br
+ style="font-weight: bold;">
+      <span style="font-weight: bold;">&nbsp;&nbsp; CollidablesSet
+m_Collidables;</span><br style="font-weight: bold;">
+};</span><br style="font-family: courier new,courier,monospace;">
+      </small><br>
+      <span style="font-family: arial narrow;"><span
+ style="font-family: arial narrow;">"Wait a second!&nbsp;
+What's with this weird-looking ICollidableobject type I am seeing
+everywhere?"&nbsp; Don't worry!&nbsp; This type is nothing to worry
+about: we will explain it and if you want you can either implement your
+own ICollidableObject class or you can completely remove this type and
+use your own object class.</span><br style="font-family: arial narrow;">
+      <br style="font-family: arial narrow;">
+      <span style="font-family: arial narrow;">ICollidableObject is an
+interface that we use in Abound that contains
+all the functions that we need to model a collidable object.&nbsp;
+Examples of collidable objects we use in Abound are the balls, the
+walls around the screen (they're invisible in Abound but still objects
+in our program), and the black holes.&nbsp; We actually further
+distinguish balls into normal moving balls and stationary balls (or
+pins).&nbsp; All of these different classes implement the
+ICollidableObject interface.&nbsp; Here are the functions of the
+ICollidableObject interface:</span><br
+ style="font-family: arial narrow;">
+      <br>
+      <small><span style="font-family: courier new,courier,monospace;">interface
+ICollidableObject : IUnknown {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+HRESULT GetPosition([out] double* xPos, [out] double* yPos);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+HRESULT GetPrevPosition([out] double* xPos, [out] double* yPos);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;">};</span><br
+ style="font-family: courier new,courier,monospace;">
+      </small><br>
+      </span><span style="font-family: arial narrow;">The CBall class,
+which represents moving balls, implements this interface like this:<br>
+      <br>
+      <small><span style="font-family: courier new,courier,monospace;">class
+CBall : </span><span
+ style="font-family: courier new,courier,monospace;">public
+ICollidableObject</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;">{</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">public:</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;
+CBall(POINT* center, long radius</span><span
+ style="font-family: courier new,courier,monospace;">);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;
+virtual ~CBall();</span><br
+ style="font-family: courier new,courier,monospace;">
+      <br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">public:</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+// IUnknown</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+HRESULT STDMETHODCALLTYPE QueryInterface(REFIID riid, LPVOID* obp);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+ULONG STDMETHODCALLTYPE AddRef(void);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+ULONG STDMETHODCALLTYPE Release(void);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+// ICollidableObject</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+HRESULT STDMETHODCALLTYPE GetPosition(double* xPos, double* yPos);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+HRESULT STDMETHODCALLTYPE GetPrevPosition(double* xPos, double* yPos);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span></small>};<br>
+      <br>
+If you are unfamiliar with interfaces and Windows programming, this may
+look like gibberish.&nbsp; Don't worry too much about it.&nbsp; You can
+make your own simple class CBall or CBox or whatever that just
+implements the GetPosition and GetPrevPosition functions.<br>
+      <br>
+Okay, so back to the CQuadTreeNode class, we have added an AddObject
+function which should add the object to every quad tree leaf node that
+it overlaps with.&nbsp; Branch nodes never have objects in them, since
+they relegate all their calls to their children nodes.&nbsp; Also, we
+have created the GetSize function that just returns the dimensions of a
+quad tree node.<br>
+      <br>
+Finally, we have created an stl set to store the objects added to this
+particular node.&nbsp; If you are unfamiliar with the <a
+ href="http://www.sgi.com/tech/stl/">Standard Template Library (stl)</a>,
+it is a set of containers and functions that are basically very useful
+and dynamic data structures. The stl set is a data structure that
+stores its items in a red-black tree, which is a form of binary tree,
+allowing logarithmic speed access to objects.&nbsp; If you are not
+comfortable with stl, you can always substitute this data structure out
+with your own array class or regular C-style array (though you must
+dynamically grow it and manage it, one of the main benefits of stl
+containers).<br>
+      <br>
+Alright, let's check out the implementation for the AddObject function:<br>
+      <br>
+      <small><span style="font-family: courier new,courier,monospace;">HRESULT
+CQuadTreeNode::AddObject(ICollidableObject* object)</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">{</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+HRESULT result = S_OK;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; // If
+this node has subnodes, figure out <br>
+&nbsp;&nbsp; // which subnode this object belongs</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+// in and add it to him, otherwise, just add it to our list</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+if (!m_SubNodes) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// no subnodes, this is a leaf node, so add it to the set</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+std::pair&lt;CollidablesSet::iterator, bool&gt; newInsertion;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+newInsertion = m_Collidables.insert(object);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+if (newInsertion.second) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// only add ref if this is object is not already in our set,</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// otherwise we will over ref count it.</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+object-&gt;AddRef();</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+else {</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// they should never add the same object to us twice</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+assert(false);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+else {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // This is a branch node, so we need to
+see which of our <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // children nodes need to have this
+object added to them.<br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// the object may need to go in more than one sub node if it</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// spans multiple quadrants</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+int collisionArray[4] = { -1, -1, -1, -1 };</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+int collisionIndex = 0;<br>
+      <span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// Simplify and assume this object is a circular object</span><br
+ style="font-weight: bold;">
+      <span style="font-weight: bold;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// that has a GetRadius function.&nbsp; For other object<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // types you must detect the type of
+object and then<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // do an appropriate test for overlap
+with this quadrant.<br
+ style="font-family: courier new,courier,monospace; font-weight: bold;">
+      </span></span><span
+ style="font-family: courier new,courier,monospace; font-weight: bold;"></span><span
+ style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long radius = 0;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+result = object-&gt;GetRadius(&amp;radius);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long lowerLeftX = 0;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long lowerLeftY = 0;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long width = 0;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long height = 0;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+double cx, cy;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Get this object's position and then
+make a bounding<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // box that encompasses the ball.&nbsp;
+This function returns<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // the center point of the ball.<br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+result = object-&gt;GetPosition(&amp;cx, &amp;cy);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long lcx, lcy;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+lcx = ::Roundoff(cx);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+lcy = ::Roundoff(cy);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+assert(SUCCEEDED(result));</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+lowerLeftX = lcx - radius;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+lowerLeftY = lcy - radius;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+width = 2 * radius;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+height = width;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long llx, lly, w, h;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // check each subnode to see if it is
+inside it.<br style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+for (int i = 0; i &lt; 4; i++) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+result = m_SubNodes[i]-&gt;GetSize(&amp;llx, &amp;lly, &amp;w, &amp;h);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+assert(SUCCEEDED(result));</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+int left1, left2;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+int right1, right2;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+int top1, top2;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+int bottom1, bottom2;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"><br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; // This code tests whether
+two rectangles overlap or not.<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; // It tests to see if one
+box's bottom edge is above the<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; // other box's top edge,
+and if so then they don't overlap,<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; // then it makes the other
+3 similar tests to definitively<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; // determine overlap.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; left1 = lowerLeftX;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+left2 = llx;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+right1 = lowerLeftX + width;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+right2 = llx + w;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+bottom1 = lowerLeftY;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+bottom2 = lly;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+top1 = lowerLeftY + height;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+top2 = lly + h;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+if (bottom1 &gt; top2 || top1 &lt; bottom2 || right1 &lt; left2 ||
+left1 &gt; right2) {<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; // they do not
+overlap, move onto the next subnode.<br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+continue;</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+else {<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; // they
+overlap, so add to our array of subnodes that <br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; // we need to tell
+to add this object.<br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+collisionArray[collisionIndex++] = i;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // now we have found all the subnodes that
+this object overlaps<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // with, so tell them to add this object to
+themselves.&nbsp; If<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // the node is a branch node, it will examine
+its children<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // nodes and tell the appropriate ones to add
+this object, or<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // else if it is a leaf node it will simply
+add this object to<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // its set.<br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;"> &nbsp;&nbsp;
+&nbsp;&nbsp; for (int j = 0; j &lt; collisionIndex; j++) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;
+&nbsp; &nbsp; &nbsp;&nbsp;
+m_SubNodes[collisionArray[j]]-&gt;AddObject(object);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+return result;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">}</span><br
+ style="font-family: courier new,courier,monospace;">
+      </small><br>
+That's a pretty big function.&nbsp; If the node is a leaf node, it just
+adds the object to its set because it knows that its parent nodes have
+determined that this object is overlapping with itself.&nbsp; If the
+node is a branch node with children it only wants to tell its subnodes
+that overlap with the object to add the object.&nbsp; <br>
+      <br>
+Okay, so now we need a function that will take in an object and give us
+the other objects that are close to it.&nbsp; We can pass in an object
+that we have already moved forward to its next location, a test move if
+you will, such that its GetPosition function returns its current (new)
+position, and the GetPrevPosition function returns the position it was
+just at.&nbsp; Or we can pass in an object that is not moving, and it
+will simply return to us the objects around it.&nbsp; The last
+parameter is a reference to an stl set of ICollidableObject
+pointers.&nbsp; This is how we pass back the objects to the
+caller.&nbsp; If you want to be old school, you can replace this
+parameter with an array of pointers to your object type.<br>
+      <br>
+      </span><small><span
+ style="font-family: courier new,courier,monospace;">class CQuadTreeNode</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">{</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">public:</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;
+CQuadTreeNode(long lowerLeftX, long lowerLeftY, long width, long
+height);</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;
+virtual ~CQuadTreeNode();</span><br
+ style="font-family: courier new,courier,monospace;">
+      <br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+HRESULT SubDivide();<br>
+&nbsp;&nbsp; HRESULT AddObject(ICollidableObject* object);<br>
+&nbsp;&nbsp; HRESULT GetSize(long* llx, long* lly, long* width, long*
+height);<br style="font-family: courier new,courier,monospace;">
+      </span> <span style="font-family: courier new,courier,monospace;"></span><span
+ style="font-weight: bold; font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+HRESULT GetCollidableObjects(ICollidableObject* object, <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; bool moving, </span><span
+ style="font-weight: bold; font-family: courier new,courier,monospace;">set&lt;ICollidableObject*&gt;&amp;
+collidables);</span><br
+ style="font-weight: bold; font-family: courier new,courier,monospace;">
+      <br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">private:</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+long m_LowerLeftX;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+long m_LowerLeftY;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+long m_Width;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+long m_Height;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+CQuadTreeNode** m_SubNodes;<br>
+&nbsp;&nbsp; // This stl set will store the objects added to our node<br
+ style="font-family: courier new,courier,monospace;">
+      </span> <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+typedef std::set&lt;ICollidableObject*&gt; CollidablesSet;<br>
+&nbsp;&nbsp; CollidablesSet m_Collidables;<br>
+};</span><br style="font-family: courier new,courier,monospace;">
+      </small><br>
+      <span style="font-family: arial narrow;">Let's explore the
+implementation of this function:<br>
+      <small><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">// if
+moving is true, caller should have <br>
+// moved the object forward a time step before</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">//
+calling this function</span><br
+ style="font-family: courier new,courier,monospace;">
+      <br>
+      <span style="font-family: courier new,courier,monospace;">HRESULT
+CQuadTreeNode::GetCollidableObjects(<br>
+&nbsp;&nbsp;&nbsp; ICollidableObject* object, bool moving,<br>
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;
+std::set&lt;ICollidableObject*&gt;&amp; collidables)</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">{</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+HRESULT result = S_OK;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; if
+(!m_SubNodes) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// no subnodes, this is a leaf node, so return entire set</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+CollidablesSet::iterator it = m_Collidables.begin();</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+while (it != m_Collidables.end()) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// exclude the actual object they are passing in, <br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; // since they want objects</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// other than this object in the area.</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+if (*it != object) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+collidables.insert(*it);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+it++;</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+else {</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// the object may be spanning more than one sub node</span><span
+ style="font-family: courier new,courier,monospace;"></span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long radius = 0;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+result = object-&gt;GetRadius(&amp;radius);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+assert(SUCCEEDED(result));</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// store the indices for subnodes that this object<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // overlaps with.&nbsp; If we are dealing
+with a moving<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // object, we have to make two passes
+through our<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // nodes, once for its current position and
+once for<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // its previous position, so use this set to
+store<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // the indices of the subnodes we find, and
+avoid<br>
+&nbsp;&nbsp;&nbsp; &nbsp; // adding the same subnode twice.<br
+ style="font-family: courier new,courier,monospace;">
+      </span></small></span><span style="font-family: arial narrow;"><small><span
+ style="font-family: courier new,courier,monospace;"></span></small></span><span
+ style="font-family: arial narrow;"><small><span
+ style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+std::set&lt;int&gt; collisionSave;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+double cx, cy;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// if the ball is moving, then look at both <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // the ball's previous position</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// and the ball's current position, <br>
+&nbsp;&nbsp;&nbsp; &nbsp; // otherwise just look at the current</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+// position</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+int times2loop = moving ? 2 : 1;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+for (int k = 0; k &lt; times2loop; k++) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+if (k == 0) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+result = object-&gt;GetPosition(&amp;cx, &amp;cy);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+else if (k == 1) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+result = object-&gt;GetPrevPosition(&amp;cx, &amp;cy);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+else {</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+assert(false);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span></small></span><span
+ style="font-family: arial narrow;"><small><span
+ style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp; // create bounding box around circular object</span></small></span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: arial narrow;"><small><span
+ style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long lcx, lcy;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+lcx = ::Roundoff(cx);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+lcy = ::Roundoff(cy);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long lowerLeftX = lcx - radius;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long lowerLeftY = lcy - radius;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long width = 2 * radius;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long height = width;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+long llx, lly, w, h;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+int collisionArray[4] = { -1, -1, -1, -1 };</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+int collisionIndex = 0;<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; // check for overlap just like
+in AddObject<br style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+for (int i = 0; i &lt; 4; i++) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+result = m_SubNodes[i]-&gt;GetSize(&amp;llx, &amp;lly, &amp;w, &amp;h);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+assert(SUCCEEDED(result));</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+int left1, left2;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+int right1, right2;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+int top1, top2;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+int bottom1, bottom2;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+left1 = lowerLeftX;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+left2 = llx;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+right1 = lowerLeftX + width;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+right2 = llx + w;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+bottom1 = lowerLeftY;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+bottom2 = lly;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+top1 = lowerLeftY + height;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+top2 = lly + h;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+if (bottom1 &gt; top2 || top1 &lt; bottom2 || right1 &lt; left2 ||
+left1 &gt; right2) {<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; // no
+overlap<br style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+continue;</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+else {<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; //
+overlap<br style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+collisionArray[collisionIndex++] = i;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; // save off all the subnodes we
+found that overlap with<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; // this object before we begin
+our second pass (for moving<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; // objects only).<br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+if (k == 0) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+for (int j = 0; j &lt; collisionIndex; j++) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+collisionSave.insert(collisionArray[j]);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; // go through each subnode
+we have found that overlaps with<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; // this object and tell it
+to give us its objects by<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; // calling ITS
+GetCollidableObjects function.<br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+for (int j = 0; j &lt; collisionIndex; j++) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+if (k == 1) {<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; //
+kind of confusing, but this just avoids calling<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+// into the same subnodes more than once.<br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+if (collisionSave.find(collisionArray[j]) != collisionSave.end()) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+continue;</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; // get all the
+collidable objects from this subnode.<br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+CollidablesSet subNodeCollidables;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+m_SubNodes[collisionArray[j]]-&gt;GetCollidableObjects(<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+object, moving, subNodeCollidables);<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; // now add them to
+the set of objects we pass back to the<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; // caller.<br
+ style="font-family: courier new,courier,monospace;">
+      </span><span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+CollidablesSet::iterator it = subNodeCollidables.begin();</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+while (it != subNodeCollidables.end()) {</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+collidables.insert(*it);</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+it++;</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+}</span><br style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;"></span><span
+ style="font-family: courier new,courier,monospace;">&nbsp;&nbsp; }</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">&nbsp;&nbsp;
+return result;</span><br
+ style="font-family: courier new,courier,monospace;">
+      <span style="font-family: courier new,courier,monospace;">}</span><br
+ style="font-family: courier new,courier,monospace;">
+      </small><br>
+Another monster function!&nbsp; This function is a bit complex because
+it handles both cases of object: moving and stationary.&nbsp; For
+moving objects it takes into account both the previous position and the
+current position to find objects in all quadrants these positions
+overlap with.&nbsp; This is not fool-proof as the ball could actually
+move across more than one quadrant and "skip" over quadrants entirely,
+but provided that ouir movement timestep is small enough, we can be
+fairly certain we won't get into trouble with this case.<br>
+      <br>
+Like the AddObject function, if it is a leaf node it just returns all
+the objects in its set, otherwise if it is a branch node it will find
+which subnodes overlap with the object and tell them to give it their
+objects.&nbsp; This recursive type of behavior is very powerful, as you
+can see, as no matter how many times you subdivide there are only two
+types of nodes: leaf nodes without children nodes but with objects in
+them and branch nodes with children but without objects.<br>
+      <br>
+Congratulations!&nbsp; You have now learned the basic design of a quad
+tree.&nbsp; This is only the tip of the iceberg as far as this data
+structure is concerned, but I am confident you can take this starter
+code and modify it to fit your own program.&nbsp; Download the <a
+ href="./zipfiles/QuadTreeClass.zip">C++ source code for the quad tree
+class</a> if you want to work with it more.&nbsp; It includes more code
+that removes objects from the quad tree and even dynamically updates
+obects in the quad tree which is great because you can have moving
+objects in the quad tree, too, and call the update function after you
+move them so that their location in the quad tree is correct.<br>
+      </span></div>
+      </div>
+      </div>
+      </div>
+      <br>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table
+ style="margin-left: auto; margin-right: auto; text-align: left; width: 750px; height: 28px;"
+ border="0" cellpadding="4" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><small>2004
+Heroic Virtue Creations. All rights reserved. </small><small
+ style="font-weight: bold;"><big><a style="font-family: arial narrow;"
+ href="./Contact.html">Contact
+us</a><span style="font-family: arial narrow;">, </span></big></small><small
+ style="font-weight: bold;"><big><a style="font-family: arial narrow;"
+ href="./PrivacyPolicy.html">Privacy
+Policy</a></big></small> </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</div>
+</body>
+</html>
+
+------------igcVgez7hzJ65IwbJJX9bB
+Content-Disposition: inline; filename=LogoSmall.PNG
+Content-Type: image/png; name=LogoSmall.PNG
+Content-Location: http://www.heroicvirtuecreations.com/images/LogoSmall.PNG
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAAGcAAAB5CAIAAACr/6hFAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAA
+OpgAABdwnLpRPAAAQg1JREFUeF7tnXdUFOm67qubnAQVc85jjjPGMesYMWcxooKY
+AIkSmhwkq6BNzhmanGOTs9BkjKBOcIIze/bsfc49h/tUfVDTg6jozL77/rFZ7+oF
+RXV1fb963liFcnp6eqj/fH0sAVD7z9fHEqA+9g3/2Z/2zv9PKLx588+urr+JRD8K
+hd8KBK9gfP4zGI/Xzuc/FQhe8vlPRKIfYNjz337O/05qb978l0j0E5//nKLqKaqh
+zxopCsb+iG8eMjvA6iiqlqJqKKpaXf0hn/9YKHz1b4H4b6AGTTGkgAN0RMQ4nKa3
+DBuJNTJGOBKCv+OjqEp19TqBoEskev3/TIP/T6kBlrp6q75+ir5+qpFRmoNDjLFx
+uptbXEzM3djYe7GxXomJ/PR0h4wMe4HggUDAxzcJCfcTE30yMhwzMhzy83VTUqwj
+ItwiI90jIlzDwlzt7MINDAT6+vF6enFnzqTxeDkCwfOurp//1fj+VdRev2754YeW
+V6/KX73Ka2/3bmuzr6mxaWszefrU8cULz59+Cv3ll6j//d/snp7ynp7qnp7Knp6q
+np7mnh5RT09HT09jT09TT09LT09dT099T09FT0/Zf/939j//mfHzzwk//hjzzTcB
+XV1ejx+7dHQ4NDdbNDYa1dRoV1drVlScLS09WVx8VCS609ER2d4e2d1d9t13OE7P
+P/7xV6L8C6jhhL7/HoDKXrzIefo0prb2TGPj1Y4O82fPbn/3nf+bN5G//ZbyP/+T
+x3Bp6Olp7el5xtjznp7HPT1dPT2dPT3tfa+ABWS12Pm//qvkt9+Kfv01/82brJ9+
+ynj9OvnbbwXffZfQ1RXe3R3e2en7+LFvR4d3c7N7U5NLfb1tfb1VTY1pdbVhZaVO
+efnVkpKLxcVnhUL1oqJjhYWHCwoOlZcb1dd7vnpV9e23zW/evPgzevx0ar/88gJS
+am29W1Nzqq7uYmOjTmureWenw9On7l1dD1688Hv5Mujrr8NfvAjt6grq7g599Miv
+peVeQ4N7XZ1zfb1rVZW9UGhaVGSel2eYmXkjMfFiSspl8pqQcD429nRMzOn4+HPR
+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
+ae5c0YwZjZMnPxw3rn7kyPphw+qGDAGmGjm5ahmZaimpKgkJdFTIAOiokEDpHCop
+WS4hkS8hkcflImu5vIMgVuc5a1bgiRNbyJLFS/pBaU18J7DT1DRhUlJuX9OHMq23
+5iDUJCXRITahYUTziE5o+PDm0aNbJk5smT4dE4u2pUvbV63qhMqAbP/+58ePd589
++0pT8xvA0tX9Xl//ByOjH42NaTMy+kFf/3tdXeADO0ivG6568CANbsuW9rVrW5cv
+b160SDR7duO0aQ0TJ9aPGVOnqlqrogJ91cjLV8vKVklLV0lKVjJ5k6bG5E1S5ZL2
+gC50OZwiDgex7C5FOf0xQAPc1SVLrN5VpQ5ceQyYfZm8iSyDBgUFJNo9uuYg1Bhk
+6KVpamiw5eSalJQwoqALehT3U6e2zp7dumgRnKtjw4ZH27c/Icjgj5cvf6uj89rQ
+8EdT0zcWFj9bWf1y+/bfYI6Ov9jb/2xj85OBwfc6Ot9evgy3BbhnBw483rmzY9Om
+tjVrWpYta5o/v3HWrIbJk+vHjasbObJ22LCaIUNqFBQItUopqYp3UyOVB/oqUrIh
+syEb8CnKVCz+6L958+uAKD6CGp/fyTTDsLepoSgHtUZMIzC3QZuNhnH4cNTuzRDa
+jBmt8+e3ff55+5dfdm7d+njv3mcI/4hcly9/A4kZG//E4/1sa/uru/tvgoTf2lp+
+6Wjrysoof9n1uuvpNwnxry0tf2DAIeohAsKvH23b1r5+fcuKFU2LFzfOmdMwbVr9
+hAl1o0fXqqrWqKhUKypWyclVycjQ1BiXLONy+2mN9AakXiPUUHwgFQAcXgMoyoaw
+4/N724AB2X14KslMNSAuMkX4AzUOB4MamhpGNxjjYCaBBltFpWnEiKZx45qnTGmB
+0BYvblu5smPjxkdHjjw7c6bb3e0hYhZUBme0tPzFze3vycn/zM+t5d9HJO7NxceO
+moeFJD3u7AwJ/t7S8vsbN76+dOnF6dPPDh9+vHt3x+bNrWvWNC1b1jhvXsPMmfWY
+3I0dWztiRM3QodVKSlXy8pWyspXS0iy1Ug6nhMMRd89+1FDoomQDNdS68Ce4bRBT
+eGr8Ka3x+e2Mb2J4AHD9qWHIhYkNRjeYDmJMqKSExlA0alTThAnN06e3zJvXumxZ
+25dfdmhe6oyNbut69sTfL1RX95mh4Q9Qmb//r486f9DT82V57dnDP3Uq7uRJFM8a
+iXEpMRF1dnY/6et/e+UK8gZc+8m+fR3btrWuW9e8fLlo4cKGzz6rnzKlbvz4mpEj
+q4cNqx4ypEpBAdQqpKXLpaSI1gakBvckvQG01o8aPjqKokIBTiDAfbWBvz6sNSaU
+IqACnDg1OrRBa5gLMtQaML1RUGhUVhYNHy4aM6Zp0iTUB80LFiB4t61f3+FgW2Rq
+7PrsyWN/vzBt7SpTUzyo8HNT40sTE9SWtMRcXDrCw3tgoaE9QUH/6+f33w/u5fl4
+Rzg6vjE2fn3jBlItKrsnBw927tjRtmFD88qVosWLG+bMqZ82rRb9/OjR1cOHVykr
+VyoqVsrJVcjIgFqZhEQplwuhiWuNDWrvoobzAbUwigpUV3f9RGoi0XcMMnFqaKfo
+hMDMAmlqGBBi2oXRDWY4GD9gDjF2LOqpps8+Q7JrXbmybdOmjkOHmi0t7rU2i9R2
+61y7Vu3g8PPL7tcO9g/A68yZeC+vr6OiesLCaGTBwT0BAT2Bgf9TKuzCby0sOkxN
+v9fT+1pLq/vMmaeHD3fu2oUDNq9e3bhkycO5c+unT6+dOJGmpqpapaICahVycuUy
+MmWgJilJU+Nyi2VlUXyQ7CmeCkhH1U9rhBpKPPhpoFA4cHP6Aa0JBBg6kpKH1Vov
+NWDCnOvK5UYb66ZLFxu2f9UwdixGYI0jRjSOGyfav7dp+XK4Uvu2bXRZf/z404S4
+huxMnKKGpeWPJcLXdbXIwhpqag8AKySEVllERK/W8E197X/xLLyXLrVwdf3Z3Byl
+CWo6FCtPjxzpVFNr27y5ec2axqVLH86bVzdjRu2kSdVjxlSpqlaqqFQoKVXIyxNq
+qNFKJCSK5eXL4qLLLMzKpaUR3ciYqF8qEI9rxEMJNR8+v/hTsoG6Opm0EGokG9DU
+pKUfhgbVx8dkpian5+cVdT9/1vX8eYLgERxz5MjGE8dbH3e0VZTWZ6S1hgQ13PV8
+6OHW3viwPTw0bdUqD3e3108fd2poWC9fbglnBC8ILTa2Jy6uJzHxf0uK/+tl92/2
+dv5geu5chpvbzxYWoPb1lSuoV54ePQpqrVu2NIHasmWEWg2hNmIEoVYOTDIypSy1
+xYsKw0ISQ4KKGGqk5hB3T6ROjD3QTiEPIBuw1FAMI+A++GhqQtpH8Ekwlhod2qSk
+6h3tcw1uogHuzXpODn6tbR3fffddSlLl2TN16idbW5tbnj7q7H7+nLau59+//u5l
+9/NH7W2ih/Wih+2N9Q9LhOUP6x91tP/9yeOeNz/1fP9d7+n99re/XzhPjwY+/5x3
+796v9vZvzM1fg5q2dtfZs0+OHu3oo9awbFn9vHm1DLWqMWMqR4yoUFEpJ9RkZUul
+pUskJYslJIQKCkgIrkw/8Hv25HLzuVzgI+75Lmp+ACcSPX0b3Ps8lMeDExFqiGvI
+odAaTc3Ksvy2420sjMMxVFKKUVFJk5IKxoyworK2o621qqrpxrXKUaNCGuobjI1u
+795l4OTkL2psbm1pzsrI7WxrfdTe+upF1y9i887/89//89vf//G484X25d5Kfdcu
+bz7/Hy4uv9jaogz+ztT0az297suXEdfad+9u2bu3ZfXqhqVL60ANr/Pn14pRKxs1
+qlJVtWLo0HJQU1IqAzVzMwFFWRKhSUoW7t0rDA+tCAkq3bkDrQ7SKCk7sA9GIOJa
+AzUvPr/w46ipq4MU6UUINdpJJSXroiNTtC9jpmanoIDsXiclhdlp/ahRKD7u5edW
+vujqKhEKT52sdnLMd3G+O2GCI/i+ePEyKBCTGQ3ve2Gihvr1668weYCUlP3N3LzM
+1/ef7u6/IoGiXnNxfpWT1VqQW5qXXa+n237kSBv/foOzU+O6dQ22NnW5WXUeblWz
+ZiEblE+cWGVuVpWeWlFZVnrXs1Jtd3mgf3l9TVWSoERGBrE/b49acUpSVYuo/mFt
+VXYGCmBshNDEqcUwEyTkUHgoqKGlv/vmzd/6gXuf1hhJI+8Qar1OuntXXWR4+Cl1
+Izm5FMzpJSRqGWp1mDsrKdXv35dWkF/89atXifHZN/WaXF2Dt25tu3372ZMnjzdv
+vjZt2q3kxKqE+KT5880WLjQnvOCJy5fzIK6TJ2Pc3bu8vX/w9f2Hh8evt2//7OLy
+U3zs47SUDK97YfGxgvLSUrNbVYV5DbVVlVqXohLiagryCnMycy5qRMycWX1Zsyon
+sygvO8fDzd/UxENLMyI0ODsqIvphbbWZaYKMjFBtd3Fhfm1IUMSuHfppKYluLn4c
+DsKZuHvSI7Y+asgGH09NJPqWQQZD0wvFgRotNy3N2pTkpAP7reXkMP6uYajVYk4P
+aoqKdRMnNk6ZktbZ0f3s6dPEhGx3N6/160s6O3+MiMBBEN1bHj96ERMdP2+ema3t
+987Obzw8fkHwevDgNx+ff8Du3v3N0/Pvbm5oSGlkmelPQ4PhNTTcvNz83JyC0JCY
+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
+
+------------igcVgez7hzJ65IwbJJX9bB
+Content-Disposition: inline; filename=AboundLogo.PNG
+Content-Type: image/png; name=AboundLogo.PNG
+Content-Location: http://www.heroicvirtuecreations.com/images/AboundLogo.PNG
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAAToAAABoCAIAAADuEatDAAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAA
+OpgAABdwnLpRPAAAQAtJREFUeF7tnQd4FNX6/89mU+kdQUSRq8JVVBRFVGwoiNKr
+gAtSpKiAgoqI4Ir0JtJZpYOACCwQAoE0WCAkBAhhU2hSAiqo93eD9d7f7/n7/868
+m5PJlDOzm03wXjfP++TZ7M7Mbs7OZ75vO2dsf/zxBwv9hEYgNAL/ESMAXEM/oREI
+jcB/xAiw/4hPGfqQoREIjYDkCIdGITQCoRG4USNw/dv8bzM9F/a5L2d4fv+pwPRj
+hHA1HaLQBqERCP4IANTD0xwpwxk3/Iknxe8UwjX430ToiKERMBoBSGj+EU/G585d
+wyRQ9w4qMvwJYsUaG8I1dGqFRqCMRuDaKa9nimPHELZZQamK2LxtLsGn+S/ENf96
+vvd7L6zgd/NgoIy+qNDb/LVHAKDun+LYPlgCdXUPtrxbMV1VEfsXwtWV52IpjFv+
+P0yCgb/2WRT670t9BOD6AtRtg9lXAyVQl3Vjri5scScRrt+f9hp9rP8qdXWecEqg
+JihsB/Oc8JT6dxJ6g9AIaEYAoML1haJuGshWAdSubGlntqgTW9CBfdreEFcobeZy
+538/rvCB1ayCW9D7OnPtEcUDoTMtNAJBHAHkii7JoEJRJVC7s88LQZ0vgzqnHZvz
+oghXJJz+XLhev57//feGih/Y2LkvuPVxdTI2jLl2ugp+CYWygQ1taC9LI0Cg7pss
+gzqArZRBXdKZLezIAOrcQlBnv8hgynhV9fjPpa4ANSWFwQ4fdnz3nffXX4NAEbJK
+OqySugLXXowNZo65joKfg/Belr660EZ/sRE4v8+N2oz7VfblALaiO/usiw/UeQBV
+llMYgQqbJcQVFZ0/i7r+/nsBKAWrCQkSsbCNGx15eSUNL5EHNsR1tIwrbBBzTHN4
+vw6yqv/FTsvQv6sega9T3CmTHVtfZWt7shXdJFCRSVrQkc1rzz7RA3XWCwwmUNc/
+Ea4nTjiJVW6xsWziRLZ2reOHHwLP4up7wqSuMwtxlYllI5kn0xNyjEPYBWUEzqd7
+tg5iGwdItRlK+VImSQdUmVKymWa4GjVLlGlm+MIFt4pV0tgPPmBjx7IpU9iOHc5f
+AoowdXLClB8GrkCU1JXbMOb4zDCaD8q3GDrIX2QEdjoda/tJoCLlq8wkKf1eTimB
+SiZWV6NuxLLDFekl7gYr1RW4LlrEhg5lgwezcePY9Ols3z6XvwGtr9yqLOEIcAW3
+rzLHwhsQyv700xXYjz/mfvdd6qVLu86f33Dlyt7z5zfCTp1acOHCxvT0l06fXpSX
+tyAj45WTJz88cqRPXt7C9PTeaWm9jh8fe/z4+8eOjT16dGx29vwzZzbATp/ecPHi
+nitXUi9fTv3++xzY779f/4ugcsP/zV+vF6x0+ECVMkmaAFUppxxUK7galV7LDldd
+Volbt5sNGsR69WJ9+7IhQySxnTmTeTx+VF/0A1cQu1tPXXkoO6N0NfZf/7r+7bep
+585tyM2dn5k5FpaW1iMtrWda2ktpab3T0/tmZLyamfmm1zsuN3fi2bMzL1xYmJ//
+2dWray9d+uzy5RX4fe7cwnPn5ufkTMvIGJOePvrQodc8noH79jmSknomJHRLSOia
+kNAlIaHz3r2S7dnTiT/weN49evTT7Oz1Fy+mXr0aYrhU0L6U613aSy+TVNzvVYGK
+P2eYqesNdoYpG6wUVeXj3bt9uIJYWL9+ktiOH8+2bHFeuGCeGTJMCwNXtzGucijr
+SS9plkv3RIDcnTw578CBbvv3d4Xt29c1JaVLYmLn3btbx8U9t3Pnc7Gxz+3Y8dyu
+Xd3i4rrHxfWMi3spNtZnbne3bdte2rq1u9vdc8uW7ps2dfzyyw6wjRth7b744oUN
+G17csOGF9evbfvFF23XrpN9r1z6PP+kZ/F69uiV+Y5uNG1/YtOnFzZtf3LKl3Z49
+o48fX/fbbyHtDRq66bvcC3sWy/fq+r1KXGe0ZWRiZ/hGqqsyG6xLLFdXwpXslVfY
+228zp5Nt3erMzTWBylBdNwhx7cU8x4KMK3g4cODd3bs77tzZYfPmp7dubQdavvxS
+ImfduudXr26zcmWb5ctbwz777NmlS59dtKjVggXPzJ//zNy5T8+d+9ScOU/NmPHE
+zJlPTJ/us2nTWk6Z8viUKS0nT34cNmnS4x9//PjUqdKfeBJ/4gG2IcNe2B02a9aT
+s2c/iaN98ol0zE8/fRrvsnBhK5fr2YMH1/z6awjaIECbtsu9oIevMCPweyU5LaTU
+Iq5nE9y6n68snGHdDJNAXZXQ9u/P3nlHSh2vWuUwykIZVnGgrma4upP0xyXgL3Pn
+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
+iCqxaoYrb2y6ejVfiys5xlBdxEcB4wotIRMcAa1R7leLHF1dRNf1lG6LDlvT0xKu
+IA2UfvgCG9SymOGZ5X396Fu8sE8nRRJ47Gq60KFqPRegiOqruPRqupa/dvlSw9lz
+ugTiTEazrbIjCI/xDJ43JRb6NIyxAUXQumJ1BBbt9Q4Htd1zXI/ZbCiQZkZGnihX
+LqtKlaybbjrZoIEXmd5HHz3Vtu3ZXr0uDh36zZgxP0BL5879fcmS/1u+/I+VK//A
+76VL/3fevN+mTi0YN+7a8OGX+/X7unPnvFatTj78cObddx9t0CD9ppvSqlVLrVDh
+YHT0gYgIj92+Lyws2WZTesLAdYd8ZULsCnUFriitot6yOD//GicWa1ZJ3myguDq3
+OyVcCdTpsll2hpW48iAWtRzEtAHjigQn1SMgGHgs6JfYghhNdnTXF0ooVJTzCURX
+9/CZlQQvWJ3ZUaK01306hucBLVTXyqF0VwYPEFfT1ZiApbZlHyMoxjWALn+ruJKi
+jjZYCwZ1GmRkxMTiCFDXlxnrVwjtWyxf09iJWWxyNQX1T8IVzffoZDgWHo4yaWaF
+CieqVUN3YdYdd3iR5n3yyVPIIfXrd2nEiO/g9M6c+cuiRf9eseKPtWv/+OIL6feK
+Ff9v8eJ/zZp1/cMPf3jrLaSgvu7WLa9165MtWhxv0iSjYcP0unUPV69+qGLFAzEx
+nsjIfXZ7SlhYks1GOWHyhJFnQuAKXNHBsFF2hoHrZ4zNd7lSlAIr5YTNMrq4rumm
+qSRcIc4Eqj+4XrsmqSunFA8AKgy54lmzpJ7EANQVTRdUOKTplqjrinAdJXm5Sgld
+U8jnqh5sVXe2stBMGQOro1sZssoBtkhsMHE1lVbdNC/UNVhtw3v2+FwFS7iCNPhp
+EFLdPnl6EsSKNZYOQhv3YawvY/2Za5taYB0OzIwBqzD4w3jMcUWN9HjFiijAnLjl
+lqy77jrZrFn2M8/kdelybsCAS6NGfffRR/8zZ84vkNNVqyRWN2yQfq9c+f+WLPl9
+9uzrTuf3o0ZdHjToXPfuuW3aZD366LF77z3SsOFh9BVXr36wYkVPTMz+yMiU8PDk
+sLBEm40nmbgnjG4n4IorFnCFMwxcIaaf5udfJfwKfinwBZ9CP9ZoBlwxXKcxBrOm
+rnhrSjVxStEpQTZ7diC4EqvK+h/6pQS4fvWW5OWShEp8KhBd0Z2t6MaWF5oYV7AK
+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
+pwAAAABJRU5ErkJggg==
+
+------------igcVgez7hzJ65IwbJJX9bB
+Content-Disposition: inline; filename=quadtree1level.PNG
+Content-Type: image/png; name=quadtree1level.PNG
+Content-Location: http://www.heroicvirtuecreations.com/images/quadtree1level.PNG
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAATkAAADsCAIAAACAB0aOAAAABGdBTUEAALGPC/xh
+BQAACRNJREFUeF7t10FyEwEUxFBz/6txpwBblpnfrsj1UtlO50eKxvDr9++vly8E
+EPj5BP626hsBBH4+gdfPP9GFCCDw79+/KCCAQIKAVv0XAIEGAa02PCVe/I6cEtCq
+VhFoENBqw9P0hW08QUCrWkWgQUCrDU+JF78jpwS0qlUEGgS02vA0fWEbTxDQqlYR
+aBDQasNT4sXvyCkBrWoVgQYBrTY8TV/YxhMEvtPql6+fSeD1+pl3ueo/At97NWj1
+g/6QtBqRqdWIqN2ZWt2xPV3W6inO4phWI9a0GhG1O1OrO7any1o9xVkc02rEmlYj
+onZnanXH9nRZq6c4i2NajVjTakTU7kyt7tieLmv1FGdxTKsRa1qNiNqdqdUd29Nl
+rZ7iLI5pNWJNqxFRuzO1umN7uqzVU5zFMa1GrGk1Imp3plZ3bE+XtXqKszim1Yg1
+rUZE7c7U6o7t6bJWT3EWx7QasabViKjdmVrdsT1d1uopzuKYViPWtBoRtTtTqzu2
+p8taPcVZHNNqxJpWI6J2Z2p1x/Z0WaunOItjWo1Y02pE1O5Mre7Yni5r9RRncUyr
+EWtajYjananVHdvTZa2e4iyOaTViTasRUbsztbpje7qs1VOcxTGtRqxpNSJqd6ZW
+d2xPl7V6irM4ptWINa1GRO3O1OqO7emyVk9xFse0GrGm1Yio3Zla3bE9XdbqKc7i
+mFYj1rQaEbU7U6s7tqfLWj3FWRzTasSaViOidmdqdcf2dFmrpziLY1qNWNNqRNTu
+TK3u2J4ua/UUZ3FMqxFrWo2I2p2p1R3b02WtnuIsjmk1Yk2rEVG7M7W6Y3u6rNVT
+nMUxrUasaTUianemVndsT5e1eoqzOKbViDWtRkTtztTqju3pslZPcRbHtBqxptWI
+qN2ZWt2xPV3W6inO4phWI9a0GhG1O1OrO7any1o9xVkc02rEmlYjonZnanXH9nRZ
+q6c4i2NajVjTakTU7kyt7tieLmv1FGdxTKsRa1qNiNqdqdUd29NlrZ7iLI5pNWJN
+qxFRuzO1umN7uqzVU5zFMa1GrGk1Imp3plZ3bE+XtXqKszim1Yg1rUZE7c7U6o7t
+6bJWT3EWx7QasabViKjdmVrdsT1d1uopzuKYViPWtBoRtTtTqzu2p8taPcVZHNNq
+xJpWI6J2Z2p1x/Z0WaunOItjWo1Y02pE1O5Mre7Yni5r9RRncUyrEWtajYjananV
+HdvTZa2e4iyOaTViTasRUbsztbpje7qs1VOcxTGtRqxpNSJqd6ZWd2xPl7V6irM4
+ptWINa1GRO3O1OqO7emyVk9xFse0GrGm1Yio3Zla3bE9XdbqKc7imFYj1rQaEbU7
+U6s7tqfLWj3FWRzTasSaViOidmdqdcf2dFmrpziLY1qNWNNqRNTuTK3u2J4ua/UU
+Z3FMqxFrWo2I2p2p1R3b02WtnuIsjmk1Yk2rEVG7M7W6Y3u6/MZW//5N+EYAge8S
+eGOrp+8YY2cEfK6eodwOaXXLN7Cu1YCkfydqNSJqd6ZWd2xPl7V6irM4ptWINa1G
+RO3O1OqO7emyVk9xFse0GrGm1Yio3Zla3bE9XdbqKc7imFYj1rQaEbU7U6s7tqfL
+Wj3FWRzTasSaViOidmdqdcf2dFmrpziLY1qNWNNqRNTuTK3u2J4ua/UUZ3FMqxFr
+Wo2I2p2p1R3b02WtnuIsjmk1Yk2rEVG7M7W6Y3u6rNVTnMUxrUasaTUianemVnds
+T5e1eoqzOKbViDWtRkTtztTqju3pslZPcRbHtBqxptWIqN2ZWt2xPV3W6inO4phW
+I9a0GhG1O1OrO7any1o9xVkc02rEmlYjonZnanXH9nRZq6c4i2NajVjTakTU7kyt
+7tieLmv1FGdxTKsRa1qNiNqdqdUd29NlrZ7iLI5pNWJNqxFRuzO1umN7uqzVU5zF
+Ma1GrGk1Imp3plZ3bE+XtXqKszim1Yg1rUZE7c7U6o7t6bJWT3EWx7QasabViKjd
+mVrdsT1d1uopzuKYViPWtBoRtTtTqzu2p8taPcVZHNNqxJpWI6J2Z2p1x/Z0Waun
+OItjWo1Y02pE1O5Mre7Yni5r9RRncUyrEWtajYjananVHdvTZa2e4iyOaTViTasR
+Ubsztbpje7qs1VOcxTGtRqxpNSJqd6ZWd2xPl7V6irM4ptWINa1GRO3O1OqO7emy
+Vk9xFse0GrGm1Yio3Zla3bE9XdbqKc7imFYj1rQaEbU7U6s7tqfLWj3FWRzTasSa
+ViOidmdqdcf2dFmrpziLY1qNWNNqRNTuTK3u2J4ua/UUZ3FMqxFrWo2I2p2p1R3b
+02WtnuIsjmk1Yk2rEVG7M7W6Y3u6rNVTnMUxrUasaTUianemVndsT5e1eoqzOKbV
+iDWtRkTtztTqju3pslZPcRbHtBqxptWIqN2ZWt2xPV3W6inO4phWI9a0GhG1O1Or
+O7any1o9xVkc02rEmlYjonZnanXH9nRZq6c4i2NajVjTakTU7kyt7tieLmv1FGdx
+TKsRa1qNiNqdqdUd29NlrZ7iLI5pNWJNqxFRuzO1umN7uqzVU5zFMa1GrGk1Imp3
+plZ3bE+XtXqKszim1Yg1rUZE7c7U6o7t6bJWT3EWx7QasabViKjdmVrdsT1d1uop
+zuKYViPWtBoRtTtTqzu2p8taPcVZHNNqxJpWI6J2Z2p1x/Z0WaunOItjWo1Y02pE
+1O5Mre7Yni5r9RRncUyrEWtajYjananVHdvTZa2e4iyOaTViTasRUbsztbpje7qs
+1VOcxTGtRqxpNSJqd6ZWd2xPl7V6irM4ptWINa1GRO3O1OqO7emyVk9xFse0GrGm
+1Yio3Zla3bE9XdbqKc7imFYj1rQaEbU7U6s7tqfLWj3FWRzTasSaViOidmdqdcf2
+dPl9rX7vJ3kKAQSeEHg9edizCCDwNgJa/Xobaz8IgScEtKpVBBoEtNrw9OR97NnP
+IKBVrSLQIKDVhqfP+GTwWzwhoFWtItAgoNWGpyfvY89+BgGtahWBBgGtNjx9xieD
+3+IJAa1qFYEGAa02PD15H3v2MwhoVasINAhoteHpMz4Z/BZPCGhVqwg0CGi14enJ
++9izn0FAq1pFoEFAqw1Pn/HJ4Ld4QuAP+nuSoyzZQW0AAAAASUVORK5CYII=
+
+------------igcVgez7hzJ65IwbJJX9bB
+Content-Disposition: inline; filename=quadtree1levelreduce.PNG
+Content-Type: image/png; name=quadtree1levelreduce.PNG
+Content-Location: http://www.heroicvirtuecreations.com/images/quadtree1levelreduce.PNG
+Content-Transfer-Encoding: Base64
+
+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
+QmCC
+
+------------igcVgez7hzJ65IwbJJX9bB
+Content-Disposition: inline; filename=quadtree2level.PNG
+Content-Type: image/png; name=quadtree2level.PNG
+Content-Location: http://www.heroicvirtuecreations.com/images/quadtree2level.PNG
+Content-Transfer-Encoding: Base64
+
+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
+gf8BGrUr1fc9hW4AAAAASUVORK5CYII=
+
+------------igcVgez7hzJ65IwbJJX9bB
+Content-Disposition: inline; filename=quadtreewholescreen.PNG
+Content-Type: image/png; name=quadtreewholescreen.PNG
+Content-Location: http://www.heroicvirtuecreations.com/images/quadtreewholescreen.PNG
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAATkAAADsCAIAAACAB0aOAAAABGdBTUEAALGPC/xh
+BQAACMBJREFUeF7t3Qtu21YQBVB3/1vLnlIFRgVV0eeKJjm80gmKInBHfMMz71IU
+47j//Pr1+8svAgSOL3DKqn8IEDi+wNfxW9QhAQJ/7n8pECBQISCrPgIQ6BCQ1Y45
+VVz4NbmpgKzKKoEOAVntmNOmF2wHrxCQVVkl0CEgqx1zqrjwa3JTAVmVVQIdArLa
+MadNL9gOXiEgq7JKoENAVjvmVHHh1+SmArIqqwQ6BGS1Y06bXrAdvEJgSVZ/+0WA
+wA8Eri4Np785m1wsoqKrA/2gSS8lQOB/t3Lnv+L+NK6yausQ2FvgMpayure+9Qjk
+ArKaW6kkMCkgq5P61iaQC8hqbqWSwKSArE7qW5tALiCruZVKApMCsjqpb20CuYCs
+5lYqCUwKyOqkvrUJ5AKymlupJDApIKuT+tYmkAvIam6lksCkgKxO6lubQC4gq7mV
+SgKTArI6qW9tArmArOZWKglMCsjqpL61CeQCsppbqSQwKSCrk/rWJpALyGpupZLA
+pICsTupbm0AuIKu5lUoCkwKyOqlvbQK5gKzmVioJTArI6qS+tQnkArKaW6kkMCkg
+q5P61iaQC8hqbqWSwKSArE7qW5tALiCruZVKApMCsjqpb20CuYCs5lYqCUwKyOqk
+vrUJ5AKymlupJDApIKuT+tYmkAvIam6lksCkgKxO6lubQC4gq7mVSgKTArI6qW9t
+ArmArOZWKglMCsjqpL61CeQCsppbqSQwKSCrk/rWJpALyGpupZLApICsTupbm0Au
+IKu5lUoCkwKyOqlvbQK5gKzmVioJTArI6qS+tQnkArKaW6kkMCkgq5P61iaQC8hq
+bqWSwKSArE7qW5tALiCruZVKApMCsjqpb20CuYCs5lYqCUwKyOqkvrUJ5AKymlup
+JDApIKuT+tYmkAvIam6lksCkgKxO6lubQC4gq7mVSgKTArI6qW9tArmArOZWKglM
+CsjqpL61CeQCsppbqSQwKSCrk/rWJpALyGpupZLApICsTupbm0AuIKu5lUoCkwKy
+OqlvbQK5gKzmVioJTArI6qS+tQnkArKaW6kkMCkgq5P61iZwEvj6+kocZDVRUkNg
+ZYGrfCZxldWVZ+BwBBIBWU2U1BCYFDil9O9fSUPeVxMlNQRWFkhueq+WlNWVZ+Bw
+BDYSkNWNYB2WwMoCsroyqMMRWCCQ3BLL6gJYLyGwgsDVE6anR5TVp0QKCKwv4M9s
+1jd1RAJbCCQ3vZ4DbyHvmAReFriMaxJd98AvE3sBgcUCN78R4vuLT48pq0+JFBBY
+TeBeJmV1NWIHIjAu4H11fAQa+ESB5I3Us6VP3BnO+WgCC76D3/vq0Yaon48QuPkQ
++PGbrax+xM5wkkcTkNWjTUQ/BG4LyKqdQaBDQFY75qRLAieB8+OlUMPn1RBKGYFh
+AVkdHoDlCYQCshpCKSOwoUDyrRGyuuEAHJpAKCCrIZQyAjsJnDO54MeOel/daUiW
+IXAp4OdC2A8EOgRktWNOuiSwQMA98AI0LyEwICCrA+iWJHASOP/oluQh8KleVm0b
+AgMC3/m8fCz8tAlZfUqkgMD6ArK6vqkjEthCQFa3UHVMAusLyOr6po5IYAsBWd1C
+1TEJbCJw+W2GyQKeLSVKagjMC8jq/Ax08DkCfu7+58zamXYL+P/ZdM9P958jcPNH
+op1OP/nWJffAn7NPnOmxBJJ8XnYsq8ean27eW8D76nvP19m9j4DPq+8zS2fy3gKe
+A7/3fJ0dgT8CPq/aBwQ6BGS1Y066JCCr9gCBDgFZ7ZiTLgnIqj1AoENAVjvmpEsC
+smoPEOgQkNWOOemSgKzaAwQ6BGS1Y066JCCr9gCBDgFZ7ZiTLgnIqj1AoENAVjvm
+pEsCsmoPEOgQkNWOOemSgKzaAwQ6BGS1Y066JCCr9gCBDgFZ7ZiTLgnIqj1AoENA
+VjvmpEsCsmoPEOgQkNWOOemSgKzaAwQ6BGS1Y066JCCr9gCBDgFZ7ZiTLgnIqj1A
+oENAVjvmpEsCsmoPEOgQkNWOOemSgKzaAwQ6BGS1Y066JCCr9gCBDgFZ7ZiTLgnI
+qj1AoENAVjvmpEsCsmoPEOgQkNWOOemSgKzaAwQ6BGS1Y066JCCr9gCBDgFZ7ZiT
+LgnIqj1AoENAVjvmpEsCsmoPEOgQkNWOOemSgKzaAwQ6BGS1Y066JCCr9gCBDgFZ
+7ZiTLgnIqj1AoENAVjvmpEsCsmoPEOgQkNWOOemSgKzaAwQ6BGS1Y066JCCr9gCB
+DgFZ7ZiTLgnI6qH3wNd/v05dXv7+3PTpi/dO4Lv+8eklNYcG+qTmZPXo077M29Ps
+XZ3MVf3Nl796zKN7vW9/snr02crq0Se0V39HyerfV/ebt3wPWO7Vt79v3Mvqg/M9
+/6er1z64i3YzvFfilq9ziKzeDGrykexmzeOjLacaeuX36Vz++7KRx3e54T3wuaz9
+ujY0op2WldWdoBcvs0NWX7osLj4RL/yhwHxWnz7wSC72Tz/UJQf5IeVGL5fVjWDr
+DiurBSO7dwN8vje+98Z47x74wWfgAo5PbVFWCyZ/M6uXD5DuPUP6+4nR1Vcunza9
++jCvAO69WpTV95qns3lfAVl939k6s/cSmM/q3x+6voUf3JLdexx17w8Jex8svddm
+czY/EjhuVu+d1oLgLXjJj1C9mMAGAjtl9elzi+3itN2RNxiHQxK4K7BHVu89sTQW
+AgRygc2zehXUex8p845VEvhMAVn9zLk76z6Bmaxerur3BAi8KnC+XX36wq+nFTev
+Ad8LvPRaxQQI3BQIo/Ry3vLLgMEQILCiwMtZXXFthyJAIBeQ1d85lkoCgwKyKqsE
+OgRktWNOg5dzSx9EYGFWb35fhC8SIJAILAv/kqwm3aghQOCBwIK4LsnqaRljIEBg
+scCCoP4J3bKXeRUBAjsLyKpnSwQ6BGS1Y047X8Itd0ABWZVVAh0CstoxpwNe5rW0
+s4CsyiqBDgFZ7ZjTzpdwyx1QQFZllUCHgKx2zOmAl3kt7SzwL+lxDjCgza74AAAA
+AElFTkSuQmCC
+
+------------igcVgez7hzJ65IwbJJX9bB
+Content-Disposition: inline; filename=quadtree1levelsubdivide.PNG
+Content-Type: image/png; name=quadtree1levelsubdivide.PNG
+Content-Location: http://www.heroicvirtuecreations.com/images/quadtree1levelsubdivide.PNG
+Content-Transfer-Encoding: Base64
+
+iVBORw0KGgoAAAANSUhEUgAAATkAAADsCAIAAACAB0aOAAAABGdBTUEAALGPC/xh
+BQAADEZJREFUeF7tmFly40YUBOX7X813GmvMMI3BvlSRTCgVDn9IQPEhq7PRnL/+
+/vvXlz8SkMDnE/h21f8kIIHPJ/D1+SM6oQQk8Pv8KwUJSABBQFf9CiABBgFdZfSE
+2PgdskpAV3VVAgwCusroqbphG44goKu6KgEGAV1l9ITY+B2ySkBXdVUCDAK6yuip
+umEbjiCgq7oqAQYBXWX0hNj4HbJKQFd1VQIMArrK6Km6YRuOIHDG1V/+fCaBr6/P
+nMupRgTObQ26eqOFpKuQMnUVUlRvTF3tsY0m62oUJzFMVyGt6SqkqN6YutpjG03W
+1ShOYpiuQlrTVUhRvTF1tcc2mqyrUZzEMF2FtKarkKJ6Y+pqj200WVejOIlhugpp
+TVchRfXG1NUe22iyrkZxEsN0FdKarkKK6o2pqz220WRdjeIkhukqpDVdhRTVG1NX
+e2yjyboaxUkM01VIa7oKKao3pq722EaTdTWKkximq5DWdBVSVG9MXe2xjSbrahQn
+MUxXIa3pKqSo3pi62mMbTdbVKE5imK5CWtNVSFG9MXW1xzaarKtRnMQwXYW0pquQ
+onpj6mqPbTRZV6M4iWG6CmlNVyFF9cbU1R7baLKuRnESw3QV0pquQorqjamrPbbR
+ZF2N4iSG6SqkNV2FFNUbU1d7bKPJuhrFSQzTVUhrugopqjemrvbYRpN1NYqTGKar
+kNZ0FVJUb0xd7bGNJutqFCcxTFchrekqpKjemK919evPn/XHelw7vWb4+2feTkJL
+mTtv/75s5RNXpp390/4P/b7yR7h64/WxtG4OrOAXujpdr5sreOmC4e83Q0ZKHL1+
+z+2bwC9+6I9w9d7r47mMlnb07Z37ra5ujrfi6vNPRzU4ev0eVx/XrCRf/NAf6upt
+1sfmu2XX+rjg6vBlsuezdoo3eq7hsWi4N826unSGSv3+tJB7+KyvTN4Z2PUx+y59
+13v18bnD/+/5Cjo9MS7tO6PnGvk5+tylM9R6yHDgpQfZ3BZ9r8737vqYrgyKq0vn
+yXOuPv+lZ0mVWfeGwo/et9M/zf7L1tJ+tPLy/Inv1dEufgLB0tlp6bvf9PpHwW9f
+H5ub/S44F87AN+hizxeipddySuPNGR4X8M7Arg/uGXjpjDr8EjjcB6dfDtf3Wc/A
+U5+/Tii+c/PYc9mhM/CN18fb36tPr56NbL7JR2fO0XfFUc7OA+qIw/Cu4b42+9FL
+86zPOftGnf3cpcPannU+uuaEdN+3vNNV18d0fS8ZsmnO76hrZ+ATa45+yy6qk4c8
+d9cwhucqvelz859retddaVenL8PRsfYcgc+56/mAO0c6ev1S7E1cdX2MCj6wPtKu
+7lzBXnaUwE1cPfrYXv8/AV2FrAZdhRTVG1NXe2yjyboaxUkM01VIa7oKKao3pq72
+2EaTdTWKkximq5DWdBVSVG9MXe2xjSbrahQnMUxXIa3pKqSo3pi62mMbTdbVKE5i
+mK5CWtNVSFG9MXW1xzaarKtRnMQwXYW0pquQonpj6mqPbTRZV6M4iWG6CmlNVyFF
+9cbU1R7baLKuRnESw3QV0pquQorqjamrPbbRZF2N4iSG6SqkNV2FFNUbU1d7bKPJ
+uhrFSQzTVUhrugopqjemrvbYRpN1NYqTGKarkNZ0FVJUb0xd7bGNJutqFCcxTFch
+rekqpKjemLraYxtN1tUoTmKYrkJa01VIUb0xdbXHNpqsq1GcxDBdhbSmq5CiemPq
+ao9tNFlXoziJYboKaU1XIUX1xtTVHttosq5GcRLDdBXSmq5CiuqNqas9ttFkXY3i
+JIbpKqQ1XYUU1RtTV3tso8m6GsVJDNNVSGu6CimqN6au9thGk3U1ipMYpquQ1nQV
+UlRvTF3tsY0m62oUJzFMVyGt6SqkqN6YutpjG03W1ShOYpiuQlrTVUhRvTF1tcc2
+mqyrUZzEMF2FtKarkKJ6Y+pqj200WVejOIlhugpp7YWufq8J/5OABM4SeKGrkN3r
+x43pexVSua5CiuqNqas9ttFkXY3iJIbpKqQ1XYUU1RtTV3tso8m6GsVJDNNVSGu6
+CimqN6au9thGk3U1ipMYpquQ1nQVUlRvTF3tsY0m62oUJzFMVyGt6SqkqN6Yutpj
+G03W1ShOYpiuQlrTVUhRvTF1tcc2mqyrUZzEMF2FtKarkKJ6Y+pqj200WVejOIlh
+ugppTVchRfXG1NUe22iyrkZxEsN0FdKarkKK6o2pqz220WRdjeIkhukqpDVdhRTV
+G1NXe2yjyboaxUkM01VIa7oKKao3pq722EaTdTWKkximq5DWdBVSVG9MXe2xjSbr
+ahQnMUxXIa3pKqSo3pi62mMbTdbVKE5imK5CWtNVSFG9MXW1xzaarKtRnMQwXYW0
+pquQonpj6mqPbTRZV6M4iWG6CmlNVyFF9cbU1R7baLKuRnESw3QV0pquQorqjamr
+PbbRZF2N4iSG6SqkNV2FFNUbU1d7bKPJuhrFSQzTVUhrugopqjemrvbYRpN1NYqT
+GKarkNZ0FVJUb0xd7bGNJutqFCcxTFchrekqpKjemLraYxtNvpurX3/+rLN6XDu9
+Zvj7Z95O7EuZO2//vmzpE4/+fu8n6upeUm++7lauTsWbVXGIfOmC4e83Q0YdHr1+
+z+2b85z/UF19s4N7P/7mrm5iWHH1+aejGhy9fo+rm/vL+Q99n6segjbX5/CCj3Z1
+eOrbsxZ3ijd6Rw1XzBPN6Bg8+v30OLq07I7+/nEG3jy6z57bDxX//8VbH3cydus2
+D0FbhMZ//2hXnwv30evmIh5+2Rt9b1w6Q44yR+/S0ecuLa/1kOkrcX2Zrjzm6KE2
+X7a7VsPHuLo57c69eDMnw+3flM01OXvB5l2zj3A3V5fOk+dcfcr/iD3h6ui9OtwL
+lsTbLDJY/+OpDi3upYuHZ43NR1hZ5aMTzai4Ic/nJKNbRr8fDvbscSVn//W6+sdi
+GL7Z9qyAT3N1U4OpsZuP+Zmuegiadr1yENhcGNMLbvVeXTlbjl5ow6139kQ0+x4+
+8V6d3TtW5lzaqpfOBUsPcmAphN6rJ1z9tI01ewha2XM3t2PeGfj5znm+XTcfcoR7
+5OEoZ2c3+49h05PV0jzrc85WNT2bze4yByz970R4+JaFGzwE7dw6N5cxz9XUGmLl
+nCvy3F2/ybzpvfpDDkFL2+6JNfnpZ+DZ7wDT9+H5lXqCWfmW9ffnCpCTc4Vc9RA0
+fKlOT1jXD0E8V0+uSG9bIhBy9WcCPveSOHeXrv7MNTZ46qarsyegcyv1M3t65SFI
+Vz9zDbxwqqarL3yM+3+Urt6/440n1FXIEtBVSFG9MXW1xzaarKtRnMQwXYW0pquQ
+onpj6mqPbTRZV6M4iWG6CmlNVyFF9cbU1R7baLKuRnESw3QV0pquQorqjamrPbbR
+ZF2N4iSG6SqkNV2FFNUbU1d7bKPJuhrFSQzTVUhrugopqjemrvbYRpN1NYqTGKar
+kNZ0FVJUb0xd7bGNJutqFCcxTFchrekqpKjemLraYxtN1tUoTmKYrkJa01VIUb0x
+dbXHNpqsq1GcxDBdhbSmq5CiemPqao9tNFlXoziJYboKaU1XIUX1xtTVHttosq5G
+cRLDdBXSmq5CiuqNqas9ttFkXY3iJIbpKqQ1XYUU1RtTV3tso8m6GsVJDNNVSGu6
+CimqN6au9thGk3U1ipMYpquQ1nQVUlRvTF3tsY0m62oUJzFMVyGt6SqkqN6Yutpj
+G03W1ShOYpiuQlrTVUhRvTF1tcc2mqyrUZzEMF2FtKarkKJ6Y+pqj200WVejOIlh
+ugppTVchRfXG1NUe22iyrkZxEsN0FdKarkKK6o2pqz220WRdjeIkhukqpDVdhRTV
+G1NXe2yjyboaxUkM01VIa7oKKao3pq722EaTdTWKkximq5DWdBVSVG9MXe2xjSbr
+ahQnMUxXIa3pKqSo3pi62mMbTdbVKE5imK5CWtNVSFG9MXW1xzaarKtRnMQwXYW0
+9jpXz32Sd0lAAlcIfF252XslIIGXEdDVXy9j7QdJ4AoBXdVVCTAI6Cqjpyv7sffe
+g4Cu6qoEGAR0ldHTPd4MPsUVArqqqxJgENBVRk9X9mPvvQcBXdVVCTAI6Cqjp3u8
+GXyKKwR0VVclwCCgq4yeruzH3nsPArqqqxJgENBVRk/3eDP4FFcI6KquSoBBQFcZ
+PV3Zj733HgR0VVclwCCgq4ye7vFm8CmuEPgHU/b0mE/8788AAAAASUVORK5CYII=
+
+------------igcVgez7hzJ65IwbJJX9bB
+Content-Disposition: inline; filename=quadtreediagram.PNG
+Content-Type: image/png; name=quadtreediagram.PNG
+Content-Location: http://www.heroicvirtuecreations.com/images/quadtreediagram.PNG
+Content-Transfer-Encoding: Base64
+
+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
+oUiGbqhNAAAAAElFTkSuQmCC
+
+------------igcVgez7hzJ65IwbJJX9bB
+Content-Disposition: inline; filename=quadtree2levelsubdivide.PNG
+Content-Type: image/png; name=quadtree2levelsubdivide.PNG
+Content-Location: http://www.heroicvirtuecreations.com/images/quadtree2levelsubdivide.PNG
+Content-Transfer-Encoding: Base64
+
+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
+
+------------igcVgez7hzJ65IwbJJX9bB--

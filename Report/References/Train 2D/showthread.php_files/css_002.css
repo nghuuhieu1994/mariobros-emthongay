@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* robotic header cells ================================== */
+#r_header_block {width: 100%;margin: 0px;margin-left: auto;margin-right: auto;padding: 0px;clear:both;}
+.r_header_background {background-image: url(themes/robotic-dark_amber/misc/images/header-back.jpg);background-repeat: repeat-x;height: 197px;width: auto;margin: 0px;padding: 0px;}
+.r_logo_placement {background-repeat: no-repeat;height: 197px;margin: 0 auto;width: 960px;padding: 0px;}
+/* ================================================================================ */
+
+/* robotic navbar cells ================================== */
+#r_navbar_block {width: 100%;margin: 0px;margin-left: auto;margin-right: auto;padding: 0px;clear:both;}
+.r_navbar_left {background-image: url(themes/robotic-dark_amber/misc/images/navbar-left.jpg);background-repeat: no-repeat;height: 63px;width: 150px;float: left;margin: 0px;padding: 0px;}
+.r_navbar_middle {background-image: url(themes/robotic-dark_amber/misc/images/navbar-middle.jpg);background-repeat: repeat-x;height: 63px;width: auto;margin: 0px 150px 0px 150px;padding: 0px;}
+.r_navbar_right {background-image: url(themes/robotic-dark_amber/misc/images/navbar-right.jpg);background-repeat: no-repeat;height: 63px;margin-top:-63px;width: 150px;float: right;padding: 0px;}
+/* ================================================================================ */
+
+/* robotic shell side cells ========================================================== */
+.r_shell_side_block {margin: 0px;margin-left: auto;margin-right: auto;margin-bottom: auto;padding: 0px;width: 100%;min-height: 100%;height: 100%;}
+.r_shell_side_left {background-image: url(themes/robotic-dark_amber/misc/images/body-side-left.jpg);background-repeat: repeat-y;background-position:left;}
+.r_shell_side_right {background-image: url(themes/robotic-dark_amber/misc/images/body-side-right.jpg);background-repeat:repeat-y;background-position:right;}
+/* ================================================================================ */
+
+/* robotic shell base cells ============================================================ */
+.r_shell_base_block {width: 100%;margin: 0px auto;padding: 0px;text-align:center;clear:both;}
+.r_shell_base_left {background-image: url(themes/robotic-dark_amber/misc/images/basenav-left.jpg);background-repeat: no-repeat;float: left;height: 37px;width: 100px;padding:0px;}
+.r_shell_base_centre {background: url(themes/robotic-dark_amber/misc/images/basenav-middle.jpg);background-repeat: repeat-x;height: 37px;width: auto;padding:0px;margin: 0px 100px 0px 100px;}
+.r_shell_base_right {background-image: url(themes/robotic-dark_amber/misc/images/basenav-right.jpg);background-repeat: no-repeat;float: right;height: 37px;margin-top:-37px;width: 100px;padding:0px;}
+/* ================================================================================ */
+
+/* robotic shell container ============================================================ */
+.r_shell_content {background-image: url(themes/robotic-dark_amber/misc/images/bodyfill.jpg);background-repeat: repeat;margin-left: 23px;margin-right: 23px;padding: 0px;}
+.home_category_content {margin-left: 5px;margin-right: 3px;padding: 0px;background-color: #191919;}
+.main_category_content {margin-left: 5px;margin-right: 3px;padding: 0px;overflow:hidden;background-color: #191919;}
+.clearfix:after {
+   content: ".";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+/* ================================================================================ */
+
+/* robotic headtab container ============================================================ */
+.r_headtab-l {background-image: url(themes/robotic-dark_amber/misc/images/thead-left.jpg);float:left;background-repeat: no-repeat;border:0px;padding:0px;height:25px;width:30px;}
+.r_headtab {background-image: url(themes/robotic-dark_amber/misc/images/thead-middle.jpg);background-repeat: repeat-x;border:0px;padding:0px;height:25px;}
+.r_headtab-r {background-image: url(themes/robotic-dark_amber/misc/images/thead-right.jpg);float:right;background-repeat: no-repeat;border:0px;padding:0px;height:25px;margin-top: -25px;width:30px;}
+div.r_headtab {color:rgb(144, 144, 144);}
+/* ================================================================================ */
+
+/* robotic userinfo header cells ================================== */
+.r_userinfo_header_block {width: 100%;margin: 0px;margin-left: auto;margin-right: auto;padding: 0px;clear:both;}
+.r_userinfo_header_left {background-image: url(themes/robotic-dark_amber/misc/images/userinfo-top-left.jpg);background-repeat: no-repeat;height: 36px;width: 20px;float: left;margin: 0px;padding: 0px;}
+.r_userinfo_header_middle {background-image: url(themes/robotic-dark_amber/misc/images/cat-top-middle.jpg);background-repeat: repeat-x;height: 36px;width: auto;margin: 0px 20px 0px 20px;padding: 0px;}
+.r_userinfo_header_right {background-image: url(themes/robotic-dark_amber/misc/images/userinfo-top-right.jpg);background-repeat: no-repeat;height: 36px;margin-top:-36px;width: 20px;float: right;padding: 0px;}
+/* ================================================================================ */
+
+/* robotic forumname header cells ================================== */
+.r_forumname_header_block {width: 100%;margin: 0px;margin-left: auto;margin-right: auto;padding: 0px;}
+.r_forumname_header_left {background-image: url(themes/robotic-dark_amber/misc/images/cat-top-left.jpg);background-repeat: no-repeat;height: 36px;width: 113px;float: left;margin: 0px;padding: 0px;}
+.r_forumname_header_lefta {background-image: url(themes/robotic-dark_amber/misc/images/cat-top-leftA.jpg);background-repeat: no-repeat;height: 36px;width: 113px;float: left;margin: 0px;padding: 0px;}
+.r_forumname_header_middle {background-image: url(themes/robotic-dark_amber/misc/images/cat-top-middle.jpg);background-repeat: repeat-x;height: 36px;width: auto;margin: 0px 113px 0px 113px;padding: 0px;}
+.r_forumname_header_right {background-image: url(themes/robotic-dark_amber/misc/images/cat-top-right.jpg);background-repeat: no-repeat;height: 36px;margin-top:-36px;width: 113px;float: right;padding: 0px;}
+.r_forumname_header_right2 {background-image: url(themes/robotic-dark_amber/misc/images/cat-top-right2.jpg);background-repeat: no-repeat;height: 36px;margin-top:-36px;width: 113px;float: right;padding: 0px;}
+.r_forumname_header_righta {background-image: url(themes/robotic-dark_amber/misc/images/cat-top-rightA.jpg);background-repeat: no-repeat;height: 36px;margin-top:-36px;width: 113px;float: right;padding: 0px;}
+/* ================================================================================ */
+
+/* robotic forumname font controls ========================================================= */
+.r_forumname_text{color: rgb(112, 72, 2);font: bold 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;text-align: center;padding-top:16px;}
+.r_forumname_text a:link{color: rgb(112, 72, 2);text-decoration: none;}
+.r_forumname_text a:visited{color: rgb(112, 72, 2);text-decoration: none;}
+.r_forumname_text a:hover, .category_text a:active{color: rgb(112, 72, 2);text-decoration: underline;}
+/* ================================================================================ */
+
+/* robotic username font controls ========================================================= */
+.r_username_text{color: rgb(112, 72, 2);font: bold 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;padding-top:14px;}
+.r_username_text a:link{color: rgb(112, 72, 2);text-decoration: none;}
+.r_username_text a:visited{color: rgb(112, 72, 2);text-decoration: none;}
+.r_username_text a:hover, .category_text a:active{color: rgb(112, 72, 2);text-decoration: underline;}
+/* ================================================================================ */
+
+/* robotic forum Border cells ========================================================== */
+.r_forum_border_block {margin: 0px;margin-left: auto;margin-right: auto;margin-bottom: auto;padding: 0px;width: 100%;min-height: 100%;height: 100%;}
+.r_forum_border_left {background-image: url(themes/robotic-dark_amber/misc/images/cat-side-left.jpg);background-repeat:   repeat-y;background-position:left;}
+.r_forum_border_right {background-image: url(themes/robotic-dark_amber/misc/images/cat-side-right.jpg);background-repeat:   repeat-y;background-position:right;}
+/* ================================================================================ */
+
+/* robotic forumname footer cells ================================== */
+.r_forum_footer_block {width: 100%;margin: 0px;margin-left: auto;margin-right: auto;padding: 0px;clear:both;}
+.r_forum_footer_left {background-image: url(themes/robotic-dark_amber/misc/images/cat-base-left.jpg);background-repeat: no-repeat;height: 20px;width: 45px;float: left;margin: 0px;padding: 0px;}
+.r_forum_footer_middle {background-image: url(themes/robotic-dark_amber/misc/images/cat-base-middle.jpg);background-repeat: repeat-x;height: 20px;width: auto;margin: 0px 45px 0px 45px;padding: 0px;}
+.r_forum_footer_right {background-image: url(themes/robotic-dark_amber/misc/images/cat-base-right.jpg);background-repeat: no-repeat;height: 20px;margin-top:-20px;width: 45px;float: right;padding: 0px;}
+/* ================================================================================ */
+
+/* robotic forumname info top cells ================================== */
+.r_forumname_info_top_block {width: 100%;margin: 0px;margin-left: auto;margin-right: auto;padding: 0px;clear:both;}
+.r_forumname_info_top_left {background-image: url(themes/robotic-dark_amber/misc/images/cat-top2-left.jpg);background-repeat: no-repeat;height: 20px;width: 45px;float: left;margin: 0px;padding: 0px;}
+.r_forumname_info_top_middle {background-image: url(themes/robotic-dark_amber/misc/images/cat-top2-middle.jpg);background-repeat: repeat-x;height: 20px;width: auto;margin: 0px 45px 0px 45px;padding: 0px;}
+.r_forumname_info_top_right {background-image: url(themes/robotic-dark_amber/misc/images/cat-top2-right.jpg);background-repeat: no-repeat;height: 20px;margin-top:-20px;width: 45px;float: right;padding: 0px;}
+/* ================================================================================ */
+.toplinks form img {
+position:relative;  
+top: 5px;        
+} 

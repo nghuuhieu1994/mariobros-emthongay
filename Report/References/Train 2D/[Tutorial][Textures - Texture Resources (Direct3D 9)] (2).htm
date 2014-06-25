@@ -1,0 +1,2218 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="vbulletin_html" dir="ltr" xmlns="http://www.w3.org/1999/xhtml"
+ lang="en"><head>
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta id="e_vb_meta_bburl" name="vb_meta_bburl" 
+content="http://uitse.com/SUGC">
+<!-- base href="http://uitse.com/SUGC/" --><!--[if IE]></base><![endif]-->
+<meta name="generator" content="vBulletin 4.0.3">
+
+
+
+
+
+<script type="text/javascript" src="showthread.php_files/yuiloader-dom-event.js"></script>
+<script type="text/javascript" src="showthread.php_files/connection-min.js"></script>
+<script type="text/javascript">
+<!--
+	var SESSIONURL = "s=407b65682f946290c7e039fd8ec60493&";
+	var SECURITYTOKEN = "guest";
+	var IMGDIR_MISC = "themes/robotic-dark_amber/misc";
+	var IMGDIR_BUTTON = "themes/robotic-dark_amber/buttons";
+	var vb_disable_ajax = parseInt("0", 10);
+	var SIMPLEVERSION = "403";
+	var BBURL = "http://uitse.com/SUGC";
+	var LOGGEDIN = 0 > 0 ? true : false;
+// -->
+</script>
+<script type="text/javascript" src="showthread.php_files/vbulletin-core.js"></script>
+
+
+
+	<script type="text/javascript" src="showthread.php_files/FeatureLoader.js"></script><script type="text/javascript" src="showthread.php_files/vbulletin_facebook.js"></script><script type="text/javascript">
+	<!--
+		var FB_APIKEY = "75c54f9de75f6e5b542a02298a8d0300";
+		var FB_RECEIVER = ""
+	// -->
+	</script><link rel="stylesheet" type="text/css" 
+href="showthread.php_files/css_004.css"><script type="text/javascript" src="showthread.php_files/post_thanks.js"></script><style type="text/css">
+.postbitlegacy .postfoot .textcontrols a.post_thanks_button, .postbit .postfoot .textcontrols a.post_thanks_button  {
+	background: url(themes/robotic-dark_amber/buttons/post_thanks.png) no-repeat transparent left;
+	padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.post_thanks_button:hover, .postbit .postfoot .textcontrols a.post_thanks_button:hover  {
+	background: url(themes/robotic-dark_amber/buttons/post_thanks-hover.png) no-repeat transparent left;
+</style><meta name="keywords" 
+content="framework,thôi,ch&amp;7881,code,mình,z-buffer,thi&amp;7871u,ki&amp;7875u,graphic,c&amp;7911a,trong,l&amp;7841i,trên,&amp;273&amp;417n,game,nhiên,vi&amp;7871t,th&amp;7845y,hình,nhi&amp;7873u,tr&amp;7903,gi&amp;7843n,h&amp;417n,d&amp;297,r&amp;7845t,o______________o,s&amp;7869,ki&amp;7871n,m&amp;7885i,nhân,&amp;272ây,vi&amp;7879c,include,ph&amp;7847n,n&amp;7857m,&amp;273ó,n&amp;7871u,h&amp;7841n,ch&amp;7859ng,trình,&amp;7845y,&amp;273&amp;7883nh,thu&amp;7847n,logic,gi&amp;7889ng,b&amp;7893,sung,khác,&amp;273&amp;7897t,ti&amp;7871p"><meta
+ name="description" content="V&#7899;i nh&#7919;ng tut tr&#432;&#7899;c, và tài li&#7879;u &#273;&#432;&#7907;c share
+ trên forum ch&#7855;c h&#7859;n nhi&#7873;u b&#7841;n &#273;ã làm &#273;&#432;&#7907;c kh&#7889;i trò vui r&#7891;i nh&#7901; :o. Hôm 
+nay, mình s&#7869; gi&#7899;i thi&#7879;u v&#7899;i các b&#7841;n cách &#273;&#7875; load 1 file &#7843;nh trong su&#7889;t  
+(hay là có ph&#7847;n trong su&#7889;t j &#273;ó &#273;&#7841;i lo&#7841;i là v&#7853;y), và v&#7869; nó lên màn hình 
+:D.  
+ 
+Texture Resources (Direct3D 9)  
+DirectX t&#7841;o ra cho chúng ta giao di&#7879;n IDirect3DTexture9, nó cung c&#7845;p các
+ ph&#432;&#417;ng th&#7913;c &#273;&#7875; ta có th&#7875; thao tác trên Texture resource. 
+Texture resources là cái gi&#7889;ng j nh&#7901; :D. nó là m&#7897;t t&#7853;p h&#7907;p c&#7845;u trúc"><title>
+ [Tutorial][Textures - Texture Resources (Direct3D 9)]</title><script type="text/javascript" src="showthread.php_files/vbulletin_textedit.js"></script><script type="text/javascript" src="showthread.php_files/vbulletin_post_loader.js"></script><script type="text/javascript" src="showthread.php_files/vbulletin-editor.js"></script><script type="text/javascript" src="showthread.php_files/vbulletin_quick_edit.js"></script><script type="text/javascript" src="showthread.php_files/vbulletin_lightbox.js"></script><link
+ rel="stylesheet" type="text/css" href="showthread.php_files/css.css"><link
+ rel="stylesheet" type="text/css" 
+href="showthread.php_files/css_002.css"><script type="text/javascript" language="javascript" src="showthread.php_files/lytebox.js"></script><link
+ rel="stylesheet" type="text/css" 
+href="showthread.php_files/css_003.css"><script src="showthread.php_files/XFBML.js" type="text/javascript"></script><link
+ href="showthread.php_files/connect-css.css" type="text/css" 
+rel="stylesheet"></head><body><div id="FB_HiddenContainer" 
+style="position: absolute; top: -10000px; left: -10000px; width: 0px; 
+height: 0px;"><div><iframe name="fb_api_server" 
+src="showthread.php_files/client_restserver.htm" 
+class="FB_SERVER_IFRAME" scrolling="no" frameborder="0"></iframe></div><div><iframe
+ name="loginStatus" src="showthread.php_files/login_status.htm" 
+class="FB_SERVER_IFRAME" scrolling="no" frameborder="0"></iframe></div></div>
+	
+	
+
+
+
+
+
+	
+
+
+
+ 
+
+
+ 
+	
+	
+
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+
+	
+			
+	
+
+
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="css.php?styleid=2&amp;langid=1&amp;d=1278440367&amp;td=ltr&amp;sheet=replacement-vbulletin-ie.css" />
+<![endif]-->
+ 
+
+
+
+<div class="above_body"> <!-- closing tag is in template navbar -->
+<div id="header" class="r_logo_placement">
+	 
+	<div><a name="top" 
+href="http://uitse.com/SUGC/forum.php?s=407b65682f946290c7e039fd8ec60493"
+ class="logo-image"><img title="UIT SUGC - Powered by vBulletin" 
+src="showthread.php_files/logo.jpg" alt="UIT SUGC - Powered by 
+vBulletin"></a></div>
+	<div id="toplinks" class="toplinks">
+		
+			<ul class="nouser">
+    			
+    				<li><a 
+href="http://uitse.com/SUGC/register.php?s=407b65682f946290c7e039fd8ec60493"
+ rel="nofollow">Register</a></li>
+    			
+				<li><a rel="help" 
+href="http://uitse.com/SUGC/faq.php?s=407b65682f946290c7e039fd8ec60493">Help</a></li>
+				<li>
+                    <script type="text/javascript" src="showthread.php_files/vbulletin_md5.js"></script>
+                    <form id="navbar_loginform" 
+action="login.php?s=407b65682f946290c7e039fd8ec60493&amp;do=login" 
+method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password,
+ vb_login_md5password_utf, 0)">
+                        <fieldset id="logindetails" class="logindetails">
+        					<div>
+        						<div>
+                                    <img title="Username" 
+src="showthread.php_files/username.png" alt="Username">
+                                    <input style="color: rgb(130, 130, 
+130);" class="textbox" name="vb_login_username" id="navbar_username" 
+size="10" accesskey="u" tabindex="101" value="User Name" type="text">
+                                    <img title="Password" 
+src="showthread.php_files/password.png" alt="Password">
+                  					<input class="textbox default-value" 
+tabindex="102" name="vb_login_password_hint" id="navbar_password_hint" 
+size="10" value="Password" style="display: inline;" type="text">
+                  					<input style="display: none;" class="textbox" 
+tabindex="102" name="vb_login_password" id="navbar_password" size="10" 
+type="password">
+                  					<input style="color: rgb(38, 22, 0);" 
+class="loginbutton" tabindex="104" value="Log in" title="Enter your 
+username and password in the boxes provided to login, or click the 
+'register' button to create a profile for yourself." accesskey="s" 
+type="submit">
+                  					<label for="cb_cookieuser_navbar"><input 
+name="cookieuser" value="1" id="cb_cookieuser_navbar" 
+class="cb_cookieuser_navbar" accesskey="c" tabindex="103" 
+checked="checked" type="checkbox"></label>
+                                </div>
+                            </div>
+                        </fieldset>
+        				<input name="s" value="407b65682f946290c7e039fd8ec60493" 
+type="hidden">
+        				<input name="securitytoken" value="guest" type="hidden">
+        				<input name="do" value="login" type="hidden">
+        				<input name="vb_login_md5password" type="hidden">
+        				<input name="vb_login_md5password_utf" type="hidden">
+                    </form>
+        			<script type="text/javascript">
+            			YAHOO.util.Dom.setStyle('navbar_password_hint', "display", "inline");
+            			YAHOO.util.Dom.setStyle('navbar_password', "display", "none");
+            			YAHOO.util.Dom.setStyle('navbar_username', "color", "#828282");
+            			vB_XHTML_Ready.subscribe(function()
+            			{
+            			//
+            				YAHOO.util.Event.on('navbar_username', "focus", navbar_username_focus);
+            				YAHOO.util.Event.on('navbar_username', "blur", navbar_username_blur);
+            				YAHOO.util.Event.on('navbar_password_hint', "focus", navbar_password_hint);
+            				YAHOO.util.Event.on('navbar_password', "blur", navbar_password);
+            			});
+            			function navbar_username_focus(e)
+            			{
+            			//
+            				var textbox = YAHOO.util.Event.getTarget(e);
+            				if (textbox.value == 'User Name')
+            				{
+            				//
+            					textbox.value='';
+            					textbox.style.color='black';
+            				}
+            			}
+            			function navbar_username_blur(e)
+            			{
+            			//
+            				var textbox = YAHOO.util.Event.getTarget(e);
+            				if (textbox.value == '')
+            				{
+            				//
+            					textbox.value='User Name';
+            					textbox.style.color='#828282';
+            				}
+            			}
+            			function navbar_password_hint(e)
+            			{
+            			//
+            				var textbox = YAHOO.util.Event.getTarget(e);
+            				YAHOO.util.Dom.setStyle('navbar_password_hint', "display", "none");
+            				YAHOO.util.Dom.setStyle('navbar_password', "display", "inline");
+            				YAHOO.util.Dom.get('navbar_password').focus();
+            			}
+            			function navbar_password(e)
+            			{
+            			//
+            				var textbox = YAHOO.util.Event.getTarget(e);
+            				if (textbox.value == '')
+            				{
+            					YAHOO.util.Dom.setStyle('navbar_password_hint', "display", "inline");
+            					YAHOO.util.Dom.setStyle('navbar_password', "display", "none");
+            				}
+            			}
+        			</script>
+				</li>
+				
+					<li id="fb_headerbox">
+
+	<fb:login-button class="FB_login_button fb_login_not_logged_in 
+FB_ElementReady" size="medium" onlogin="vBfb.handle_fbLogin()"><a 
+id="RES_ID_fb_login" class="fbconnect_login_button"><img alt="Connect" 
+src="showthread.php_files/6ad3z8m6.png" id="RES_ID_fb_login_image"></a></fb:login-button>
+
+</li>
+ 
+				
+			</ul>
+		
+	</div>
+	<div class="ad_global_header">
+		 
+		 
+	</div>
+	 
+</div>
+<script language="javascript1.2" type="text/javascript" src="showthread.php_files/avim.js"></script>
+   
+<div id="r_navbar_block">
+    <div class="r_navbar_left"></div>
+    <div class="r_navbar_middle">
+<div id="navbar" class="navbar">
+
+	<ul id="navtabs" class="navtabs floatcontainer">
+		
+	<li>
+	
+		<a class="navtab" 
+href="http://uitse.com/SUGC/content.php?s=407b65682f946290c7e039fd8ec60493">Home</a>
+	
+	</li>
+ 
+		
+			<li class="selected"><a class="navtab" 
+href="http://uitse.com/SUGC/forum.php?s=407b65682f946290c7e039fd8ec60493">Forum</a>
+				<ul class="floatcontainer">
+					
+					
+						
+						<li><a 
+href="http://uitse.com/SUGC/search.php?s=407b65682f946290c7e039fd8ec60493&amp;do=getdaily&amp;contenttype=vBForum_Post">Today's
+ Posts</a></li>
+						
+					
+					
+					
+					
+					<li><a rel="help" 
+href="http://uitse.com/SUGC/faq.php?s=407b65682f946290c7e039fd8ec60493" 
+accesskey="5">FAQ</a></li>
+					
+					<li><a 
+href="http://uitse.com/SUGC/calendar.php?s=407b65682f946290c7e039fd8ec60493">Calendar</a></li>
+					
+
+					
+					<li id="yui-gen0" class="popupmenu">
+						<a id="yui-gen2" href="javascript://" class="popupctrl" 
+accesskey="6">Community</a>
+						<ul id="yui-gen1" class="popupbody">
+							
+							
+							
+							
+							
+								<li><a 
+href="http://uitse.com/SUGC/memberlist.php?s=407b65682f946290c7e039fd8ec60493">Member
+ List</a></li>
+							
+							
+						</ul>
+					</li>
+					
+					
+					<li id="yui-gen3" class="popupmenu">
+						<a id="yui-gen5" href="javascript://" class="popupctrl">Forum 
+Actions</a>
+						<ul id="yui-gen4" class="popupbody">
+							<li>
+								<a 
+href="http://uitse.com/SUGC/forumdisplay.php?s=407b65682f946290c7e039fd8ec60493&amp;do=markread&amp;markreadhash=guest">Mark
+ Forums Read</a>
+							</li>
+                                                        
+						</ul>
+					</li>
+					<li id="yui-gen6" class="popupmenu">
+						<a id="yui-gen8" href="javascript://" class="popupctrl" 
+accesskey="3">Quick Links</a>
+						<ul id="yui-gen7" class="popupbody">
+							
+							
+							<li><a 
+href="http://uitse.com/SUGC/showgroups.php?s=407b65682f946290c7e039fd8ec60493"
+ rel="nofollow">
+		
+			View Site Leaders
+		
+	</a></li>
+							
+							
+							
+							
+							
+							
+						</ul>
+					</li>
+					
+				</ul>
+
+			</li>
+		
+		
+	<li><a class="navtab" 
+href="http://uitse.com/SUGC/blog.php?s=407b65682f946290c7e039fd8ec60493">Blogs</a></li>
+ 
+		
+			<li><a class="navtab" 
+href="http://uitse.com/SUGC/search.php?s=407b65682f946290c7e039fd8ec60493&amp;do=getdaily&amp;contenttype=vBForum_Post"
+ accesskey="2">What's New?</a></li>
+		
+		
+	</ul>
+
+	
+	<div id="globalsearch" class="globalsearch">
+		<form action="search.php?do=process" method="post" id="navbar_search" 
+class="navbar_search">
+			<input name="s" value="s=407b65682f946290c7e039fd8ec60493&amp;" 
+type="hidden">
+			<input name="securitytoken" value="guest" type="hidden">
+			<input name="do" value="process" type="hidden">
+			<span class="textboxcontainer"><span><input name="query" 
+class="textbox" tabindex="99" type="text"></span></span>
+			<span class="buttoncontainer"><span><input class="searchbutton" 
+src="showthread.php_files/search.png" name="submit" 
+onclick="document.getElementById('navbar_search').submit;" 
+tabindex="100" type="image"></span></span>
+		</form>
+		<ul class="navbar_advanced_search">
+			<li><a 
+href="http://uitse.com/SUGC/search.php?s=407b65682f946290c7e039fd8ec60493"
+ accesskey="4">Advanced Search</a></li>
+		</ul>
+	</div>
+	
+</div>
+    </div>
+    <div class="r_navbar_right"></div>
+</div>
+</div><!-- closing div for above_body -->
+
+<div class="r_shell_side_block">
+    <div class="r_shell_side_left">
+        <div class="r_shell_side_right">
+            <div class="r_shell_content clearfix">
+                <div style="padding: 0px;">
+
+<div class="body_wrapper">
+<div id="breadcrumb" class="breadcrumb">
+	<ul class="floatcontainer">
+		<li class="navbithome"><a 
+href="http://uitse.com/SUGC/index.php?s=407b65682f946290c7e039fd8ec60493"
+ accesskey="1"><img title="Home" 
+src="showthread.php_files/navbit-home.png" alt="Home"></a></li>
+
+		
+	<li class="navbit"><a 
+href="http://uitse.com/SUGC/forum.php?s=407b65682f946290c7e039fd8ec60493?s=407b65682f946290c7e039fd8ec60493">Forum</a></li>
+ 
+	<li class="navbit"><a 
+href="http://uitse.com/SUGC/forumdisplay.php?7-Technical-and-engineering&amp;s=407b65682f946290c7e039fd8ec60493?s=407b65682f946290c7e039fd8ec60493">Technical
+ and engineering</a></li>
+ 
+	<li class="navbit"><a 
+href="http://uitse.com/SUGC/forumdisplay.php?11-DirectX&amp;s=407b65682f946290c7e039fd8ec60493?s=407b65682f946290c7e039fd8ec60493">DirectX</a></li>
+ 
+		
+	<li class="navbit lastnavbit"><span> [Tutorial][Textures - Texture 
+Resources (Direct3D 9)]</span></li>
+ 
+	</ul>
+	<hr>
+</div>
+
+ 
+ 
+
+
+<div class="r_forumname_info_top_block">     
+    <div class="r_forumname_info_top_left"></div>
+    <div class="r_forumname_info_top_middle"></div>
+    <div class="r_forumname_info_top_right"></div>
+</div>
+<div class="r_forum_border_block">
+    <div class="r_forum_border_left">
+        <div class="r_forum_border_right">
+            <div class="main_category_content">
+	<form action="profile.php?do=dismissnotice" method="post" id="notices" 
+class="notices">
+		<input name="do" value="dismissnotice" type="hidden">
+		<input name="s" value="s=407b65682f946290c7e039fd8ec60493&amp;" 
+type="hidden">
+		<input name="securitytoken" value="guest" type="hidden">
+		<input id="dismiss_notice_hidden" name="dismiss_noticeid" value="" 
+type="hidden">
+		<input name="url" value="" type="hidden">
+		<ol>
+			<li class="restore" id="navbar_notice_1">
+	
+	If this is your first visit, be sure to
+		check out the <a 
+href="http://uitse.com/SUGC/faq.php?s=407b65682f946290c7e039fd8ec60493&amp;"
+ target="_blank"><b>FAQ</b></a> by clicking the
+		link above. You may have to <a 
+href="http://uitse.com/SUGC/register.php?s=407b65682f946290c7e039fd8ec60493&amp;"
+ target="_blank"><b>register</b></a>
+		before you can post: click the register link above to proceed. To 
+start viewing messages,
+		select the forum that you want to visit from the selection below.
+</li> 
+		</ol>
+	</form>
+            </div> <!-- end content -->
+        </div> <!-- end border right -->
+    </div> <!-- end border left -->
+</div> <!-- end border block -->
+<div class="r_forum_footer_footer_block">     
+    <div class="r_forum_footer_left"></div>
+    <div class="r_forum_footer_middle"></div>
+    <div class="r_forum_footer_right"></div>
+</div>
+ 
+
+
+
+	<div id="above_postlist" class="above_postlist">
+		
+			<a 
+href="http://uitse.com/SUGC/newreply.php?s=407b65682f946290c7e039fd8ec60493&amp;p=228&amp;noquote=1"
+ class="newcontent_textcontrol" id="newreplylink_top"><span>+</span> 
+Reply to Thread</a>
+			<img style="display: none;" id="progress_newreplylink_top" 
+src="showthread.php_files/progress.gif" alt="">
+		
+
+		<div id="pagination_top" class="pagination_top">
+		
+			<div id="postpagestats_above" class="postpagestats">
+				Results 1 to 4 of 4
+			</div>
+		</div>
+	</div>
+<div id="pagetitle" class="pagetitle">
+	<h1>Thread: <span class="threadtitle"><a 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29"
+ title="Reload this Page">[Tutorial][Textures - Texture Resources 
+(Direct3D 9)]</a></span></h1>
+</div>
+	<div id="thread_controls" class="thread_controls">
+		<div>
+		<ul id="postlist_popups" class="postlist_popups popupgroup">
+			
+			<li class="popupmenu nohovermenu" id="threadtools">
+				<h6><a id="yui-gen10" class="popupctrl" href="javascript://">Thread 
+Tools</a></h6>
+				<ul id="yui-gen9" class="popupbody">
+					<li><a 
+href="http://uitse.com/SUGC/printthread.php?s=407b65682f946290c7e039fd8ec60493&amp;t=41&amp;pp=10&amp;page=1"
+ accesskey="3" rel="nofollow">Show Printable Version</a></li>
+					<li><a 
+href="http://uitse.com/SUGC/sendmessage.php?s=407b65682f946290c7e039fd8ec60493&amp;do=sendtofriend&amp;t=41"
+ rel="nofollow">Email this Page&#8230;</a></li>
+					<li>
+						
+							<a 
+href="http://uitse.com/SUGC/subscription.php?s=407b65682f946290c7e039fd8ec60493&amp;do=addsubscription&amp;t=41"
+ rel="nofollow">Subscribe to this Thread&#8230;</a>
+											
+					</li>
+					
+				</ul>
+			</li>
+
+			
+
+			
+
+			
+
+			
+				<li class="popupmenu" id="displaymodes">
+					<h6><a id="yui-gen12" class="popupctrl" href="javascript://">Display</a></h6>
+					<ul id="yui-gen11" class="popupbody">
+						<li><label>Linear Mode</label></li>
+						<li><a 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29&amp;s=407b65682f946290c7e039fd8ec60493&amp;mode=hybrid">
+ Switch to Hybrid Mode</a></li>
+						<li><a 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29&amp;s=407b65682f946290c7e039fd8ec60493&amp;p=190&amp;mode=threaded#post190">
+ Switch to Threaded Mode</a></li>
+					</ul>
+				</li>
+			
+
+			
+		</ul>
+		</div>
+	</div>
+
+<div id="postlist" class="postlist restrain">
+	
+
+	
+		<ol id="posts" class="posts" start="1">
+			
+<li class="postbitlegacy postbitim postcontainer" id="post_190">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+		
+			<span class="postdate old">
+				
+					<span class="date">07-09-2010&nbsp;<span class="time">04:10 PM</span></span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post190" 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29&amp;s=407b65682f946290c7e039fd8ec60493&amp;p=190&amp;viewfull=1#post190"
+ class="postcounter">#1</a><a id="postcount190" name="1"></a>
+				
+				
+			</span>
+		
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+<div class="r_userinfo_header_block">     
+    <div class="r_userinfo_header_left"></div>
+    <div class="r_userinfo_header_middle">
+        <div class="r_username_text">
+            <div class="username_container">
+			
+				<div id="yui-gen13" class="popupmenu memberaction">
+	<div style="text-align: center;"><a id="yui-gen15" class="username 
+online popupctrl" 
+href="http://uitse.com/SUGC/member.php?11-gabygabby&amp;s=407b65682f946290c7e039fd8ec60493"
+ title="gabygabby is online now"><strong>gabygabby</strong></a></div>
+	<ul id="yui-gen14" class="popupbody memberaction_body">
+		<li class="left">
+			<img src="showthread.php_files/profile.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/member.php?11-gabygabby&amp;s=407b65682f946290c7e039fd8ec60493">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<img src="showthread.php_files/forum.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/search.php?s=407b65682f946290c7e039fd8ec60493&amp;do=finduser&amp;userid=11&amp;contenttype=vBForum_Post&amp;showposts=1"
+ rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		<li class="left">
+			<img src="showthread.php_files/message.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/private.php?s=407b65682f946290c7e039fd8ec60493&amp;do=newpm&amp;u=11"
+ rel="nofollow">
+				Private Message
+			</a>
+		</li>
+		
+		
+		
+		<li class="right">
+			<img src="showthread.php_files/blog.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/blog.php?s=407b65682f946290c7e039fd8ec60493&amp;u=11"
+ rel="nofollow">
+				View Blog Entries
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		<li class="right">
+			<img src="showthread.php_files/article.png" alt="">
+			<a href="http://uitse.com/SUGC/list.php/author/11-gabygabby" 
+rel="nofollow">
+				View Articles
+			</a>
+		</li>
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+ 
+			
+			</div>
+        </div>
+    </div>
+    <div class="r_userinfo_header_right"></div>
+</div>
+<div class="r_forum_border_block">
+    <div class="r_forum_border_left">
+        <div class="r_forum_border_right">
+            <div class="main_category_content">
+			<span class="usertitle">
+				<center><font color="green"><b>Super Moderator</b></font></center>
+				
+<img title="gabygabby is online now" class="inlineimg onlinestatus" 
+src="showthread.php_files/user-online.png" alt="gabygabby is online now"
+ border="0">
+ 
+			</span>
+			
+			
+			
+			
+			<a class="postuseravatar" 
+href="http://uitse.com/SUGC/member.php?11-gabygabby&amp;s=407b65682f946290c7e039fd8ec60493"
+ title="gabygabby is online now">
+				<img src="showthread.php_files/image.png" alt="gabygabby's Avatar" 
+title="gabygabby's Avatar">
+			</a>
+			 
+			
+				<hr>
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Jun 2010</dd>
+					
+					
+					<dt>Posts</dt> <dd>5</dd>	
+					
+<br>
+<div class="userlevelContainer" align="left">
+ <div class="smallfont">Level:&nbsp;4&nbsp;[<a 
+href="http://uitse.com/SUGC/faq.php?s=407b65682f946290c7e039fd8ec60493&amp;faq=vb3_user_profile#faq_vb3_user_level">?</a>]<br>
+ Experience:&nbsp;84<br>
+ Next Level:&nbsp;100</div>
+ <div class="alt2" style="text-align: left; width: 102px; 
+background-color: rgb(255, 255, 255); border: 1px solid; height: 11px;" 
+title="100 Experience until the next Level">
+  <div style="width: 66px; height: 9px; margin: 1px; background-image: 
+url(&quot;themes/robotic-dark_amber/misc/userlevel.gif&quot;); 
+background-repeat: repeat-x;"></div>
+ </div>
+</div><br>
+		 
+	<dt>Thanks</dt> <dd>0</dd>
+	
+		<dd style="white-space: nowrap; display: inline; float: right;">Thanked
+ 5 Times in 2 Posts</dd>
+	
+ 
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+            </div> <!-- end content -->
+        </div> <!-- end border right -->
+    </div> <!-- end border left -->
+</div> <!-- end border block -->
+<div class="r_forum_footer_footer_block">     
+    <div class="r_forum_footer_left"></div>
+    <div class="r_forum_footer_middle"></div>
+    <div class="r_forum_footer_right"></div>
+</div>
+		</div>
+		<div class="postbody">
+<div class="r_forumname_header_block">     
+    <div class="r_forumname_header_left"></div>
+    <div class="r_forumname_header_middle"><div class="r_forumname_text">[Tutorial][Textures
+ - Texture Resources (Direct3D 9)]</div></div>
+    <div class="r_forumname_header_right2"></div>
+</div>
+<div class="r_forum_border_block">
+    <div class="r_forum_border_left">
+        <div class="r_forum_border_right">
+            <div class="main_category_content">
+			<div class="postrow has_after_content">
+				
+
+						
+							
+							
+						
+						
+				<div class="content">
+					<div id="post_message_190">
+						<blockquote class="postcontent restore ">
+							V&#7899;i nh&#7919;ng tut tr&#432;&#7899;c, và tài li&#7879;u &#273;&#432;&#7907;c share trên forum ch&#7855;c h&#7859;n 
+nhi&#7873;u b&#7841;n &#273;ã làm &#273;&#432;&#7907;c kh&#7889;i trò vui r&#7891;i nh&#7901; <img 
+src="showthread.php_files/redface.gif" alt="" title="Embarrassment" 
+class="inlineimg" border="0">. Hôm nay, mình s&#7869; gi&#7899;i thi&#7879;u v&#7899;i các b&#7841;n 
+cách &#273;&#7875; load 1 file &#7843;nh trong su&#7889;t [transparent] (hay là có ph&#7847;n trong 
+su&#7889;t j &#273;ó &#273;&#7841;i lo&#7841;i là v&#7853;y), và v&#7869; nó lên màn hình <img 
+src="showthread.php_files/biggrin.gif" alt="" title="Big Grin" 
+class="inlineimg" border="0">. <br>
+<br>
+<b><u>Texture Resources (Direct3D 9) </u></b><br>
+DirectX t&#7841;o ra cho chúng ta giao di&#7879;n <font color="#0000ff">IDirect3DTexture9</font>,
+ nó cung c&#7845;p các ph&#432;&#417;ng th&#7913;c &#273;&#7875; ta có th&#7875; thao tác trên Texture 
+resource.<br>
+Texture resources là cái gi&#7889;ng j nh&#7901; <img 
+src="showthread.php_files/biggrin.gif" alt="" title="Big Grin" 
+class="inlineimg" border="0">. nó là m&#7897;t t&#7853;p h&#7907;p c&#7845;u trúc c&#7911;a d&#7919; li&#7879;u 
+&#273;&#432;&#7907;c thi&#7871;t k&#7871; &#273;&#7875; l&#432;u tr&#7919; các texel. Ôi càng nói càng r&#7889;i.. texel là gì? 
+Texel nghe quen quen :-?. Ch&#7855;c h&#7859;n ai c&#361;ng &#273;ã bi&#7871;t Picture và  Pixel r&#7891;i
+ hen. &#272;&#417;n gi&#7843;n cái này c&#361;ng nh&#432; v&#7853;y Texture-Texel. &lt;cái này nói b&#7853;y 
+nè =))&gt; . DirectX s&#7869; s&#7917; d&#7909;ng texture filtering &#273;&#7875; &#273;i&#7873;u ki&#7875;n vi&#7879;c l&#7845;y 
+m&#7851;u và n&#7897;i suy texel thành pixel r&#7891;i cho lên màn hình.. <img 
+src="showthread.php_files/biggrin.gif" alt="" title="Big Grin" 
+class="inlineimg" border="0">. <br>
+<br>
+<a 
+href="http://msdn.microsoft.com/en-us/library/bb205133%28VS.85%29.aspx#Texture_Resources"
+ target="_blank"><font color="#ff0000"><u>Texture Resources</u></font></a><br>
+Quay l&#7841;i v&#7845;n &#273;&#7873; làm sao &#273;&#7875; t&#7841;o ra m&#7897;t Texture t&#7915; 1 file &#7843;nh? (vd : 
+image.png).<br>
+&#272;&#7847;u tiên ta có 2 ki&#7875;u (type) <font color="#0000ff">LPDIRECT3DTEXTURE9</font>
+ và <font color="#0000ff">PDIRECT3DTEXTURE9</font> là con tr&#7887; t&#7899;i 
+IDirect3DTexture9 interface. <br>
+&#272;&#7875; t&#7841;o m&#7897;t pointer (con tr&#7887;) t&#7899;i m&#7897;t IDirect3DTexture9, ta g&#7885;i ph&#432;&#417;ng 
+th&#7913;c <font color="#0000ff">IDirect3DDevice9::CreateTexture</font> hay 
+b&#7845;t c&#7913; cái nào &#7903; d&#432;&#7899;i c&#361;ng &#273;&#432;&#7907;c<br>
+<font color="#0000ff"><br>
+&#8226;	D3DXCreateTexture <br>
+&#8226;	D3DXCreateTextureFromFile <br>
+&#8226;	D3DXCreateTextureFromFileEx <br>
+&#8226;	D3DXCreateTextureFromFileInMemory <br>
+&#8226;	D3DXCreateTextureFromFileInMemoryEx <br>
+&#8226;	D3DXCreateTextureFromResource <br>
+&#8226;	D3DXCreateTextureFromResourceEx <br>
+</font><br>
+Ay da! nhi&#7873;u quá hen nh&#432;ng &#7903; tut này mình ch&#7881; s&#7917; d&#7909;ng <font 
+color="#0000ff">D3DXCreateTextureFromFileEx</font> thôi. M&#7845;y cái còn l&#7841;i
+ ch&#7855;c &#273;&#7875; sau v&#7853;y :-&gt;.<br>
+<div class="bbcode_container">
+	<div class="bbcode_description">Code:</div>
+	<pre class="bbcode_code" style="height: 216px;">HRESULT  D3DXCreateTextureFromFileEx(
+  __in     LPDIRECT3DDEVICE9 pDevice,
+  __in     LPCTSTR pSrcFile,
+  __in     UINT Width,
+  __in     UINT Height,
+  __in     UINT MipLevels,
+  __in     DWORD Usage,
+  __in     D3DFORMAT Format,
+  __in     D3DPOOL Pool,
+  __in     DWORD Filter,
+  __in     DWORD MipFilter,
+  __in     D3DCOLOR ColorKey,
+  __inout  D3DXIMAGE_INFO *pSrcInfo,     &lt;-------------- cái này l&#7841;
+  __out    PALETTEENTRY *pPalette,
+  __out    LPDIRECT3DTEXTURE9 *ppTexture
+);</pre>
+</div> &#7888;i l&#7841;i thêm cái m&#7899;i <font color="#0000ff">D3DXIMAGE_INFO</font>. 
+Haizzz nghe tên là bi&#7871;t nó là cái gi&#7889;ng gì r&#7891;i =)).<br>
+<a 
+href="http://msdn.microsoft.com/en-us/library/bb172879%28VS.85%29.aspx" 
+target="_blank"><font color="#ff0000"><u>D3DXIMAGE_INFO Structure</u></font></a><br>
+Ch&#7883;u khó &#273;&#7885;c ti&#7871;ng anh nhé <img src="showthread.php_files/biggrin.gif" 
+alt="" title="Big Grin" class="inlineimg" border="0">.<br>
+OK, bây gi&#7901; s&#7869; là các b&#432;&#7899;c load image.png -&gt; IDirect3DTexture9 image.
+ <img src="showthread.php_files/smile.gif" alt="" title="Smile" 
+class="inlineimg" border="0">)<br>
+<div class="bbcode_container">
+	<div class="bbcode_description">Code:</div>
+	<pre class="bbcode_code" style="height: 372px;">LPDIRECT3DTEXTURE9 CreateImageFromFile(LPDIRECT3DDEVICE9 d3ddv, LPWSTR FilePath)
+{
+HRESULT result;
+/*Tr&#432;&#7899;c tiên ta khai báo bi&#7871;n ki&#7875;u LPDIRECT3DTEXTURE9. &#272;&#7875; tr&#7887; &#273;&#7871;n cái IDirect3DTexture9 s&#7855;p &#273;&#432;&#7907;c t&#7841;o*/
+LPDIRECT3DTEXTURE9 _Image;
+/*T&#7841;o D3DIMAGE_INFO*/
+D3DXIMAGE_INFO info;
+/*Load image info t&#7915; file image.png*/
+result = D3DXGetImageInfoFromFile(FilePath,&amp;info)
+if (result!=D3D_OK) return null;
+
+/*Load texture resource*/
+
+result = D3DXCreateTextureFromFileEx(
+		d3ddv,				// LPDIRECT3DDEVICE9
+		FilePath,				// LPCTSTR
+		info.Width,				// UINT Width
+		info.Height,			// UINT Height
+		1,					// UINT MipLevels
+		D3DUSAGE_DYNAMIC,			// DWORD Usage
+		D3DFMT_UNKNOWN,			// D3DFORMAT Format
+		D3DPOOL_DEFAULT,			// D3DPOOL Pool
+		D3DX_DEFAULT,			// DWORD Filter
+		D3DX_DEFAULT,			// DWORD MipFilter
+		D3DCOLOR_XRGB(0,0,0),		// D3DCOLOR ColorKey
+		&amp;info,				// D3DXIMAGE_INFO *pSrcInfo
+		NULL,					// PALETTEENTRY *pPalette
+		&amp;_Image);				// LPDIRECT3DTEXTURE9 *ppTexture
+
+	if (result!=D3D_OK) return null;
+
+	return Image;
+}</pre>
+</div> Load xong r&#7891;i <img src="showthread.php_files/biggrin.gif" alt="" 
+title="Big Grin" class="inlineimg" border="0"> gi&#7901; v&#7869; lên thôi <img 
+src="showthread.php_files/biggrin.gif" alt="" title="Big Grin" 
+class="inlineimg" border="0">. <br>
+Ta s&#7869; s&#7917; d&#7909;ng giao di&#7879;n ID3DXSprite &#273;&#7875; v&#7869; 1 texture.<br>
+ Giao di&#7879;n ID3DXSprite cung c&#7845;p m&#7897;t t&#7853;p h&#7907;p các ph&#432;&#417;ng pháp &#273;&#417;n gi&#7843;n hóa
+ quá trình v&#7869; b&#7857;ng cách s&#7917; d&#7909;ng Microsoft Direct3D.<br>
+<a 
+href="http://msdn.microsoft.com/en-us/library/bb174249%28VS.85%29.aspx" 
+target="_blank"><font color="#ff0000"><u>ID3DXSprite Interface</u></font></a><br>
+<br>
+<div class="bbcode_container">
+	<div class="bbcode_description">Code:</div>
+	<pre class="bbcode_code" style="height: 228px;">/*Khai báo bi&#7871;n ki&#7875;u LPD3DXSPRITE*/
+LPD3DXSPRITE _SpriteHandler; 
+/*T&#7841;o LPD3DXSPRITE*/
+D3DXCreateSprite(d3ddv,&amp;_SpriteHandler);
+/*V&#7869; nè*/
+void drawTexture(LPDIRECT3DTEXTURE9 image, const RECT *srcRect, D3DXVECTOR3 position, D3DCOLOR Color)
+{
+	if( NULL == _pd3dDevice )
+		return;
+
+	_spriteHandler-&gt;Draw(
+		srcTexture,
+		srcRect,
+		NULL,
+		&amp;position,
+		Color);
+}</pre>
+</div> OK! G&#7847;n xong r&#7891;i <img src="showthread.php_files/wink.gif" alt="" 
+title="Wink" class="inlineimg" border="0">)<br>
+Gi&#7901; vào hàm Render();<br>
+<br>
+<div class="bbcode_container">
+	<div class="bbcode_description">Code:</div>
+	<pre class="bbcode_code" style="height: 108px;">	_pd3dDevice-&gt;BeginScene();
+
+	_spriteHandler-&gt;Begin(D3DXSPRITE_ALPHABLEND); &lt;------ chú ý
+	// &#272;&#7863;t hàm drawTexture t&#7841;i &#273;ây
+	_spriteHandler-&gt;End(); &lt; ---------------------------- chú ý
+
+	_pd3dDevice-&gt;EndScene();</pre>
+</div> <br>
+PS: S&#7869; nói k&#297; h&#417;n vào m&#7897;t bu&#7893;i tranning nào &#273;ó <img 
+src="showthread.php_files/wink.gif" alt="" title="Wink" 
+class="inlineimg" border="0"><br>
+<br>
+<a href="http://www.mediafire.com/?nnwgjyn3zyz" target="_blank"><b><u><font
+ color="#ff0000">Reference code</font></u></b></a>
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="after_content">
+				
+				<!-- edit note -->
+				<blockquote class="postcontent lastedited">
+<!--					<img src="themes/robotic-dark_amber/buttons/edit_40b.png" class="inlineimg" alt="" /> -->
+					
+						Last edited by gabygabby; 07-09-2010 at <span class="time">04:13 
+PM</span>.
+					
+					
+				</blockquote>
+				<!-- / edit note -->
+				
+                                       
+                                 
+				
+		        		<blockquote class="signature restore"><div 
+class="signaturecontainer">Nothing but Game...</div></blockquote>
+				
+                                        
+			</div>
+			
+			<div class="cleardiv"></div>
+            </div> <!-- end content -->
+        </div> <!-- end border right -->
+    </div> <!-- end border left -->
+</div> <!-- end border block -->
+<div class="r_forum_footer_footer_block">     
+    <div class="r_forum_footer_left"></div>
+    <div class="r_forum_footer_middle"></div>
+    <div class="r_forum_footer_right"></div>
+</div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols">
+				<span class="postcontrols">
+					<img style="display: none;" id="progress_190" 
+src="showthread.php_files/progress.gif" alt="">
+					
+					
+					
+						<a id="qrwq_190" class="newreply" 
+href="http://uitse.com/SUGC/newreply.php?s=407b65682f946290c7e039fd8ec60493&amp;do=newreply&amp;p=190"
+ rel="nofollow"><img title="Reply With Quote" id="quoteimg_190" 
+src="showthread.php_files/clear.gif" alt="Reply With Quote"> Reply With 
+Quote</a> 
+					<span class="seperator">&nbsp;</span>
+					
+					
+<!-- ////////start To-The-Top button in postbit////// -->
+<a class="tothetop" 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29#top"
+ onclick="document.location.hash='top'; return false;"><img title="...to
+ the top" src="showthread.php_files/clear.gif" alt="...to the top">Top</a>
+<!-- ////////end To-The-Top button in postbit////// -->
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div><br><br>
+		</div>
+	<hr>
+</li>
+<li class="postbitlegacy postbitim" id="post_thanks_box_190">
+	<div class="postbody" style="margin-left: 0pt;">
+	<div class="postrow">
+	
+	<h2 class="title">
+		
+			The Following 4 Users Say Thank You to gabygabby For This Useful 
+Post:
+		
+	</h2>
+	<div class="content">
+		<div id="post_thanks_bit_190">
+			<blockquote class="postcontent restore">
+				<a 
+href="http://uitse.com/SUGC/member.php?s=407b65682f946290c7e039fd8ec60493&amp;u=6"
+ rel="nofollow">acumen</a>&nbsp;(07-09-2010), <a 
+href="http://uitse.com/SUGC/member.php?s=407b65682f946290c7e039fd8ec60493&amp;u=75"
+ rel="nofollow">langquang</a>&nbsp;(07-11-2010), <a 
+href="http://uitse.com/SUGC/member.php?s=407b65682f946290c7e039fd8ec60493&amp;u=91"
+ rel="nofollow">mx07</a>&nbsp;(07-10-2010), <a 
+href="http://uitse.com/SUGC/member.php?s=407b65682f946290c7e039fd8ec60493&amp;u=10"
+ rel="nofollow">xuanchien</a>&nbsp;(07-09-2010) 
+			</blockquote>
+		</div>
+	</div>
+	</div>
+</div>
+<hr> 
+</li>    
+<li class="postbitlegacy postbitim postcontainer" id="post_192">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+		
+			<span class="postdate old">
+				
+					<span class="date">07-09-2010&nbsp;<span class="time">06:41 PM</span></span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post192" 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29&amp;s=407b65682f946290c7e039fd8ec60493&amp;p=192&amp;viewfull=1#post192"
+ class="postcounter">#2</a><a id="postcount192" name="2"></a>
+				
+				
+			</span>
+		
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+<div class="r_userinfo_header_block">     
+    <div class="r_userinfo_header_left"></div>
+    <div class="r_userinfo_header_middle">
+        <div class="r_username_text">
+            <div class="username_container">
+			
+				<div id="yui-gen16" class="popupmenu memberaction">
+	<div style="text-align: center;"><a id="yui-gen18" class="username 
+offline popupctrl" 
+href="http://uitse.com/SUGC/member.php?10-xuanchien&amp;s=407b65682f946290c7e039fd8ec60493"
+ title="xuanchien is offline"><strong>xuanchien</strong></a></div>
+	<ul id="yui-gen17" class="popupbody memberaction_body">
+		<li class="left">
+			<img src="showthread.php_files/profile.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/member.php?10-xuanchien&amp;s=407b65682f946290c7e039fd8ec60493">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<img src="showthread.php_files/forum.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/search.php?s=407b65682f946290c7e039fd8ec60493&amp;do=finduser&amp;userid=10&amp;contenttype=vBForum_Post&amp;showposts=1"
+ rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		<li class="right">
+			<img src="showthread.php_files/blog.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/blog.php?s=407b65682f946290c7e039fd8ec60493&amp;u=10"
+ rel="nofollow">
+				View Blog Entries
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		<li class="right">
+			<img src="showthread.php_files/article.png" alt="">
+			<a href="http://uitse.com/SUGC/list.php/author/10-xuanchien" 
+rel="nofollow">
+				View Articles
+			</a>
+		</li>
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+ 
+			
+			</div>
+        </div>
+    </div>
+    <div class="r_userinfo_header_right"></div>
+</div>
+<div class="r_forum_border_block">
+    <div class="r_forum_border_left">
+        <div class="r_forum_border_right">
+            <div class="main_category_content">
+			<span class="usertitle">
+				<center><font color="white"><b>Member</b></font></center>
+				<img title="xuanchien is offline" class="inlineimg onlinestatus" 
+src="showthread.php_files/user-offline.png" alt="xuanchien is offline" 
+border="0">
+
+ 
+			</span>
+			
+			
+			
+			
+			<a class="postuseravatar" 
+href="http://uitse.com/SUGC/member.php?10-xuanchien&amp;s=407b65682f946290c7e039fd8ec60493"
+ title="xuanchien is offline">
+				<img src="showthread.php_files/unknown.gif" alt="xuanchien's Avatar"
+ title="xuanchien's Avatar">
+			</a>
+			 
+			
+				<hr>
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Jun 2010</dd>
+					
+					
+					<dt>Posts</dt> <dd>14</dd>	
+					
+<br>
+<div class="userlevelContainer" align="left">
+ <div class="smallfont">Level:&nbsp;6&nbsp;[<a 
+href="http://uitse.com/SUGC/faq.php?s=407b65682f946290c7e039fd8ec60493&amp;faq=vb3_user_profile#faq_vb3_user_level">?</a>]<br>
+ Experience:&nbsp;238<br>
+ Next Level:&nbsp;282</div>
+ <div class="alt2" style="text-align: left; width: 102px; 
+background-color: rgb(255, 255, 255); border: 1px solid; height: 11px;" 
+title="282 Experience until the next Level">
+  <div style="width: 60px; height: 9px; margin: 1px; background-image: 
+url(&quot;themes/robotic-dark_amber/misc/userlevel.gif&quot;); 
+background-repeat: repeat-x;"></div>
+ </div>
+</div><br>
+		 
+	<dt>Thanks</dt> <dd>11</dd>
+	
+		<dd style="white-space: nowrap; display: inline; float: right;">Thanked
+ 0 Times in 0 Posts</dd>
+	
+ 
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+            </div> <!-- end content -->
+        </div> <!-- end border right -->
+    </div> <!-- end border left -->
+</div> <!-- end border block -->
+<div class="r_forum_footer_footer_block">     
+    <div class="r_forum_footer_left"></div>
+    <div class="r_forum_footer_middle"></div>
+    <div class="r_forum_footer_right"></div>
+</div>
+		</div>
+		<div class="postbody">
+<div class="r_forumname_header_block">     
+    <div class="r_forumname_header_left"></div>
+    <div class="r_forumname_header_middle"><div class="r_forumname_text"></div></div>
+    <div class="r_forumname_header_right2"></div>
+</div>
+<div class="r_forum_border_block">
+    <div class="r_forum_border_left">
+        <div class="r_forum_border_right">
+            <div class="main_category_content">
+			<div class="postrow">
+				
+
+						
+						
+				<div class="content">
+					<div id="post_message_192">
+						<blockquote class="postcontent restore ">
+							M&#7897;t trong nh&#7919;ng cái mà DirectX làm cho m&#7885;i ng&#432;&#7901;i &#273;&#7873;u ph&#7843;i s&#7907; hãi 
+là s&#7889; l&#432;&#7907;ng tham s&#7889; kh&#7893;ng l&#7891; c&#7911;a các hàm. Cái hàm 
+D3DXCreateTextureFromFileEx &#7903; trên t&#7899;i 14 tham s&#7889;, ôi!!!<br>
+<br>
+Dù sao &#273;ây c&#361;ng là m&#7897;t bài r&#7845;t hay. Thanks m&#7897;t cái. <img 
+src="showthread.php_files/biggrin.gif" alt="" title="Big Grin" 
+class="inlineimg" border="0"><br>
+<br>
+À, nhân ti&#7879;n cho em h&#7887;i luôn là trong 2 ki&#7875;u d&#7919; li&#7879;u LPDIRECT3DTEXTURE9 
+và PDIRECT3DTEXTURE9 thì dùng cái nào v&#7853;y?
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="cleardiv"></div>
+            </div> <!-- end content -->
+        </div> <!-- end border right -->
+    </div> <!-- end border left -->
+</div> <!-- end border block -->
+<div class="r_forum_footer_footer_block">     
+    <div class="r_forum_footer_left"></div>
+    <div class="r_forum_footer_middle"></div>
+    <div class="r_forum_footer_right"></div>
+</div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols">
+				<span class="postcontrols">
+					<img style="display: none;" id="progress_192" 
+src="showthread.php_files/progress.gif" alt="">
+					
+					
+					
+						<a id="qrwq_192" class="newreply" 
+href="http://uitse.com/SUGC/newreply.php?s=407b65682f946290c7e039fd8ec60493&amp;do=newreply&amp;p=192"
+ rel="nofollow"><img title="Reply With Quote" id="quoteimg_192" 
+src="showthread.php_files/clear.gif" alt="Reply With Quote"> Reply With 
+Quote</a> 
+					<span class="seperator">&nbsp;</span>
+					
+					
+<!-- ////////start To-The-Top button in postbit////// -->
+<a class="tothetop" 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29#top"
+ onclick="document.location.hash='top'; return false;"><img title="...to
+ the top" src="showthread.php_files/clear.gif" alt="...to the top">Top</a>
+<!-- ////////end To-The-Top button in postbit////// -->
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div><br><br>
+		</div>
+	<hr>
+</li>
+<li class="postbitlegacy postbitim" id="post_thanks_box_192" 
+style="display: none;">
+	
+</li>   
+<li class="postbitlegacy postbitim postcontainer" id="post_193">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+		
+			<span class="postdate old">
+				
+					<span class="date">07-09-2010&nbsp;<span class="time">07:35 PM</span></span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post193" 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29&amp;s=407b65682f946290c7e039fd8ec60493&amp;p=193&amp;viewfull=1#post193"
+ class="postcounter">#3</a><a id="postcount193" name="3"></a>
+				
+				
+			</span>
+		
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+<div class="r_userinfo_header_block">     
+    <div class="r_userinfo_header_left"></div>
+    <div class="r_userinfo_header_middle">
+        <div class="r_username_text">
+            <div class="username_container">
+			
+				<div id="yui-gen19" class="popupmenu memberaction">
+	<div style="text-align: center;"><a id="yui-gen21" class="username 
+offline popupctrl" 
+href="http://uitse.com/SUGC/member.php?50-Xh&amp;s=407b65682f946290c7e039fd8ec60493"
+ title="-Xh- is offline"><strong>-Xh-</strong></a></div>
+	<ul id="yui-gen20" class="popupbody memberaction_body">
+		<li class="left">
+			<img src="showthread.php_files/profile.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/member.php?50-Xh&amp;s=407b65682f946290c7e039fd8ec60493">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<img src="showthread.php_files/forum.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/search.php?s=407b65682f946290c7e039fd8ec60493&amp;do=finduser&amp;userid=50&amp;contenttype=vBForum_Post&amp;showposts=1"
+ rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		
+		
+		<li class="right">
+			<img src="showthread.php_files/blog.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/blog.php?s=407b65682f946290c7e039fd8ec60493&amp;u=50"
+ rel="nofollow">
+				View Blog Entries
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		<li class="right">
+			<img src="showthread.php_files/article.png" alt="">
+			<a href="http://uitse.com/SUGC/list.php/author/50--Xh-" 
+rel="nofollow">
+				View Articles
+			</a>
+		</li>
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+ 
+			
+			</div>
+        </div>
+    </div>
+    <div class="r_userinfo_header_right"></div>
+</div>
+<div class="r_forum_border_block">
+    <div class="r_forum_border_left">
+        <div class="r_forum_border_right">
+            <div class="main_category_content">
+			<span class="usertitle">
+				<center><font color="white"><b>Member</b></font></center>
+				<img title="-Xh- is offline" class="inlineimg onlinestatus" 
+src="showthread.php_files/user-offline.png" alt="-Xh- is offline" 
+border="0">
+
+ 
+			</span>
+			
+			
+			
+			
+			<a class="postuseravatar" 
+href="http://uitse.com/SUGC/member.php?50-Xh&amp;s=407b65682f946290c7e039fd8ec60493"
+ title="-Xh- is offline">
+				<img src="showthread.php_files/unknown.gif" alt="-Xh-'s Avatar" 
+title="-Xh-'s Avatar">
+			</a>
+			 
+			
+				<hr>
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Jul 2010</dd>
+					
+					
+					<dt>Posts</dt> <dd>25</dd>	
+					
+<br>
+<div class="userlevelContainer" align="left">
+ <div class="smallfont">Level:&nbsp;7&nbsp;[<a 
+href="http://uitse.com/SUGC/faq.php?s=407b65682f946290c7e039fd8ec60493&amp;faq=vb3_user_profile#faq_vb3_user_level">?</a>]<br>
+ Experience:&nbsp;396<br>
+ Next Level:&nbsp;443</div>
+ <div class="alt2" style="text-align: left; width: 102px; 
+background-color: rgb(255, 255, 255); border: 1px solid; height: 11px;" 
+title="443 Experience until the next Level">
+  <div style="width: 71px; height: 9px; margin: 1px; background-image: 
+url(&quot;themes/robotic-dark_amber/misc/userlevel.gif&quot;); 
+background-repeat: repeat-x;"></div>
+ </div>
+</div><br>
+		 
+	<dt>Thanks</dt> <dd>3</dd>
+	
+		<dd style="white-space: nowrap; display: inline; float: right;">Thanked
+ 7 Times in 5 Posts</dd>
+	
+ 
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+            </div> <!-- end content -->
+        </div> <!-- end border right -->
+    </div> <!-- end border left -->
+</div> <!-- end border block -->
+<div class="r_forum_footer_footer_block">     
+    <div class="r_forum_footer_left"></div>
+    <div class="r_forum_footer_middle"></div>
+    <div class="r_forum_footer_right"></div>
+</div>
+		</div>
+		<div class="postbody">
+<div class="r_forumname_header_block">     
+    <div class="r_forumname_header_left"></div>
+    <div class="r_forumname_header_middle"><div class="r_forumname_text"></div></div>
+    <div class="r_forumname_header_right2"></div>
+</div>
+<div class="r_forum_border_block">
+    <div class="r_forum_border_left">
+        <div class="r_forum_border_right">
+            <div class="main_category_content">
+			<div class="postrow has_after_content">
+				
+
+						
+						
+				<div class="content">
+					<div id="post_message_193">
+						<blockquote class="postcontent restore ">
+							Theo mình th&#7845;y , Directx ch&#7881; ph&#7913;c t&#7841;p lúc ban &#273;&#7847;u tìm hi&#7875;u thôi (
+ vì &#273;&#7897;t nhiên ti&#7871;p xúc v&#7899;i nhi&#7873;u tham s&#7889; , ki&#7875;u d&#7919; li&#7879;u , t&#7915; khóa l&#7841; quá
+ =) )<br>
+Nh&#432;ng sau khi &#273;ã xây d&#7921;ng cho mình 1 framework riêng ho&#7863;c l&#7845;y trên m&#7841;ng <img
+ src="showthread.php_files/biggrin.gif" alt="" title="Big Grin" 
+class="inlineimg" border="0"> (framework là gì ah ? &#273;&#7841;i lo&#7841;i là m&#7845;y file
+ Header (.h) ghi l&#7841;i các hàm Graphic , Input , Sound ... , nh&#432; trong 
+Tuturial này thì là 1 ph&#7847;n c&#7911;a Graphic ) thì m&#7885;i vi&#7879;c s&#7869; tr&#7903; nên &#273;&#417;n 
+gi&#7843;n h&#417;n r&#7845;t nhi&#7873;u , ch&#7881; là code logic &#273;&#417;n thu&#7847;n cho game thôi ( gi&#7889;ng 
+ki&#7875;u XNA &#7845;y =) )<br>
+Trong quá trình code n&#7871;u th&#7845;y thi&#7871;u gì &#273;ó (vd : thi&#7871;u Z-Buffer ch&#7859;ng h&#7841;n
+ ...Z-Buffer là cái quy &#273;&#7883;nh hình nào n&#7857;m trên hình nào) thì ta vi&#7871;t hàm
+ và b&#7893; sung nó vào framework<br>
+Và khi vi&#7871;t game khác thì ta l&#7841;i Include cái framework c&#7911;a mình vào và 
+code thôi =)<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+D&#297; nhiên ....................... &#272;ây ch&#7881; là ý ki&#7871;n cá nhân thôi =)<br>
+O______________O
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="after_content">
+				
+				<!-- edit note -->
+				<blockquote class="postcontent lastedited">
+<!--					<img src="themes/robotic-dark_amber/buttons/edit_40b.png" class="inlineimg" alt="" /> -->
+					
+						Last edited by -Xh-; 07-09-2010 at <span class="time">07:37 PM</span>.
+					
+					
+				</blockquote>
+				<!-- / edit note -->
+				
+                                       
+                                 
+				
+		        		<blockquote class="signature restore"><div 
+class="signaturecontainer">NOBODY is PERFECT<br>
+I'm NOBODY<br>
+so ...................... I'm ... =)</div></blockquote>
+				
+                                        
+			</div>
+			
+			<div class="cleardiv"></div>
+            </div> <!-- end content -->
+        </div> <!-- end border right -->
+    </div> <!-- end border left -->
+</div> <!-- end border block -->
+<div class="r_forum_footer_footer_block">     
+    <div class="r_forum_footer_left"></div>
+    <div class="r_forum_footer_middle"></div>
+    <div class="r_forum_footer_right"></div>
+</div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols">
+				<span class="postcontrols">
+					<img style="display: none;" id="progress_193" 
+src="showthread.php_files/progress.gif" alt="">
+					
+					
+					
+						<a id="qrwq_193" class="newreply" 
+href="http://uitse.com/SUGC/newreply.php?s=407b65682f946290c7e039fd8ec60493&amp;do=newreply&amp;p=193"
+ rel="nofollow"><img title="Reply With Quote" id="quoteimg_193" 
+src="showthread.php_files/clear.gif" alt="Reply With Quote"> Reply With 
+Quote</a> 
+					<span class="seperator">&nbsp;</span>
+					
+					
+<!-- ////////start To-The-Top button in postbit////// -->
+<a class="tothetop" 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29#top"
+ onclick="document.location.hash='top'; return false;"><img title="...to
+ the top" src="showthread.php_files/clear.gif" alt="...to the top">Top</a>
+<!-- ////////end To-The-Top button in postbit////// -->
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div><br><br>
+		</div>
+	<hr>
+</li>
+<li class="postbitlegacy postbitim" id="post_thanks_box_193">
+	<div class="postbody" style="margin-left: 0pt;">
+	<div class="postrow">
+	
+	<h2 class="title">
+		
+			The Following User Says Thank You to -Xh- For This Useful Post:
+		
+	</h2>
+	<div class="content">
+		<div id="post_thanks_bit_193">
+			<blockquote class="postcontent restore">
+				<a 
+href="http://uitse.com/SUGC/member.php?s=407b65682f946290c7e039fd8ec60493&amp;u=10"
+ rel="nofollow">xuanchien</a>&nbsp;(07-09-2010) 
+			</blockquote>
+		</div>
+	</div>
+	</div>
+</div>
+<hr> 
+</li>   
+<li class="postbitlegacy postbitim postcontainer" id="post_228">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+		
+			<span class="postdate old">
+				
+					<span class="date">07-12-2010&nbsp;<span class="time">10:22 AM</span></span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post228" 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29&amp;s=407b65682f946290c7e039fd8ec60493&amp;p=228&amp;viewfull=1#post228"
+ class="postcounter">#4</a><a id="postcount228" name="4"></a>
+				
+				
+			</span>
+		
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+<div class="r_userinfo_header_block">     
+    <div class="r_userinfo_header_left"></div>
+    <div class="r_userinfo_header_middle">
+        <div class="r_username_text">
+            <div class="username_container">
+			
+				<div id="yui-gen22" class="popupmenu memberaction">
+	<div style="text-align: center;"><a id="yui-gen24" class="username 
+online popupctrl" 
+href="http://uitse.com/SUGC/member.php?11-gabygabby&amp;s=407b65682f946290c7e039fd8ec60493"
+ title="gabygabby is online now"><strong>gabygabby</strong></a></div>
+	<ul id="yui-gen23" class="popupbody memberaction_body">
+		<li class="left">
+			<img src="showthread.php_files/profile.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/member.php?11-gabygabby&amp;s=407b65682f946290c7e039fd8ec60493">
+				View Profile
+			</a>
+		</li>
+		
+		<li class="right">
+			<img src="showthread.php_files/forum.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/search.php?s=407b65682f946290c7e039fd8ec60493&amp;do=finduser&amp;userid=11&amp;contenttype=vBForum_Post&amp;showposts=1"
+ rel="nofollow">
+				View Forum Posts
+			</a>
+		</li>
+		
+		
+		<li class="left">
+			<img src="showthread.php_files/message.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/private.php?s=407b65682f946290c7e039fd8ec60493&amp;do=newpm&amp;u=11"
+ rel="nofollow">
+				Private Message
+			</a>
+		</li>
+		
+		
+		
+		<li class="right">
+			<img src="showthread.php_files/blog.png" alt="">
+			<a 
+href="http://uitse.com/SUGC/blog.php?s=407b65682f946290c7e039fd8ec60493&amp;u=11"
+ rel="nofollow">
+				View Blog Entries
+			</a>
+		</li>
+		
+		
+		
+		
+		
+		<li class="right">
+			<img src="showthread.php_files/article.png" alt="">
+			<a href="http://uitse.com/SUGC/list.php/author/11-gabygabby" 
+rel="nofollow">
+				View Articles
+			</a>
+		</li>
+		
+
+		
+
+		
+		
+	</ul>
+</div>
+ 
+			
+			</div>
+        </div>
+    </div>
+    <div class="r_userinfo_header_right"></div>
+</div>
+<div class="r_forum_border_block">
+    <div class="r_forum_border_left">
+        <div class="r_forum_border_right">
+            <div class="main_category_content">
+			<span class="usertitle">
+				<center><font color="green"><b>Super Moderator</b></font></center>
+				
+<img title="gabygabby is online now" class="inlineimg onlinestatus" 
+src="showthread.php_files/user-online.png" alt="gabygabby is online now"
+ border="0">
+ 
+			</span>
+			
+			
+			
+			
+			<a class="postuseravatar" 
+href="http://uitse.com/SUGC/member.php?11-gabygabby&amp;s=407b65682f946290c7e039fd8ec60493"
+ title="gabygabby is online now">
+				<img src="showthread.php_files/image.png" alt="gabygabby's Avatar" 
+title="gabygabby's Avatar">
+			</a>
+			 
+			
+				<hr>
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Jun 2010</dd>
+					
+					
+					<dt>Posts</dt> <dd>5</dd>	
+					
+<br>
+<div class="userlevelContainer" align="left">
+ <div class="smallfont">Level:&nbsp;4&nbsp;[<a 
+href="http://uitse.com/SUGC/faq.php?s=407b65682f946290c7e039fd8ec60493&amp;faq=vb3_user_profile#faq_vb3_user_level">?</a>]<br>
+ Experience:&nbsp;84<br>
+ Next Level:&nbsp;100</div>
+ <div class="alt2" style="text-align: left; width: 102px; 
+background-color: rgb(255, 255, 255); border: 1px solid; height: 11px;" 
+title="100 Experience until the next Level">
+  <div style="width: 66px; height: 9px; margin: 1px; background-image: 
+url(&quot;themes/robotic-dark_amber/misc/userlevel.gif&quot;); 
+background-repeat: repeat-x;"></div>
+ </div>
+</div><br>
+		 
+	<dt>Thanks</dt> <dd>0</dd>
+	
+		<dd style="white-space: nowrap; display: inline; float: right;">Thanked
+ 5 Times in 2 Posts</dd>
+	
+ 
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+            </div> <!-- end content -->
+        </div> <!-- end border right -->
+    </div> <!-- end border left -->
+</div> <!-- end border block -->
+<div class="r_forum_footer_footer_block">     
+    <div class="r_forum_footer_left"></div>
+    <div class="r_forum_footer_middle"></div>
+    <div class="r_forum_footer_right"></div>
+</div>
+		</div>
+		<div class="postbody">
+<div class="r_forumname_header_block">     
+    <div class="r_forumname_header_left"></div>
+    <div class="r_forumname_header_middle"><div class="r_forumname_text"></div></div>
+    <div class="r_forumname_header_right2"></div>
+</div>
+<div class="r_forum_border_block">
+    <div class="r_forum_border_left">
+        <div class="r_forum_border_right">
+            <div class="main_category_content">
+			<div class="postrow has_after_content">
+				
+
+						
+						
+							
+						
+				<div class="content">
+					<div id="post_message_228">
+						<blockquote class="postcontent restore ">
+							<div class="bbcode_container">
+	<div class="bbcode_quote">
+		<div class="quote_container">
+			<div class="bbcode_quote_container"></div>
+			
+				À, nhân ti&#7879;n cho em h&#7887;i luôn là trong 2 ki&#7875;u d&#7919; li&#7879;u 
+LPDIRECT3DTEXTURE9 và PDIRECT3DTEXTURE9 thì dùng cái nào v&#7853;y?
+			
+		</div>
+	</div>
+</div> thi&#7879;t s&#7921; thì 2 cái nh&#432; nhau, nh&#432;ng dùng thì mình th&#7845;y cái 
+LPDIRECT3DTEXTURE9 xu&#7845;t hi&#7879;n &#7903; m&#7885;i hàm c&#7911;a DX nên là dùng cái LP &#273;i c&#432;ng
+ <img src="showthread.php_files/biggrin.gif" alt="" title="Big Grin" 
+class="inlineimg" border="0">
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="after_content">
+				
+                                       
+                                 
+				
+		        		<blockquote class="signature restore"><div 
+class="signaturecontainer">Nothing but Game...</div></blockquote>
+				
+                                        
+			</div>
+			
+			<div class="cleardiv"></div>
+            </div> <!-- end content -->
+        </div> <!-- end border right -->
+    </div> <!-- end border left -->
+</div> <!-- end border block -->
+<div class="r_forum_footer_footer_block">     
+    <div class="r_forum_footer_left"></div>
+    <div class="r_forum_footer_middle"></div>
+    <div class="r_forum_footer_right"></div>
+</div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div class="textcontrols">
+				<span class="postcontrols">
+					<img style="display: none;" id="progress_228" 
+src="showthread.php_files/progress.gif" alt="">
+					
+					
+					
+						<a id="qrwq_228" class="newreply" 
+href="http://uitse.com/SUGC/newreply.php?s=407b65682f946290c7e039fd8ec60493&amp;do=newreply&amp;p=228"
+ rel="nofollow"><img title="Reply With Quote" id="quoteimg_228" 
+src="showthread.php_files/clear.gif" alt="Reply With Quote"> Reply With 
+Quote</a> 
+					<span class="seperator">&nbsp;</span>
+					
+					
+<!-- ////////start To-The-Top button in postbit////// -->
+<a class="tothetop" 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29#top"
+ onclick="document.location.hash='top'; return false;"><img title="...to
+ the top" src="showthread.php_files/clear.gif" alt="...to the top">Top</a>
+<!-- ////////end To-The-Top button in postbit////// -->
+				</span>
+				<span class="postlinking">
+					
+						
+					
+
+					
+					
+					
+
+					
+					
+
+					
+					
+					
+					
+					
+				</span>
+			<!-- </div> -->
+			</div><br><br>
+		</div>
+	<hr>
+</li>
+<li class="postbitlegacy postbitim" id="post_thanks_box_228" 
+style="display: none;">
+	
+</li>   
+		</ol>
+                <div class="separator"></div>
+		<div class="postlistfoot">
+			
+		</div>
+
+	
+
+</div>
+
+<div id="below_postlist" class="below_postlist">
+	
+		<a 
+href="http://uitse.com/SUGC/newreply.php?s=407b65682f946290c7e039fd8ec60493&amp;p=228&amp;noquote=1"
+ class="newcontent_textcontrol" id="newreplylink_bottom"><span>+</span> 
+Reply to Thread</a>
+	
+	<div id="pagination_bottom" class="pagination_bottom">
+	
+		<div class="clear"></div>
+<div class="navpopupmenu popupmenu nohovermenu" id="showthread_navpopup">
+	
+		<span class="shade">Quick Navigation</span>
+		<a id="yui-gen26" 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29&amp;s=407b65682f946290c7e039fd8ec60493"
+ class="popupctrl"><span class="ctrlcontainer">DirectX</span></a>
+	<a 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29#top"
+ class="textcontrol" onclick="document.location.hash='top';return 
+false;">Top</a>
+	
+	<ul id="yui-gen25" class="navpopupbody popupbody">
+		
+		<li class="optionlabel">Site Areas</li>
+		<li><a 
+href="http://uitse.com/SUGC/usercp.php?s=407b65682f946290c7e039fd8ec60493">Settings</a></li>
+		<li><a 
+href="http://uitse.com/SUGC/private.php?s=407b65682f946290c7e039fd8ec60493">Private
+ Messages</a></li>
+		<li><a 
+href="http://uitse.com/SUGC/subscription.php?s=407b65682f946290c7e039fd8ec60493">Subscriptions</a></li>
+		<li><a 
+href="http://uitse.com/SUGC/online.php?s=407b65682f946290c7e039fd8ec60493">Who's
+ Online</a></li>
+		<li><a 
+href="http://uitse.com/SUGC/search.php?s=407b65682f946290c7e039fd8ec60493">Search
+ Forums</a></li>
+		<li><a 
+href="http://uitse.com/SUGC/forum.php?s=407b65682f946290c7e039fd8ec60493">Forums
+ Home</a></li>
+			
+		
+			<li class="optionlabel">Forums</li>
+			<li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?1-Announcement&amp;s=407b65682f946290c7e039fd8ec60493">Announcement</a>
+	<ol class="d1">
+		<li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?5-Suggestions&amp;s=407b65682f946290c7e039fd8ec60493">Suggestions</a></li>
+ <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?4-Game-news&amp;s=407b65682f946290c7e039fd8ec60493">Game
+ news</a></li> <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?6-Game-Job&amp;s=407b65682f946290c7e039fd8ec60493">Game
+ Job</a></li> 
+	</ol>
+</li> <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?7-Technical-and-engineering&amp;s=407b65682f946290c7e039fd8ec60493">Technical
+ and engineering</a>
+	<ol class="d1">
+		<li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?8-Programming&amp;s=407b65682f946290c7e039fd8ec60493">Programming</a></li>
+ <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?9-Math-and-Physics&amp;s=407b65682f946290c7e039fd8ec60493">Math
+ and Physics</a></li> <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?10-Artificial-Intelligence&amp;s=407b65682f946290c7e039fd8ec60493">Artificial
+ Intelligence</a></li> <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?11-DirectX&amp;s=407b65682f946290c7e039fd8ec60493">DirectX</a>
+	<ol class="d2">
+		<li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?12-2D&amp;s=407b65682f946290c7e039fd8ec60493">2D</a></li>
+ <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?13-3D&amp;s=407b65682f946290c7e039fd8ec60493">3D</a></li>
+ 
+	</ol>
+</li> <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?14-OpenGL&amp;s=407b65682f946290c7e039fd8ec60493">OpenGL</a></li>
+ <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?15-Mobile-Game&amp;s=407b65682f946290c7e039fd8ec60493">Mobile
+ Game</a>
+	<ol class="d2">
+		<li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?16-J2ME&amp;s=407b65682f946290c7e039fd8ec60493">J2ME</a></li>
+ <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?17-Android-3D-Game&amp;s=407b65682f946290c7e039fd8ec60493">Android
+ 3D Game</a></li> <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?18-Windows-Mobile&amp;s=407b65682f946290c7e039fd8ec60493">Windows
+ Mobile</a></li> 
+	</ol>
+</li> <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?19-Game-Engine&amp;s=407b65682f946290c7e039fd8ec60493">Game
+ Engine</a>
+	<ol class="d2">
+		<li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?20-IRLICHT&amp;s=407b65682f946290c7e039fd8ec60493">IRLICHT</a></li>
+ <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?21-OGRE&amp;s=407b65682f946290c7e039fd8ec60493">OGRE</a></li>
+ <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?22-A7&amp;s=407b65682f946290c7e039fd8ec60493">A7</a></li>
+ 
+	</ol>
+</li> 
+	</ol>
+</li> <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?27-Game-Resource&amp;s=407b65682f946290c7e039fd8ec60493">Game
+ Resource</a>
+	<ol class="d1">
+		<li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?28-Game-Project&amp;s=407b65682f946290c7e039fd8ec60493">Game
+ Project</a></li> <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?29-Ebook&amp;s=407b65682f946290c7e039fd8ec60493">Ebook</a></li>
+ <li><a 
+href="http://uitse.com/SUGC/forumdisplay.php?30-Resource-Link&amp;s=407b65682f946290c7e039fd8ec60493">Resource
+ Link</a></li> 
+	</ol>
+</li> 
+		
+		
+	</ul>
+</div> 
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- next / previous links -->
+<div class="navlinks">
+	<strong>«</strong>
+	<a 
+href="http://uitse.com/SUGC/showthread.php?s=407b65682f946290c7e039fd8ec60493&amp;t=41&amp;goto=nextoldest"
+ rel="nofollow">Previous Thread</a>
+	|
+	<a 
+href="http://uitse.com/SUGC/showthread.php?s=407b65682f946290c7e039fd8ec60493&amp;t=41&amp;goto=nextnewest"
+ rel="nofollow">Next Thread</a>
+	<strong>»</strong>
+</div>
+<!-- / next / previous links -->
+
+
+<div class="r_forumname_info_top_block">     
+    <div class="r_forumname_info_top_left"></div>
+    <div class="r_forumname_info_top_middle"></div>
+    <div class="r_forumname_info_top_right"></div>
+</div>
+<div class="r_forum_border_block">
+    <div class="r_forum_border_left">
+        <div class="r_forum_border_right">
+            <div class="main_category_content">
+<div id="thread_info" class="thread_info">
+	
+	
+	
+	
+	<div class="options_block_container">
+		
+		<div class="options_block">
+			<h4 class="collapse">
+				<a class="collapse" id="collapse_posting_rules" 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29#top"><img
+ src="showthread.php_files/collapse_40b.png" alt=""></a>
+				<span class="optiontitle">Posting Permissions</span>
+			</h4>
+			<div id="posting_rules" class="thread_info_block">
+				
+<div id="thread_posting_rules" class="info_subblock">
+	<ul id="thread_rules" class="youcandoblock">
+		<li>You <strong>may not</strong> post new threads</li>
+		<li>You <strong>may not</strong> post replies</li>
+		<li>You <strong>may not</strong> post attachments</li>
+		<li>You <strong>may not</strong> edit your posts</li>
+	</ul>
+	<div id="more_rules" class="bbcodeblock">
+		<ul>
+			<li><a 
+href="http://uitse.com/SUGC/misc.php?s=407b65682f946290c7e039fd8ec60493&amp;do=bbcode"
+ target="_blank">BB code</a> is <strong>On</strong></li>
+			<li><a 
+href="http://uitse.com/SUGC/misc.php?s=407b65682f946290c7e039fd8ec60493&amp;do=showsmilies"
+ target="_blank">Smilies</a> are <strong>On</strong></li>
+			<li><a 
+href="http://uitse.com/SUGC/misc.php?s=407b65682f946290c7e039fd8ec60493&amp;do=bbcode#imgcode"
+ target="_blank">[IMG]</a> code is <strong>On</strong></li>
+			<li>HTML code is <strong>Off</strong></li>
+		</ul>
+	</div>
+	<p class="rules_link"><a 
+href="http://uitse.com/SUGC/misc.php?s=407b65682f946290c7e039fd8ec60493&amp;do=showrules"
+ target="_blank">Forum Rules</a></p>
+</div>
+ 
+			</div>
+		</div>
+
+	</div>
+
+</div>
+            </div> <!-- end content -->
+        </div> <!-- end border right -->
+    </div> <!-- end border left -->
+</div> <!-- end border block -->
+<div class="r_forum_footer_footer_block">     
+    <div class="r_forum_footer_left"></div>
+    <div class="r_forum_footer_middle"></div>
+    <div class="r_forum_footer_right"></div>
+</div>
+<br>
+
+
+
+
+<!-- lightbox scripts -->
+	<script type="text/javascript">
+	<!--
+	vBulletin.register_control("vB_Lightbox_Container", "posts", 1);
+	//-->
+	</script>
+<!-- / lightbox scripts -->
+
+
+
+ 
+ 
+<div id="footer" class="floatcontainer footer">
+
+	
+	
+	<script type="text/javascript">
+	<!--
+		// Main vBulletin Javascript Initialization
+		vBulletin_init();
+	//-->
+	</script>
+        
+</div>
+
+
+<div class="below_body">
+<div id="footer_time" class="shade footer_time">All times are GMT +7. 
+The time now is <span class="time">08:15 AM</span>.</div>
+
+<div id="footer_copyright" class="shade footer_copyright">
+          Developed by <a href="http://a3blog.org/SUGC/index.php">SUGC</a><br>
+	<!-- Do not remove this copyright notice -->
+	Powered by <a href="http://www.vbulletin.com/" id="vbulletinlink">vBulletin&#8482;</a>
+ Version 4.0.3 <br>Copyright © 2010 vBulletin Solutions, Inc. All rights
+ reserved. 
+	<!-- Do not remove this copyright notice -->	
+</div>
+<div id="footer_morecopyright" class="shade footer_morecopyright">
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	<img src="showthread.php_files/cron.gif" alt="" border="0" height="1" 
+width="1">
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	
+</div>
+</div> <!-- closing div for body_wrapper -->
+                </div> <!-- end padding -->
+            </div> <!-- end shell content -->
+        </div> <!-- end shell side right -->
+    </div> <!-- end shell side left -->
+</div> <!-- end shell side block -->
+  
+</div>
+<div id="r_shell_base_block">
+    <div class="r_shell_base_left"></div>
+    <div class="r_shell_base_centre">
+        <div style="padding-top: 10px;">
+        	<form action="forum.php" method="get" id="footer_select" 
+class="footer_select">
+        		
+        			<select name="styleid" onchange="switch_id(this, 'style')">
+        				<optgroup label="Quick Style Chooser">
+        					<option value="1" class="">-- Default Style</option> <option
+ value="2" class="" selected="selected">-- Robotic Dark Amber</option> <option
+ value="3" class="">-- gaming</option> <option value="6" class="">-- 
+AnimatedArena</option> 
+        				</optgroup>
+        			</select>	
+        		
+        		
+        			<select name="langid" onchange="switch_id(this, 'lang')">
+        				<optgroup label="Quick Language Chooser">
+        					<option value="1" class="" selected="selected">-- English 
+(US)</option> 
+        				</optgroup>
+        			</select>
+        		
+        	</form>
+        	<ul id="footer_links" class="footer_links">
+        		<li><a 
+href="http://uitse.com/SUGC/sendmessage.php?s=407b65682f946290c7e039fd8ec60493"
+ rel="nofollow" accesskey="9">Contact Us</a></li>
+        		<li><a href="http://uitse.com/SUGC">Home</a></li>
+        		
+        		
+        		<li><a href="http://uitse.com/SUGC/archive/index.php">Archive</a></li>
+        		
+        		
+        		
+        		<li><a 
+href="http://uitse.com/SUGC/showthread.php?41-Tutorial-Textures-Texture-Resources-%28Direct3D-9%29#top"
+ onclick="document.location.hash='top'; return false;">Top</a></li>
+        	</ul>
+    	</div>
+    </div>
+    <div class="r_shell_base_right"></div>
+</div>
+<script src="showthread.php_files/jquery.js" type="text/javascript"></script>
+        <script src="showthread.php_files/up.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+
+            $(".btn-slide").click(function(){
+                $("#panel").slideToggle("slow");
+                $(this).toggleClass("active"); return false;
+            });
+            
+             
+        });
+        </script> 
+<div title="Scroll Back to Top" style="position: fixed; bottom: 5px; 
+right: 5px; opacity: 0; cursor: pointer;" id="topcontrol"><img 
+src="showthread.php_files/sinhvienitnetup.png" style="width: 48px; 
+height: 48px;"></div><div style="display: none;" class="grey" 
+id="lbOverlay"></div><div style="display: none;" id="lbMain"><div 
+class="grey" id="lbOuterContainer"><div style="display: none;" 
+id="lbIframeContainer"><iframe style="display: none;" name="lbIframe" 
+id="lbIframe"></iframe></div><div id="lbImageContainer"><img 
+id="lbImage"><div id="lbHoverNav"><a href="#" class="grey" id="lbPrev"></a><a
+ href="#" class="grey" id="lbNext"></a></div></div><div id="lbLoading"></div></div><div
+ class="grey" id="lbDetailsContainer"><div class="grey" 
+id="lbDetailsData"><div id="lbDetails"><span id="lbCaption"></span><span
+ id="lbNumberDisplay"></span><span style="display: none;" 
+id="lbNavDisplay"></span></div><div id="lbBottomNav"><a href="#" 
+class="grey" id="lbClose"></a><a style="display: none;" href="#" 
+class="grey" id="lbPause"></a><a style="display: none;" href="#" 
+class="grey" id="lbPlay"></a></div></div></div></div></body></html>
